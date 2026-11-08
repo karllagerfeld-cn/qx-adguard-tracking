@@ -738,6 +738,62 @@ def build_skipped(conv: Conversion, source_label: str) -> str:
 # guards
 # --------------------------------------------------------------------------- #
 
+def wildcard_parent(pattern: str) -> str | None:
+    """Return the fixed suffix after the last wildcard.
+
+    ``ulog*.kwaipros.com`` -> ``kwaipros.com``
+    ``analytics.*.sky.com`` -> ``sky.com``
+    """
+    idx = max(pattern.rfind("*"), pattern.rfind("?"))
+    if idx < 0:
+        return None
+    tail = pattern[idx + 1 :].lstrip(".")
+    return tail or None
+
+
+def prune_wildcards(conv: "Conversion", limit: int) -> dict:
+    """Keep ``host-wildcard`` rules inside the count Quantumult X accepts.
+
+    QX warns once a profile carries too many wildcard rules, because each one
+    is a linear scan rather than a hash lookup; its own advice is to stay under
+    100.  Two things happen here:
+
+    1. wildcards whose fixed suffix is already blocked outright add no coverage,
+       so they are dropped for free;
+    2. the rest are ranked so the most specific patterns survive — patterns on
+       shared hostnames (``amazonaws.com`` and friends) go last, then those
+       needing two wildcards, then alphabetically.
+    """
+    redundant: list[str] = []
+    for pattern in sorted(conv.host_wildcard):
+        parent = wildcard_parent(pattern)
+        if parent and (parent in conv.host_suffix or parent in conv.host_exact):
+            redundant.append(pattern)
+    for pattern in redundant:
+        conv.host_wildcard.discard(pattern)
+
+    dropped: list[str] = []
+    if len(conv.host_wildcard) > limit:
+        def rank(pattern: str) -> tuple:
+            parent = wildcard_parent(pattern) or ""
+            on_shared_host = 1 if parent in SHARED_HOST_DENYLIST else 0
+            wildcards = pattern.count("*") + pattern.count("?")
+            return (on_shared_host, wildcards, pattern)
+
+        ordered = sorted(conv.host_wildcard, key=rank)
+        conv.host_wildcard = set(ordered[:limit])
+        dropped = ordered[limit:]
+
+    return {
+        "limit": limit,
+        "kept": len(conv.host_wildcard),
+        "redundant_removed": len(redundant),
+        "dropped_over_quota": len(dropped),
+        "dropped_samples": sorted(dropped)[:20],
+        "reason": "Quantumult X 对 host-wildcard 数量有性能告警（建议 <100），匹配是线性扫描",
+    }
+
+
 def guard_against_regression(
     prev: dict | None, new_total: int, new_rewrite: int, force: bool
 ) -> None:
@@ -795,6 +851,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out", default="rules", help="output directory")
     parser.add_argument("--data", default="data", help="cache directory (PSL)")
     parser.add_argument("--lean", action="store_true", help="drop rules inside !#if blocks")
+    parser.add_argument(
+        "--max-wildcard", type=int, default=90,
+        help="cap on HOST-WILDCARD rules (Quantumult X warns above ~100)",
+    )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true", help="ignore regression guard")
     parser.add_argument("--allow-small", action="store_true", help="skip size floor (testing)")
@@ -858,6 +918,12 @@ def main(argv: list[str] | None = None) -> int:
         "Quantumult X 无法删除 URL 查询参数：rewrite 只有 reject*/302/307/"
         "header/body/script。$removeparam 规则全部跳过，不做近似转换。"
     )
+
+    wildcard_info = prune_wildcards(conv, args.max_wildcard)
+    report["host_wildcard"] = wildcard_info
+    if wildcard_info["dropped_over_quota"]:
+        log(f"  note: dropped {wildcard_info['dropped_over_quota']} wildcard rules "
+            f"over the {args.max_wildcard} limit Quantumult X recommends")
 
     list_total = len(conv.host_suffix) + len(conv.host_exact) + len(conv.host_wildcard)
 
