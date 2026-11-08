@@ -1,0 +1,46 @@
+name: update-anti-adblock
+
+# adblockqx 的上游 cron 是 `0 */8 * * *`（UTC），也就是 HKT 00:00 / 08:00 / 16:00。
+# 这里固定晚 10 分钟，避开它正在生成新 release 的时间窗口。
+# 注意 GitHub 的定时任务本身会漂移几分钟，10 分钟只是"尽量"。
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 0,8,16 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-anti-adblock
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build Anti-AdBlock and Anti-AdBlock-Extra
+        run: python scripts/anti_adblock.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "Update Anti-AdBlock $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push || (git pull --rebase && git push)
