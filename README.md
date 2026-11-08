@@ -4,7 +4,7 @@
 
 | 上游 | 官方说明 | 当前结果 |
 |---|---|---|
-| [`filter_3_Spyware`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt)<br>防跟踪保护过滤器 | 各种在线计数器和网络分析工具的综合列表。用它来隐藏用户在网上的活动，避免跟踪。 | 116,575 条分流 + 4,814 条 URL 重写 |
+| [`filter_3_Spyware`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt)<br>防跟踪保护过滤器 | 各种在线计数器和网络分析工具的综合列表。用它来隐藏用户在网上的活动，避免跟踪。 | 116,450 条分流 + 4,814 条 URL 重写 |
 | [`filter_17_TrackParam`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt)<br>URL 跟踪过滤器 | 从网址中移除跟踪参数，加强隐私保护。当用户选择在隐身模式下拦截跟踪参数时，此过滤器将自动启用。 | **0 条**，只出报告（原因见下） |
 
 两个上游的分工不一样：**防跟踪保护**在域名层拦掉计数器与分析工具；**URL 跟踪**处理的是网址里 `?utm_source=...` 这类参数，属于"改请求"而不是"拦请求"，Quantumult X 没有这个能力，所以这一个只统计不转换。
@@ -59,7 +59,7 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 
 | 文件 | 内容 | 规模 |
 |---|---|---|
-| `rules/Tracking.list` | `HOST-SUFFIX` 116,360 / `HOST-WILDCARD` 215，全部 reject | 4.86 MB |
+| `rules/Tracking.list` | `HOST-SUFFIX` 116,360 / `HOST-WILDCARD` 90，全部 reject | 4.85 MB |
 | `rules/Tracking.rewrite.conf` | 4,814 条 `url reject` + 内嵌 `hostname =`（3,795 主机） | 554 KB |
 | `rules/report.json` | 分类条数、跳过原因、上游大小与 sha256 | — |
 | `rules/skipped.txt` | 没被转换的原始规则（每类抽样 25 条） | 43 KB |
@@ -103,6 +103,7 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 3. 定时轮询，不是实时同步：上游改动 → 下一轮 cron → QX 下一次 `update-interval`，最坏接近 48 小时。
 4. 分流列表 11.6 万条、4.86 MB。QX 能吃下（blackmatrix7 单个分流文件 29 万条），但首次导入和每次更新有可感知耗时。
 5. `url reject` 返回 404 且 QX 对高频重复请求有 0~5 秒的动态延迟；这和参考实现一致，但某些埋点 SDK 会把 404 当失败重试。
+6. **`HOST-WILDCARD` 被限制在 90 条。** QX 在通配规则过多时会弹出性能错误（它自己的建议是少于 100 条，因为通配是线性扫描，不是哈希查找）。上游有 215 条通配域名规则（`ulog*.kwaipros.com` 这种，无法用 `host-suffix` 等价表达），转换器会先删掉父域已被整域拦截的，再按父域轮转保留 90 条——每个追踪域名家族（字节、快手、B 站等）至少留最窄的一条，其余写入 `report.json` 的 `host_wildcard.dropped_samples`。用 `--max-wildcard` 可以改这个上限。
 
 ## 本地运行
 
