@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-08 16:40:55 UTC
+# UPDATED: 2026-11-08 17:09:39 UTC
 # HOST-SUFFIX: 116360
 # HOST: 0
-# HOST-WILDCARD: 215
-# TOTAL: 116575
+# HOST-WILDCARD: 90
+# TOTAL: 116450
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -116426,7 +116426,6 @@ HOST-WILDCARD,collector-*.px-cdn.net,reject
 HOST-WILDCARD,collector-*.px-client.net,reject
 HOST-WILDCARD,collector-*.pxchk.net,reject
 HOST-WILDCARD,collector-*.tvsquared.com,reject
-HOST-WILDCARD,counter*-yadro*-ru.unblocked.lol,reject
 HOST-WILDCARD,cs*.mp3bars.com,reject
 HOST-WILDCARD,customerevents.us-east-*.internal.dradis.netflix.com,reject
 HOST-WILDCARD,cza*.crazygames.com,reject
@@ -116448,7 +116447,6 @@ HOST-WILDCARD,f-log-*.grammarly.io,reject
 HOST-WILDCARD,faro-collector-prod-*.grafana.net,reject
 HOST-WILDCARD,flurry.agentportal-*.yahoodns.net,reject
 HOST-WILDCARD,flurry.agentportal.*.yahoodns.net,reject
-HOST-WILDCARD,fp-*it*.fengkongcloud.com,reject
 HOST-WILDCARD,gbxreport-*.wf.com,reject
 HOST-WILDCARD,geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com,reject
 HOST-WILDCARD,geoloc*.geo20120530.com,reject
@@ -116461,126 +116459,3 @@ HOST-WILDCARD,host*.carl-ras.dk,reject
 HOST-WILDCARD,host*.ncoi.nl,reject
 HOST-WILDCARD,host*.nti.nl,reject
 HOST-WILDCARD,host*.polaroid.com,reject
-HOST-WILDCARD,host*.rigbyandpeller.com,reject
-HOST-WILDCARD,host*.rvshare.com,reject
-HOST-WILDCARD,hstats*.hepsiburada.com,reject
-HOST-WILDCARD,htm*.hepsiburada.com,reject
-HOST-WILDCARD,hw-sh-pcdn-*.biliapi.net,reject
-HOST-WILDCARD,imp-*.jampp.com,reject
-HOST-WILDCARD,install*.zonastat.com,reject
-HOST-WILDCARD,invenio_tracking_*.sgnapps.com,reject
-HOST-WILDCARD,iptracker-lb-*.amazonaws.com,reject
-HOST-WILDCARD,ja*.apppure.net,reject
-HOST-WILDCARD,kbox-analytics-prod.s*.amazonaws.com,reject
-HOST-WILDCARD,lively-collect-elb-*.amazonaws.com,reject
-HOST-WILDCARD,liveme-sensors-collect2-*.amazonaws.com,reject
-HOST-WILDCARD,log*-*.tiktokv.com,reject
-HOST-WILDCARD,log*-misc-lf.amemv.com,reject
-HOST-WILDCARD,log*-normal-*.tiktokv.us,reject
-HOST-WILDCARD,log*-normal-useast1a.lemon8-app.com,reject
-HOST-WILDCARD,log*.aliyuncs.com,reject
-HOST-WILDCARD,log*.boomplaymusic.com,reject
-HOST-WILDCARD,log*.byteoversea.com,reject
-HOST-WILDCARD,log*.vietnamplus.vn,reject
-HOST-WILDCARD,log*.zijieapi.com,reject
-HOST-WILDCARD,log-*.isnssdk.com,reject
-HOST-WILDCARD,log-v*-boot.capcutapi.com,reject
-HOST-WILDCARD,log-va*.capcutapi.com,reject
-HOST-WILDCARD,logger-*.dailymotion.com,reject
-HOST-WILDCARD,logreport-global-dual.cool*cloud.com,reject
-HOST-WILDCARD,logs-*.rebxgame.com,reject
-HOST-WILDCARD,logs.collector.*.cloud.solarwinds.com,reject
-HOST-WILDCARD,logservice-*.platform.dbankcloud.cn,reject
-HOST-WILDCARD,logstash-*.radio-canada.ca,reject
-HOST-WILDCARD,logws*.ati-host.net,reject
-HOST-WILDCARD,lt*.tritondigital.com,reject
-HOST-WILDCARD,maas-*.phunware.com,reject
-HOST-WILDCARD,matomo-demo-*.amazonaws.com,reject
-HOST-WILDCARD,mcs-*.lemon8-app.com,reject
-HOST-WILDCARD,mcs-*.lemon8-app.us,reject
-HOST-WILDCARD,mcs-*.tiktok.com,reject
-HOST-WILDCARD,mcs-normal-*.capcutapi.com,reject
-HOST-WILDCARD,mcs-va-*.tiktokv.com,reject
-HOST-WILDCARD,mcs.*.tiktok.com,reject
-HOST-WILDCARD,mcs.*.tiktokv.com,reject
-HOST-WILDCARD,metric*.rediff.com,reject
-HOST-WILDCARD,mobileanalytics.*.amazonaws.com,reject
-HOST-WILDCARD,mon*-*.tiktokv.com,reject
-HOST-WILDCARD,mon*-*.tiktokv.us,reject
-HOST-WILDCARD,mon*-misc-lf.fqnovel.com,reject
-HOST-WILDCARD,mon*-misc.fqnovel.com,reject
-HOST-WILDCARD,mon*.tiktokv.us,reject
-HOST-WILDCARD,mon-*.lemon8-app.com,reject
-HOST-WILDCARD,mon-*.lemon8-app.us,reject
-HOST-WILDCARD,mon-*.tiktokv.com,reject
-HOST-WILDCARD,mon-v*-boot.capcutapi.com,reject
-HOST-WILDCARD,mon-va*.capcutapi.com,reject
-HOST-WILDCARD,mssdk*.capcutapi.com,reject
-HOST-WILDCARD,mssdk*.zijieapi.com,reject
-HOST-WILDCARD,mtag-*.wedevs.com,reject
-HOST-WILDCARD,orderana*.spankbang.com,reject
-HOST-WILDCARD,ping*.bidease.com,reject
-HOST-WILDCARD,pixel*.production-public.tubi.io,reject
-HOST-WILDCARD,pixel-*.convertagain.net,reject
-HOST-WILDCARD,pixel-*.rubiconproject.com,reject
-HOST-WILDCARD,pixelapi-*.cs.mysamba.tv,reject
-HOST-WILDCARD,polaris*-normal-*.zijieapi.com,reject
-HOST-WILDCARD,powa-ingest-prod-*.video-player.arcpublishing.com,reject
-HOST-WILDCARD,px*.mediahills.ru,reject
-HOST-WILDCARD,pxl-*.ozone.ru,reject
-HOST-WILDCARD,query*.petametrics.com,reject
-HOST-WILDCARD,report*.appmetrica.webvisor.com,reject
-HOST-WILDCARD,report.*.gbqofs.io,reject
-HOST-WILDCARD,report.*.qq.com,reject
-HOST-WILDCARD,rtlog*.tiktokv.com,reject
-HOST-WILDCARD,rtlog*.tiktokv.us,reject
-HOST-WILDCARD,rum*.a.trbcdn.net,reject
-HOST-WILDCARD,rum*.cdnvideo.ru,reject
-HOST-WILDCARD,sdk-*.moengage.com,reject
-HOST-WILDCARD,sdk.fra-*.braze.eu,reject
-HOST-WILDCARD,sensorsdata*.read.duokan.com,reject
-HOST-WILDCARD,servo-report.keepstreams.*,reject
-HOST-WILDCARD,sock*-goguardian.pusher.com,reject
-HOST-WILDCARD,sonar*.xy.fbcdn.net,reject
-HOST-WILDCARD,spa-tracker*.spapi.io,reject
-HOST-WILDCARD,ssp*.rtb.beeline.ru,reject
-HOST-WILDCARD,st-*.dynamicyield.com,reject
-HOST-WILDCARD,staging-*.ispot.tv,reject
-HOST-WILDCARD,stat*.1internet.tv,reject
-HOST-WILDCARD,stats*.videonow.ru,reject
-HOST-WILDCARD,stats.*.ronghub.com,reject
-HOST-WILDCARD,stats.*.rongnav.com,reject
-HOST-WILDCARD,stats.mapple.*,reject
-HOST-WILDCARD,stlog*-local.kakao.com,reject
-HOST-WILDCARD,t*.playdigo.live,reject
-HOST-WILDCARD,t*.zcvh.net,reject
-HOST-WILDCARD,tag-v*.kuzen.io,reject
-HOST-WILDCARD,telemetry*.transcend.io,reject
-HOST-WILDCARD,telemetry.*.pvp.net,reject
-HOST-WILDCARD,tnc*.tiktokv.com,reject
-HOST-WILDCARD,tnc*.tiktokv.us,reject
-HOST-WILDCARD,tnc*.zijieapi.com,reject
-HOST-WILDCARD,tnc-va*.capcutapi.com,reject
-HOST-WILDCARD,tnc16-*.byteoversea.com,reject
-HOST-WILDCARD,tnc16-*.hypic.com,reject
-HOST-WILDCARD,trace-*.free-reels.com,reject
-HOST-WILDCARD,trace-*.hungrypanda.co,reject
-HOST-WILDCARD,track-*.hungrypanda.co,reject
-HOST-WILDCARD,track.*.roku.com,reject
-HOST-WILDCARD,tracking*.euroads.fi,reject
-HOST-WILDCARD,tracking-*.trnox.com,reject
-HOST-WILDCARD,tracking-v*.a.run.app,reject
-HOST-WILDCARD,tracking.*.miui.com,reject
-HOST-WILDCARD,trck.*.prod-na.turntable.sonic.advertising.amazon.dev,reject
-HOST-WILDCARD,trk*.vidible.tv,reject
-HOST-WILDCARD,ubacollect-*.cloud.dbankcloud.cn,reject
-HOST-WILDCARD,ulog*.gifshow.com,reject
-HOST-WILDCARD,ulog*.kwai-pro.com,reject
-HOST-WILDCARD,ulog*.kwaipros.com,reject
-HOST-WILDCARD,ulog-*.ksapisrv.com,reject
-HOST-WILDCARD,ulog.*.ksapisrv.com,reject
-HOST-WILDCARD,ulog.*.kwai-pro.com,reject
-HOST-WILDCARD,use-trk*.bluevoox.com,reject
-HOST-WILDCARD,weblogger-wss.cool*cloud.com,reject
-HOST-WILDCARD,wslog-global-dual.cool*cloud.com,reject
-HOST-WILDCARD,xlog*-*.tiktokv.com,reject
