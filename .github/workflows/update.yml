@@ -38,6 +38,9 @@ jobs:
       - name: Download, convert, validate
         run: python scripts/convert.py
 
+      - name: Merge with external blocklists
+        run: python scripts/merge.py
+
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
