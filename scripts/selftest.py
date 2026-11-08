@@ -253,12 +253,36 @@ def test_regression_guard() -> None:
     check("--force overrides", True)
 
 
+def test_wildcard_prune() -> None:
+    print("wildcard pruning (Quantumult X warns above ~100)")
+    conv = make_conv()
+    conv.host_suffix.add("blocked.example.com")
+    conv.host_wildcard.add("ulog*.blocked.example.com")
+    conv.host_wildcard.add("log*.*.tiktokv.com")
+    for i in range(120):
+        conv.host_wildcard.add(f"a{i}*.d{i}.example.net")
+
+    info = convert.prune_wildcards(conv, 90)
+    check(
+        "wildcard whose parent is already blocked is dropped",
+        "ulog*.blocked.example.com" not in conv.host_wildcard,
+    )
+    check("kept count respects limit", len(conv.host_wildcard) <= 90, str(len(conv.host_wildcard)))
+    check("dropped count reported", info["dropped_over_quota"] > 0, str(info))
+    check(
+        "single-wildcard patterns outrank double-wildcard ones",
+        "log*.*.tiktokv.com" not in conv.host_wildcard,
+    )
+    check("wildcard_parent extracts suffix", convert.wildcard_parent("analytics.*.sky.com") == "sky.com")
+
+
 def main() -> int:
     test_conditions()
     test_rules()
     test_payload_guards()
     test_unbalanced()
     test_regression_guard()
+    test_wildcard_prune()
     print()
     if FAILURES:
         print(f"{len(FAILURES)} FAILED:")
