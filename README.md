@@ -2,10 +2,12 @@
 
 把 AdGuard 官方过滤器转成 Quantumult X 能直接订阅的**分流**与**重写**文件，每天自动重建。
 
-| 上游 | 用途 | 当前结果 |
+| 上游 | 官方说明 | 当前结果 |
 |---|---|---|
-| [`filter_3_Spyware`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt) | 间谍软件 / 跟踪器域名 | 116,575 条分流 + 4,814 条 URL 重写 |
-| [`filter_17_TrackParam`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt) | URL 去参规则 | **0 条**，只出报告（原因见下） |
+| [`filter_3_Spyware`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt)<br>防跟踪保护过滤器 | 各种在线计数器和网络分析工具的综合列表。用它来隐藏用户在网上的活动，避免跟踪。 | 116,575 条分流 + 4,814 条 URL 重写 |
+| [`filter_17_TrackParam`](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt)<br>URL 跟踪过滤器 | 从网址中移除跟踪参数，加强隐私保护。当用户选择在隐身模式下拦截跟踪参数时，此过滤器将自动启用。 | **0 条**，只出报告（原因见下） |
+
+两个上游的分工不一样：**防跟踪保护**在域名层拦掉计数器与分析工具；**URL 跟踪**处理的是网址里 `?utm_source=...` 这类参数，属于"改请求"而不是"拦请求"，Quantumult X 没有这个能力，所以这一个只统计不转换。
 
 ## 订阅地址
 
