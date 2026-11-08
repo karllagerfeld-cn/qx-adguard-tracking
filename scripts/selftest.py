@@ -197,8 +197,12 @@ def test_payload_guards() -> None:
         check("truncated payload rejected", True)
 
     check("tail ok", convert.check_tail("||a.example.com^\n") is None)
+    check(
+        "tail accepts exception rule",
+        convert.check_tail("||a.example.com^\n@@||b.example.com/*&x=1$removeparam\n") is None,
+    )
     try:
-        convert.check_tail("||a.example.com^\n||trunc")
+        convert.check_tail("||a.example.com^\n||")
         check("tail guard rejects partial rule", False)
     except convert.ConvertError:
         check("tail guard rejects partial rule", True)
