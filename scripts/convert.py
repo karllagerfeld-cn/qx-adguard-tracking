@@ -135,9 +135,15 @@ def fetch(url: str, min_bytes: int, retries: int = 4) -> bytes:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=120) as resp:
                 ctype = (resp.headers.get("Content-Type") or "").lower()
+                declared = resp.headers.get("Content-Length")
                 raw = resp.read()
             if "text/html" in ctype:
                 raise ConvertError(f"server returned HTML (content-type {ctype})")
+            if declared and declared.isdigit() and len(raw) != int(declared):
+                raise ConvertError(
+                    f"received {len(raw)} bytes but Content-Length says {declared} "
+                    "-> truncated transfer"
+                )
             if len(raw) < min_bytes:
                 raise ConvertError(
                     f"payload only {len(raw)} bytes, expected >= {min_bytes} "
@@ -164,27 +170,23 @@ def decode_payload(raw: bytes, src: dict, strict: bool = True) -> str:
 
 
 def check_tail(text: str) -> None:
-    """The last non-empty line must look like a complete rule.
+    """Reject a payload whose last line is an obvious fragment.
 
-    A partially transferred file almost always ends mid-token, e.g. ``||`` or
-    ``||a.exam``, so requiring a well-formed final line catches the truncation
-    that a byte-size floor alone would miss.
+    The strong truncation signals are the Content-Length comparison in
+    ``fetch()`` and the trailing-newline requirement in ``decode_payload()``.
+    This is the cheap third net: a transfer cut mid-token leaves a line like
+    ``||`` or ``@@||example.co`` behind.  It deliberately accepts any
+    well-formed last line rather than insisting on a particular rule shape,
+    because the last line of a real filter can be a comment, an ``@@``
+    exception, a cosmetic rule, or a plain pattern.
     """
     for line in reversed(text.splitlines()):
         line = line.strip()
         if not line:
             continue
-        if line.startswith("!"):
-            return
-        if line.startswith("||"):
-            if not re.match(r"^\|\|[A-Za-z0-9*._\-]+\^$", line):
-                raise ConvertError(
-                    f"last line of payload looks incomplete: {line[:80]!r}"
-                )
-            return
-        if any(marker in line for marker in COSMETIC_MARKERS):
-            return
-        raise ConvertError(f"last line of payload looks incomplete: {line[:80]!r}")
+        if len(line) < 4 or line.endswith("|"):
+            raise ConvertError(f"last line of payload looks incomplete: {line!r}")
+        return
 
 
 # --------------------------------------------------------------------------- #
