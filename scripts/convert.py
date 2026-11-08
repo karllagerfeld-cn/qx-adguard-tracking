@@ -862,6 +862,18 @@ def main(argv: list[str] | None = None) -> int:
     list_total = len(conv.host_suffix) + len(conv.host_exact) + len(conv.host_wildcard)
 
     all_sources = [SOURCES[key]["url"] for key in SOURCES]
+
+    # A path-level rule adds nothing when its whole host is already rejected by
+    # the filter list, and every MITM host we can drop is real risk removed.
+    blocked_hosts = conv.host_suffix | conv.host_exact
+    redundant = [r for r, info in conv.rewrites.items() if info["host"] in blocked_hosts]
+    for regex in redundant:
+        del conv.rewrites[regex]
+    report["rewrite_redundant"] = {
+        "count": len(redundant),
+        "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖",
+    }
+
     list_header = header_block(
         "AdGuard Spyware -> Quantumult X",
         all_sources,
