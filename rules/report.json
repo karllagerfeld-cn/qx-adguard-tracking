@@ -1,6 +1,6 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-08T17:09:36+00:00",
+  "generated_at": "2026-11-08T17:12:35+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
@@ -102,7 +102,7 @@
   "outputs": {
     "Tracking.list": {
       "rules": 116450,
-      "bytes": 4854711
+      "bytes": 4854609
     },
     "Tracking.rewrite.conf": {
       "rules": 4814,
@@ -117,26 +117,26 @@
     "redundant_removed": 2,
     "dropped_over_quota": 123,
     "dropped_samples": [
-      "counter*-yadro*-ru.unblocked.lol",
-      "fp-*it*.fengkongcloud.com",
-      "host*.rigbyandpeller.com",
-      "host*.rvshare.com",
-      "hstats*.hepsiburada.com",
-      "htm*.hepsiburada.com",
-      "hw-sh-pcdn-*.biliapi.net",
-      "imp-*.jampp.com",
-      "install*.zonastat.com",
-      "invenio_tracking_*.sgnapps.com",
-      "iptracker-lb-*.amazonaws.com",
-      "ja*.apppure.net",
-      "kbox-analytics-prod.s*.amazonaws.com",
-      "lively-collect-elb-*.amazonaws.com",
-      "liveme-sensors-collect2-*.amazonaws.com",
-      "log*-*.tiktokv.com",
-      "log*-misc-lf.amemv.com",
-      "log*-normal-*.tiktokv.us",
-      "log*-normal-useast1a.lemon8-app.com",
-      "log*.aliyuncs.com"
+      "*launches.appsflyersdk.com",
+      "*register.appsflyersdk.com",
+      "a*.smlog.co.kr",
+      "adcounter*.uptolike.ru",
+      "ana*.inews24.com",
+      "analytics*.prezly.com",
+      "analytics.*.sky.com",
+      "apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com",
+      "app-analytics-*.snapchat.com",
+      "apple-*.le.com",
+      "applog*.matrix.easebar.com",
+      "attr-logs.*.amazonaws.com",
+      "auth-*.hismarttv.com",
+      "bapi-*.moengage.com",
+      "beacons*.gvt3.com",
+      "beehiiv-adnetwork-production.s*.amazonaws.com",
+      "bi-eventtracker-*.amazonaws.com",
+      "c*hit.zerkalo.io",
+      "ce-global-track-*.amazonaws.com",
+      "clickhouse-collector.*.prod.plat.agency"
     ],
     "reason": "Quantumult X 对 host-wildcard 数量有性能告警（建议 <100），匹配是线性扫描"
   },
