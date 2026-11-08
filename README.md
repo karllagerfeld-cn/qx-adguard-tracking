@@ -67,7 +67,7 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 |---|---|---|
 | `rules/Tracking.list` | `HOST-SUFFIX` 116,360 / `HOST-WILDCARD` 90，全部 reject | 4.85 MB |
 | `rules/Tracking.rewrite.conf` | 4,814 条 `url reject` + 内嵌 `hostname =`（3,795 主机） | 554 KB |
-| `rules/Merged.list` | 三源合并去重，见下节 | 275,833 条 / 10.5 MB |
+| `rules/Merged.list` | 三源合并去重，见下节 | 约 27.6 万条 / 10.5 MB |
 | `rules/report.json` | 分类条数、跳过原因、上游大小与 sha256 | — |
 | `rules/merged-report.json` | 合并时每个源贡献了多少、去掉了多少 | — |
 | `rules/skipped.txt` | 没被转换的原始规则（每类抽样 25 条） | 43 KB |
@@ -88,11 +88,11 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 | [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) `adblockqx.conf` | 251,792 | 251,792 |
 | [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) `anti-ad-quanx.txt` | 103,068 | 25,640 |
 | 本仓库 `Tracking.list` | 116,450 | 2,239 |
-| **合计（去重 + 剔除被父域覆盖的子域）** | 279,671 | **275,833** |
+| **合计（去重 + 剔除被父域覆盖的子域）** | 约 28 万 | **约 27.6 万** |
 
 两件事值得说明：
 
-- **不是简单拼接。** 如果 `example.com` 已经在列表里，`a.example.com` 这种子域规则会被删掉——`host-suffix` 按后缀匹配，子域规则永远轮不到命中，留着只是浪费解析时间。这一步删了 3,916 条。
+- **不是简单拼接。** 如果 `example.com` 已经在列表里，`a.example.com` 这种子域规则会被删掉——`host-suffix` 按后缀匹配，子域规则永远轮不到命中，留着只是浪费解析时间。这一步删了约 3,900 条。
 - **任何一源下载失败就不发布**，保留上一版。少 25 万条的列表比昨天的列表危险得多。
 
 `HOST-WILDCARD` 合并后是 78 条（原本 90 条，12 条被父域覆盖），仍在 QX 建议的 100 条以下。
