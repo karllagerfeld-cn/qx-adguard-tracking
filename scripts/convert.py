@@ -774,15 +774,35 @@ def prune_wildcards(conv: "Conversion", limit: int) -> dict:
 
     dropped: list[str] = []
     if len(conv.host_wildcard) > limit:
-        def rank(pattern: str) -> tuple:
-            parent = wildcard_parent(pattern) or ""
-            on_shared_host = 1 if parent in SHARED_HOST_DENYLIST else 0
-            wildcards = pattern.count("*") + pattern.count("?")
-            return (on_shared_host, wildcards, pattern)
+        groups: dict[str, list[str]] = {}
+        for pattern in sorted(
+            conv.host_wildcard,
+            key=lambda p: (p.count("*") + p.count("?"), p),
+        ):
+            groups.setdefault(wildcard_parent(pattern) or "", []).append(pattern)
 
-        ordered = sorted(conv.host_wildcard, key=rank)
-        conv.host_wildcard = set(ordered[:limit])
-        dropped = ordered[limit:]
+        # One pattern per parent per round, so a single noisy parent (say the
+        # 14 rules pointing at amazonaws.com) cannot eat the whole budget and
+        # every tracker family keeps at least its narrowest pattern.  Parents
+        # with more patterns go first: they are the noisiest trackers.
+        parents = sorted(
+            groups,
+            key=lambda x: (
+                1 if x in SHARED_HOST_DENYLIST else 0,
+                -len(groups[x]),
+                x,
+            ),
+        )
+        kept: list[str] = []
+        while len(kept) < limit and any(groups[p] for p in parents):
+            for parent in parents:
+                if len(kept) >= limit:
+                    break
+                if groups[parent]:
+                    kept.append(groups[parent].pop(0))
+
+        dropped = [pattern for parent in parents for pattern in groups[parent]]
+        conv.host_wildcard = set(kept)
 
     return {
         "limit": limit,
