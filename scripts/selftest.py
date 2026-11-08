@@ -258,9 +258,16 @@ def test_wildcard_prune() -> None:
     conv = make_conv()
     conv.host_suffix.add("blocked.example.com")
     conv.host_wildcard.add("ulog*.blocked.example.com")
-    conv.host_wildcard.add("log*.*.tiktokv.com")
     for i in range(120):
         conv.host_wildcard.add(f"a{i}*.d{i}.example.net")
+    conv.host_wildcard.update(
+        {
+            "log1*.tiktokv.com",
+            "log2*.tiktokv.com",
+            "log*-a*.tiktokv.com",
+            "xlog*.tiktokv.com",
+        }
+    )
 
     info = convert.prune_wildcards(conv, 90)
     check(
@@ -269,11 +276,18 @@ def test_wildcard_prune() -> None:
     )
     check("kept count respects limit", len(conv.host_wildcard) <= 90, str(len(conv.host_wildcard)))
     check("dropped count reported", info["dropped_over_quota"] > 0, str(info))
+
+    tiktokv = [p for p in conv.host_wildcard if p.endswith("tiktokv.com")]
+    check("noisy tracker family keeps a pattern", len(tiktokv) == 1, str(tiktokv))
     check(
-        "single-wildcard patterns outrank double-wildcard ones",
-        "log*.*.tiktokv.com" not in conv.host_wildcard,
+        "family keeps its narrowest pattern",
+        bool(tiktokv) and tiktokv[0].count("*") == 1,
+        str(tiktokv),
     )
-    check("wildcard_parent extracts suffix", convert.wildcard_parent("analytics.*.sky.com") == "sky.com")
+    check(
+        "wildcard_parent extracts suffix",
+        convert.wildcard_parent("analytics.*.sky.com") == "sky.com",
+    )
 
 
 def main() -> int:
