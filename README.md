@@ -16,13 +16,19 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.rewrite.conf
 ```
 
-国内访问 `raw.githubusercontent.com` 经常不通，可换成 jsDelivr 镜像（内容相同，缓存约几分钟到几小时）：
+国内访问 `raw.githubusercontent.com` 有时不通。下面这些地址指向同一份文件，实测（2026-11-09，华南家宽）可用性如下：
 
-```
-https://cdn.jsdelivr.net/gh/karllagerfeld-cn/qx-adguard-tracking@main/rules/Tracking.list
-https://cdn.jsdelivr.net/gh/karllagerfeld-cn/qx-adguard-tracking@main/rules/Tracking.rewrite.conf
-```
+| 线路 | 实测 | 地址 |
+|---|---|---|
+| 直连 raw | 0.5s | `https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list` |
+| gh-proxy | 1.9s | `https://gh-proxy.com/https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list` |
+| gcore.jsDelivr | 3.4s | `https://gcore.jsdelivr.net/gh/karllagerfeld-cn/qx-adguard-tracking@main/rules/Tracking.list` |
 
+**`cdn.jsdelivr.net` 和 `raw.gitmirror.com` 实测连不通**（返回 000），不要用。
+
+换镜像时只替换 `Tracking.list` 前面那一段，后缀不变；`Tracking.rewrite.conf` 同理。
+
+> 已经订阅过旧版本时，QX 里删掉该资源重新添加最干净（走「更新」有时会沿用旧缓存）。判断拉到的是新版看文件头：`# HOST-WILDCARD:` 应该是 `90`，不是 `215`。
 ## 该不该订阅重写文件
 
 **分流文件直接订，重写文件请先看完这段再决定。**
