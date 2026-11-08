@@ -1,6 +1,6 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-08T16:36:21+00:00",
+  "generated_at": "2026-11-08T16:40:53+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
@@ -105,12 +105,16 @@
       "bytes": 4860201
     },
     "Tracking.rewrite.conf": {
-      "rules": 4843,
-      "bytes": 557212,
-      "mitm_hosts": 3823
+      "rules": 4814,
+      "bytes": 553787,
+      "mitm_hosts": 3795
     }
   },
   "warnings": [],
+  "rewrite_redundant": {
+    "count": 29,
+    "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖"
+  },
   "skipped_reasons": {
     "skipped_cosmetic_or_scriptlet": 792,
     "skipped_exception_bad_domain": 2,
