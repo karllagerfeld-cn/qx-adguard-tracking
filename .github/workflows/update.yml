@@ -1,0 +1,51 @@
+name: update-rules
+
+# Runs once a day and on demand.  There is deliberately no `push` trigger:
+# this workflow commits its own output, and a push trigger would make it
+# re-run on its own commits.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 20:23 UTC = 04:23 Asia/Hong_Kong.  GitHub may delay scheduled runs when
+    # the platform is busy, so treat this as "daily", not "real time".
+    - cron: "23 20 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-rules
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Self-test converter
+        run: python scripts/selftest.py
+
+      - name: Download, convert, validate
+        run: python scripts/convert.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules data
+          if git diff --cached --quiet; then
+            echo "upstream unchanged, nothing to commit"
+            exit 0
+          fi
+          git commit -m "Update rules $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
