@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-08 18:21:41 UTC
+# UPDATED: 2026-11-09 18:42:45 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 776
+# HOST-SUFFIX: 773
 # HOST-WILDCARD: 73
-# TOTAL: 849
+# TOTAL: 846
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -260,7 +260,6 @@ HOST-SUFFIX,geoip.fotoable.net,reject
 HOST-SUFFIX,geoip.viamichelin.com,reject
 HOST-SUFFIX,gl-product-analytics.com,reject
 HOST-SUFFIX,gocp.stroeermediabrands.de,reject
-HOST-SUFFIX,grooveguides.com,reject
 HOST-SUFFIX,groovy-manul.pikapod.net,reject
 HOST-SUFFIX,gtm.docswell.com,reject
 HOST-SUFFIX,gtm.jerseyfinance.je,reject
@@ -512,7 +511,6 @@ HOST-SUFFIX,r.anime-go.cc,reject
 HOST-SUFFIX,r.miamano.com,reject
 HOST-SUFFIX,r066.dailytribune.com,reject
 HOST-SUFFIX,rec.detik.com,reject
-HOST-SUFFIX,recipediner.com,reject
 HOST-SUFFIX,referer.pixplug.in,reject
 HOST-SUFFIX,register.boostymark.com,reject
 HOST-SUFFIX,reporttk.com,reject
@@ -696,7 +694,6 @@ HOST-SUFFIX,tealand.cmcm.com,reject
 HOST-SUFFIX,telemetry.data.nvidia.com,reject
 HOST-SUFFIX,telemetry.eyeo.com,reject
 HOST-SUFFIX,telemetry.microsoft.us,reject
-HOST-SUFFIX,telemetry.nbcuott.com,reject
 HOST-SUFFIX,telemetry.swe.quicinc.com,reject
 HOST-SUFFIX,telemetry.tataritv.com,reject
 HOST-SUFFIX,telemetry.vaultdcr.com,reject
