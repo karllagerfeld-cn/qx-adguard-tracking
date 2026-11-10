@@ -1,26 +1,26 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-08T23:46:35+00:00",
+  "generated_at": "2026-11-10T02:45:45+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15221658,
-      "sha256": "bfa3c1446f016841",
-      "lines": 443749,
+      "bytes": 15222678,
+      "sha256": "16847ce8da5d57bb",
+      "lines": 443781,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
-        "directive_endif": 76,
-        "directive_if": 76,
+        "directive_endif": 77,
+        "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 116517,
+        "host_suffix": 116529,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4844,
-        "skipped_cosmetic_or_scriptlet": 792,
+        "rewrite": 4857,
+        "skipped_cosmetic_or_scriptlet": 795,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
         "skipped_exception_unsupported": 334,
@@ -71,9 +71,9 @@
     "trackparam": {
       "name": "TrackParam",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt",
-      "bytes": 190466,
-      "sha256": "dc9cfdd82237e7f9",
-      "lines": 4144,
+      "bytes": 190544,
+      "sha256": "ae30f420b7148545",
+      "lines": 4146,
       "stats": {
         "directive_endif": 5,
         "directive_if": 5,
@@ -87,7 +87,7 @@
         "skipped_modifier_image": 3,
         "skipped_modifier_media": 1,
         "skipped_modifier_removeheader": 1,
-        "skipped_modifier_removeparam": 2136,
+        "skipped_modifier_removeparam": 2137,
         "skipped_modifier_script": 10,
         "skipped_modifier_stylesheet": 1,
         "skipped_modifier_subdocument": 1,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 116450,
-      "bytes": 4854609
+      "rules": 116462,
+      "bytes": 4855069
     },
     "Tracking.rewrite.conf": {
-      "rules": 4814,
-      "bytes": 553787,
-      "mitm_hosts": 3795
+      "rules": 4827,
+      "bytes": 555161,
+      "mitm_hosts": 3806
     }
   },
   "warnings": [],
@@ -145,7 +145,7 @@
     "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖"
   },
   "skipped_reasons": {
-    "skipped_cosmetic_or_scriptlet": 792,
+    "skipped_cosmetic_or_scriptlet": 795,
     "skipped_exception_bad_domain": 2,
     "skipped_exception_modifier": 2104,
     "skipped_exception_unsupported": 334,
@@ -179,7 +179,7 @@
     "skipped_modifier_redirect": 26,
     "skipped_modifier_referrerpolicy": 3,
     "skipped_modifier_removeheader": 1,
-    "skipped_modifier_removeparam": 2136,
+    "skipped_modifier_removeparam": 2137,
     "skipped_modifier_replace": 3,
     "skipped_modifier_script": 164,
     "skipped_modifier_stylesheet": 1,
@@ -656,6 +656,7 @@
       "||tiktok.com/view/product/$removeheader=request:referer"
     ],
     "skipped_modifier_removeparam": [
+      "||check24.de/suche/?q$removeparam=source",
       "||euronews.com^$removeparam=webPushId",
       "||trck.norisbank.de/click.php$removeparam=s_id",
       "||trck.norisbank.de/click.php$removeparam=kidc",
@@ -679,8 +680,7 @@
       "||bfmtv.com^$removeparam=at_brand",
       "||bfmtv.com^$removeparam=at_compte",
       "||bfmtv.com^$removeparam=at_plateforme",
-      "||elcomercio.es^$removeparam=mrfcid",
-      "||sp.mbga.jp^$removeparam=_from"
+      "||elcomercio.es^$removeparam=mrfcid"
     ],
     "skipped_modifier_replace": [
       "||omtrdc.net/rest/v*/delivery?client=$replace=/^\\{[\\s\\S]*\\}\\$/{}/,domain=~kia.com|~pccomponentes.com|~acrobat.adobe.com|~elcomercio.es|~eldiariomontanes.es|~elcorreo.com|~lasprovincias.es|~hoy.es|~ideal.es|~ups.com",

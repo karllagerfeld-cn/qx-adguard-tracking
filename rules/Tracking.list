@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-08 23:46:38 UTC
-# HOST-SUFFIX: 116360
+# UPDATED: 2026-11-10 02:45:48 UTC
+# HOST-SUFFIX: 116372
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 116450
+# TOTAL: 116462
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -5672,6 +5672,7 @@ HOST-SUFFIX,analytics.rechtslupe.org,reject
 HOST-SUFFIX,analytics.recruitics.com,reject
 HOST-SUFFIX,analytics.red.co.uk,reject
 HOST-SUFFIX,analytics.redbubble.com,reject
+HOST-SUFFIX,analytics.redflix.ac,reject
 HOST-SUFFIX,analytics.redistributemag.com,reject
 HOST-SUFFIX,analytics.regex101.com,reject
 HOST-SUFFIX,analytics.regnskabshelten.dk,reject
@@ -39178,6 +39179,7 @@ HOST-SUFFIX,incs.marketdistrict.com,reject
 HOST-SUFFIX,incvag.agatha.com.br,reject
 HOST-SUFFIX,indgq.simplyearth.com,reject
 HOST-SUFFIX,indiantripster.net.mydays.de,reject
+HOST-SUFFIX,indieskills.com,reject
 HOST-SUFFIX,indio.net.mydays.de,reject
 HOST-SUFFIX,indiv.indivmedia.com,reject
 HOST-SUFFIX,indiyo.38-8931.com,reject
@@ -40259,6 +40261,7 @@ HOST-SUFFIX,insee.net.mydays.de,reject
 HOST-SUFFIX,insgb.cleftday.com,reject
 HOST-SUFFIX,insideinspire.com,reject
 HOST-SUFFIX,insidepsych.net,reject
+HOST-SUFFIX,insidercorp.net,reject
 HOST-SUFFIX,insiderdrafran.drafrancieleminotto.com,reject
 HOST-SUFFIX,insiderosn.orgasmosemneura.com,reject
 HOST-SUFFIX,insides.honic.eu,reject
@@ -51816,6 +51819,7 @@ HOST-SUFFIX,lvspsn-test-sb1.net.mydays.de,reject
 HOST-SUFFIX,lvula.4joypaddles.com,reject
 HOST-SUFFIX,lvvhp.focl.com,reject
 HOST-SUFFIX,lw-c-log.lastwarapp.com,reject
+HOST-SUFFIX,lw-c-log.lastwarapp.net,reject
 HOST-SUFFIX,lwadm.com,reject
 HOST-SUFFIX,lwashh.hessischer-jobanzeiger.de,reject
 HOST-SUFFIX,lwf.lendwysefinancial.com,reject
@@ -64890,6 +64894,7 @@ HOST-SUFFIX,pp.scorecardrewards.com,reject
 HOST-SUFFIX,pp.sounddisposalinc.com,reject
 HOST-SUFFIX,pp3-sdk-api.profilepassport.jp,reject
 HOST-SUFFIX,pp3-sdkdata-v2-ut.profilepassport.jp,reject
+HOST-SUFFIX,pp3-sdkdata-v2.profilepassport.jp,reject
 HOST-SUFFIX,ppao.usw.coherentbody.com,reject
 HOST-SUFFIX,ppb.pwpphotobooth.com,reject
 HOST-SUFFIX,ppcsw.capellisport.com,reject
@@ -66573,6 +66578,7 @@ HOST-SUFFIX,rakam-api.aptoide.com,reject
 HOST-SUFFIX,rake.11st.co.kr,reject
 HOST-SUFFIX,rake.tmap.co.kr,reject
 HOST-SUFFIX,rakib.rozafragrance.com,reject
+HOST-SUFFIX,ramartworks.com,reject
 HOST-SUFFIX,rambunctiousflock.com,reject
 HOST-SUFFIX,rambut.rrhairclinic.com,reject
 HOST-SUFFIX,ramen.nomorenames.studio,reject
@@ -66585,6 +66591,7 @@ HOST-SUFFIX,rangecake.com,reject
 HOST-SUFFIX,rangeplayground.com,reject
 HOST-SUFFIX,rangergustav.com,reject
 HOST-SUFFIX,rank.xn--q9js3lht3ch8cv8a227v79jxl6ewya3lo91swn7c.com,reject
+HOST-SUFFIX,rankaddict.com,reject
 HOST-SUFFIX,ranlq.homedics.com,reject
 HOST-SUFFIX,rannat.varusteleka.com,reject
 HOST-SUFFIX,rarelyfans.com,reject
@@ -66945,6 +66952,7 @@ HOST-SUFFIX,relay.valyarra.com.au,reject
 HOST-SUFFIX,relay.velpa.pl,reject
 HOST-SUFFIX,relaystp.stelladigit.sk,reject
 HOST-SUFFIX,releasepath.com,reject
+HOST-SUFFIX,relexpert.com,reject
 HOST-SUFFIX,reliable.elgas.com.au,reject
 HOST-SUFFIX,relieve.trywerelieve.com,reject
 HOST-SUFFIX,reltrd.peteralexander.com.au,reject
@@ -67576,6 +67584,7 @@ HOST-SUFFIX,rockcarving.com,reject
 HOST-SUFFIX,rocket.bubble.dk,reject
 HOST-SUFFIX,rocket.fadenkreuz-bobbel.de,reject
 HOST-SUFFIX,rocketmonitor.com,reject
+HOST-SUFFIX,rockspreading.com,reject
 HOST-SUFFIX,rockstarwriter.com,reject
 HOST-SUFFIX,rodent.covisitor.app,reject
 HOST-SUFFIX,rodent.kevindendievel.com,reject
@@ -99708,6 +99717,7 @@ HOST-SUFFIX,stats.vegevu.fr,reject
 HOST-SUFFIX,stats.velodirbtuve.lt,reject
 HOST-SUFFIX,stats.victor-giroud.fr,reject
 HOST-SUFFIX,stats.vidalytics.com,reject
+HOST-SUFFIX,stats.vidbolt.pro,reject
 HOST-SUFFIX,stats.video.globo.com,reject
 HOST-SUFFIX,stats.videodelivery.net,reject
 HOST-SUFFIX,stats.videoseyred.in,reject
@@ -101719,6 +101729,7 @@ HOST-SUFFIX,t.futuregolf.com.au,reject
 HOST-SUFFIX,t.fuzeon.com,reject
 HOST-SUFFIX,t.fyndable.online,reject
 HOST-SUFFIX,t.galtuer.com,reject
+HOST-SUFFIX,t.games.gg,reject
 HOST-SUFFIX,t.gardslunden.se,reject
 HOST-SUFFIX,t.gazyva.com,reject
 HOST-SUFFIX,t.gene.com,reject
@@ -108585,6 +108596,7 @@ HOST-SUFFIX,tracklabs.zawah.shop,reject
 HOST-SUFFIX,tracklabs.zenkkoshop.store,reject
 HOST-SUFFIX,tracklabs.zenviaahome.com,reject
 HOST-SUFFIX,tracklabs.zenvorafit.com,reject
+HOST-SUFFIX,tracklet.prod.tech.as-nmt.de,reject
 HOST-SUFFIX,tracklog.58.com,reject
 HOST-SUFFIX,trackmarketing.staubli.cn,reject
 HOST-SUFFIX,trackmarketing.staubli.com,reject

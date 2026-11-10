@@ -1,6 +1,6 @@
 # skipped rules from spyware + trackparam (see report.json)
 #
-# ---- skipped_cosmetic_or_scriptlet: 792
+# ---- skipped_cosmetic_or_scriptlet: 795
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.pushState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.replaceState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 www.youtube.com#%#//scriptlet('prevent-xhr', '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
@@ -458,7 +458,8 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 # ---- skipped_modifier_removeheader: 1
 ||tiktok.com/view/product/$removeheader=request:referer
 
-# ---- skipped_modifier_removeparam: 2136
+# ---- skipped_modifier_removeparam: 2137
+||check24.de/suche/?q$removeparam=source
 ||euronews.com^$removeparam=webPushId
 ||trck.norisbank.de/click.php$removeparam=s_id
 ||trck.norisbank.de/click.php$removeparam=kidc
@@ -483,7 +484,6 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||bfmtv.com^$removeparam=at_compte
 ||bfmtv.com^$removeparam=at_plateforme
 ||elcomercio.es^$removeparam=mrfcid
-||sp.mbga.jp^$removeparam=_from
 
 # ---- skipped_modifier_replace: 3
 ||omtrdc.net/rest/v*/delivery?client=$replace=/^\{[\s\S]*\}\$/{}/,domain=~kia.com|~pccomponentes.com|~acrobat.adobe.com|~elcomercio.es|~eldiariomontanes.es|~elcorreo.com|~lasprovincias.es|~hoy.es|~ideal.es|~ups.com
