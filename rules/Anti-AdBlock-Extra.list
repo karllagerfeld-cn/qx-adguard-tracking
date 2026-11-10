@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-10 07:09:15 UTC
+# UPDATED: 2026-11-10 16:23:54 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 773
+# HOST-SUFFIX: 765
 # HOST-WILDCARD: 73
-# TOTAL: 846
+# TOTAL: 838
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -237,7 +237,6 @@ HOST-SUFFIX,events.tvtime.com,reject
 HOST-SUFFIX,events.watchtower.imdbtv.amazon.dev,reject
 HOST-SUFFIX,ew1.reg.bigdata.ssp.samsung.com,reject
 HOST-SUFFIX,exc.ns.nl,reject
-HOST-SUFFIX,excess-ga.duolingo.com,reject
 HOST-SUFFIX,external-promo-metrics.yandex.net,reject
 HOST-SUFFIX,f4cebacks.com,reject
 HOST-SUFFIX,f793.inc.com,reject
@@ -264,6 +263,7 @@ HOST-SUFFIX,groovy-manul.pikapod.net,reject
 HOST-SUFFIX,gtm.docswell.com,reject
 HOST-SUFFIX,gtm.jerseyfinance.je,reject
 HOST-SUFFIX,gtm.readytec.it,reject
+HOST-SUFFIX,gtm.zoepousada.com.br,reject
 HOST-SUFFIX,h5collector.miyoushe.com,reject
 HOST-SUFFIX,h5log-api-dualstack.miyoushe.com,reject
 HOST-SUFFIX,heartbeat.crackle.com,reject
@@ -275,15 +275,14 @@ HOST-SUFFIX,i.posthog.com,reject
 HOST-SUFFIX,iam-agof-app.irquest.com,reject
 HOST-SUFFIX,iconmediapixel-ipv4.com,reject
 HOST-SUFFIX,images.info.rrd.com,reject
-HOST-SUFFIX,impressionproduction.ricoh.fr,reject
+HOST-SUFFIX,indieskills.com,reject
 HOST-SUFFIX,info.foxhillvillage.com,reject
 HOST-SUFFIX,info.juniperwealthmanagement.com,reject
 HOST-SUFFIX,info.lonebeacon.com,reject
 HOST-SUFFIX,info.moreland.edu,reject
-HOST-SUFFIX,info.plllab.info,reject
+HOST-SUFFIX,insidercorp.net,reject
 HOST-SUFFIX,insights.investdavenport.com,reject
 HOST-SUFFIX,insights.kruizinga.at,reject
-HOST-SUFFIX,insights.matchboxstudio.com,reject
 HOST-SUFFIX,int.akisinn.me,reject
 HOST-SUFFIX,int.info.mercedes-benz-trucks.com,reject
 HOST-SUFFIX,int.vlancaa.fun,reject
@@ -294,14 +293,8 @@ HOST-SUFFIX,intent.cbsi.com,reject
 HOST-SUFFIX,ipm.adblockplus.dev,reject
 HOST-SUFFIX,j0v36abmdj.execute-api.us-east-1.amazonaws.com,reject
 HOST-SUFFIX,jaeger.netmonet.co,reject
-HOST-SUFFIX,jepexzoy.elite-masters.com,reject
-HOST-SUFFIX,jfdfvprfq.bioethanol-haard.be,reject
-HOST-SUFFIX,jrgsr.revolve.com,reject
-HOST-SUFFIX,jrjick.optimaleoptik.com,reject
-HOST-SUFFIX,jxnhr.transparentmeds.co,reject
-HOST-SUFFIX,k.tracklabanalytics.com,reject
-HOST-SUFFIX,kc4rt.checkgeo.com,reject
-HOST-SUFFIX,khzjw.fryeboots.co.uk,reject
+HOST-SUFFIX,jfdfvprfq.biopeiser-shop.no,reject
+HOST-SUFFIX,jfdfvprfq.electric-fireplace.co.uk,reject
 HOST-SUFFIX,krum.vsct.fr,reject
 HOST-SUFFIX,ktrackdata.com,reject
 HOST-SUFFIX,l.www.naver.com,reject
@@ -334,6 +327,7 @@ HOST-SUFFIX,loxodo-analytics.ext.nile.works,reject
 HOST-SUFFIX,loxodo-ct.ext.nile.works,reject
 HOST-SUFFIX,lps.qantas.com,reject
 HOST-SUFFIX,lpx.qantas.com,reject
+HOST-SUFFIX,lw-c-log.lastwarapp.net,reject
 HOST-SUFFIX,m-metrics.capitalone.com,reject
 HOST-SUFFIX,maniteka.com,reject
 HOST-SUFFIX,marketing.amgida.com,reject
@@ -472,7 +466,6 @@ HOST-SUFFIX,pl.codetheweb.blog,reject
 HOST-SUFFIX,pl.kis-nagy.art,reject
 HOST-SUFFIX,pl.unfoldbypatroon.nl,reject
 HOST-SUFFIX,plas.imfeld.dev,reject
-HOST-SUFFIX,platypus.electrokare.com,reject
 HOST-SUFFIX,plausible.altkey.club,reject
 HOST-SUFFIX,plausible.as207960.net,reject
 HOST-SUFFIX,plausible.easytrak.io,reject
@@ -489,18 +482,14 @@ HOST-SUFFIX,plsbl.martinkriegeskorte.de,reject
 HOST-SUFFIX,plt.fairmontreed.co.uk,reject
 HOST-SUFFIX,plt.synfinitelabs.com,reject
 HOST-SUFFIX,plvau.terraqueabeachproperties.com,reject
-HOST-SUFFIX,pocvkdje.qualityscales.co.uk,reject
 HOST-SUFFIX,pok.alldent-karriere.de,reject
 HOST-SUFFIX,ponte.onebridgestalwart.com,reject
 HOST-SUFFIX,ponte.preambulo.com.br,reject
-HOST-SUFFIX,portal.ahserverside.com,reject
 HOST-SUFFIX,positional-bucket.com,reject
 HOST-SUFFIX,post.eyepinnews.com,reject
-HOST-SUFFIX,pp3-sdk-api.profilepassport.jp,reject
-HOST-SUFFIX,pp3-sdkdata-v2-ut.profilepassport.jp,reject
+HOST-SUFFIX,posthog.busy.app,reject
 HOST-SUFFIX,prod-clientlog.fastly.newssuite.sinfony.ne.jp,reject
 HOST-SUFFIX,prodalet.ru,reject
-HOST-SUFFIX,prometheus.eulerian.io,reject
 HOST-SUFFIX,proxyhog.com,reject
 HOST-SUFFIX,public-data-api.miyoushe.com,reject
 HOST-SUFFIX,pulse.evofenedex.nl,reject
@@ -510,7 +499,9 @@ HOST-SUFFIX,r.aachener-zeitung.de,reject
 HOST-SUFFIX,r.anime-go.cc,reject
 HOST-SUFFIX,r.miamano.com,reject
 HOST-SUFFIX,r066.dailytribune.com,reject
+HOST-SUFFIX,rankaddict.com,reject
 HOST-SUFFIX,rec.detik.com,reject
+HOST-SUFFIX,recipediner.com,reject
 HOST-SUFFIX,referer.pixplug.in,reject
 HOST-SUFFIX,register.boostymark.com,reject
 HOST-SUFFIX,reporttk.com,reject
@@ -548,6 +539,7 @@ HOST-SUFFIX,spg.specialtyprogramgroup.com,reject
 HOST-SUFFIX,spt.performgroup.com,reject
 HOST-SUFFIX,sq.requestads.com,reject
 HOST-SUFFIX,ss.samolet.ru,reject
+HOST-SUFFIX,ss.weddingmba.com,reject
 HOST-SUFFIX,sstgtm.makeleebd.com,reject
 HOST-SUFFIX,ssttm.htbazar.com,reject
 HOST-SUFFIX,st-5cva8vttppvjafpc7jvj.kodik.biz,reject
@@ -694,6 +686,7 @@ HOST-SUFFIX,tealand.cmcm.com,reject
 HOST-SUFFIX,telemetry.data.nvidia.com,reject
 HOST-SUFFIX,telemetry.eyeo.com,reject
 HOST-SUFFIX,telemetry.microsoft.us,reject
+HOST-SUFFIX,telemetry.nbcuott.com,reject
 HOST-SUFFIX,telemetry.swe.quicinc.com,reject
 HOST-SUFFIX,telemetry.tataritv.com,reject
 HOST-SUFFIX,telemetry.vaultdcr.com,reject
@@ -742,7 +735,6 @@ HOST-SUFFIX,tracking.utlservice.com,reject
 HOST-SUFFIX,tracking.ws.eurosport.com,reject
 HOST-SUFFIX,tracking.yourfilehost.com,reject
 HOST-SUFFIX,trackinglibrary.prodperfect.com,reject
-HOST-SUFFIX,trackingmyadsas.com,reject
 HOST-SUFFIX,trckr.contextualadv.com,reject
 HOST-SUFFIX,trk.reclameaqui.com.br,reject
 HOST-SUFFIX,trk.vidible.tv,reject
@@ -760,6 +752,7 @@ HOST-SUFFIX,verifysession.uxcam.com,reject
 HOST-SUFFIX,verint-cdn.com,reject
 HOST-SUFFIX,vgo.vegaoo.de,reject
 HOST-SUFFIX,video.pixels.ai,reject
+HOST-SUFFIX,visit.xchina.pics,reject
 HOST-SUFFIX,visitor.pixplug.in,reject
 HOST-SUFFIX,visitors.asadis.net,reject
 HOST-SUFFIX,vsn-analytics.aparentmedia.com,reject
@@ -776,7 +769,6 @@ HOST-SUFFIX,wtsdc.uhc.com,reject
 HOST-SUFFIX,x.sexhd.pics,reject
 HOST-SUFFIX,x7k.speakwithmaya.com,reject
 HOST-SUFFIX,xy.fbcdn.net,reject
-HOST-SUFFIX,xyz.dordham.xyz,reject
 HOST-SUFFIX,xz.fbcdn.net,reject
 HOST-SUFFIX,yandexmetrica.com,reject
 HOST-SUFFIX,yerbalist.sevenpoint.org,reject
