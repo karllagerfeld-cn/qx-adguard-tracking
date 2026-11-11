@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-10 16:23:54 UTC
+# UPDATED: 2026-11-11 06:02:35 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 765
+# HOST-SUFFIX: 761
 # HOST-WILDCARD: 73
-# TOTAL: 838
+# TOTAL: 834
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -275,12 +275,10 @@ HOST-SUFFIX,i.posthog.com,reject
 HOST-SUFFIX,iam-agof-app.irquest.com,reject
 HOST-SUFFIX,iconmediapixel-ipv4.com,reject
 HOST-SUFFIX,images.info.rrd.com,reject
-HOST-SUFFIX,indieskills.com,reject
 HOST-SUFFIX,info.foxhillvillage.com,reject
 HOST-SUFFIX,info.juniperwealthmanagement.com,reject
 HOST-SUFFIX,info.lonebeacon.com,reject
 HOST-SUFFIX,info.moreland.edu,reject
-HOST-SUFFIX,insidercorp.net,reject
 HOST-SUFFIX,insights.investdavenport.com,reject
 HOST-SUFFIX,insights.kruizinga.at,reject
 HOST-SUFFIX,int.akisinn.me,reject
@@ -499,9 +497,7 @@ HOST-SUFFIX,r.aachener-zeitung.de,reject
 HOST-SUFFIX,r.anime-go.cc,reject
 HOST-SUFFIX,r.miamano.com,reject
 HOST-SUFFIX,r066.dailytribune.com,reject
-HOST-SUFFIX,rankaddict.com,reject
 HOST-SUFFIX,rec.detik.com,reject
-HOST-SUFFIX,recipediner.com,reject
 HOST-SUFFIX,referer.pixplug.in,reject
 HOST-SUFFIX,register.boostymark.com,reject
 HOST-SUFFIX,reporttk.com,reject
