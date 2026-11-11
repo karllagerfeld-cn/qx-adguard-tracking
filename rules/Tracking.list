@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-10 02:45:48 UTC
-# HOST-SUFFIX: 116372
+# UPDATED: 2026-11-11 00:42:06 UTC
+# HOST-SUFFIX: 116382
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 116462
+# TOTAL: 116472
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -4939,6 +4939,7 @@ HOST-SUFFIX,analytics.darak-ksa.com,reject
 HOST-SUFFIX,analytics.dashboard.fingerprint.com,reject
 HOST-SUFFIX,analytics.data.lloydsbankinggroup.com,reject
 HOST-SUFFIX,analytics.data.visenze.com,reject
+HOST-SUFFIX,analytics.datacite.org,reject
 HOST-SUFFIX,analytics.datahc.com,reject
 HOST-SUFFIX,analytics.datasavannah.com,reject
 HOST-SUFFIX,analytics.datascientest.com,reject
@@ -40516,6 +40517,7 @@ HOST-SUFFIX,intg.snapchat.com,reject
 HOST-SUFFIX,intinfo.wolterskluwer.com,reject
 HOST-SUFFIX,intlsst.zagg.com,reject
 HOST-SUFFIX,intlsucus.ucweb.com,reject
+HOST-SUFFIX,intobuddy.com,reject
 HOST-SUFFIX,intouch.schlesingerassociates.com,reject
 HOST-SUFFIX,intr.naymish.com,reject
 HOST-SUFFIX,intralog.euvou.events,reject
@@ -40581,6 +40583,7 @@ HOST-SUFFIX,iounmyyt.laundrymakkahpremium.com,reject
 HOST-SUFFIX,iowxysty.matchahouse.sa,reject
 HOST-SUFFIX,ioxqdp.leatherology.com,reject
 HOST-SUFFIX,iozozb.shapertools.com,reject
+HOST-SUFFIX,ip-info.ff.avast.com,reject
 HOST-SUFFIX,ip.chipestimate.com,reject
 HOST-SUFFIX,ip.goguardian.com,reject
 HOST-SUFFIX,ip.momentummedia.com.au,reject
@@ -40607,6 +40610,7 @@ HOST-SUFFIX,ipijfe.cuponatic.com.pe,reject
 HOST-SUFFIX,ipixsi.aboutyou.fi,reject
 HOST-SUFFIX,ipkasp.nissan.co.jp,reject
 HOST-SUFFIX,ipkqcb.visby.pl,reject
+HOST-SUFFIX,ipm-provider.ff.avast.com,reject
 HOST-SUFFIX,ipm.adblockplus.dev,reject
 HOST-SUFFIX,ipmolrez.ems-dolorclast.com,reject
 HOST-SUFFIX,ipogh.magicmolecule.com,reject
@@ -43428,6 +43432,7 @@ HOST-SUFFIX,lime.vitaminswift.com,reject
 HOST-SUFFIX,lime.zaplamp.com,reject
 HOST-SUFFIX,limecodesign.com,reject
 HOST-SUFFIX,limepeal.com,reject
+HOST-SUFFIX,limitowl.com,reject
 HOST-SUFFIX,limpet.pioneerlandscapingllc.com,reject
 HOST-SUFFIX,line1-log.biligame.net,reject
 HOST-SUFFIX,lineartechnik.item24.de,reject
@@ -60206,6 +60211,7 @@ HOST-SUFFIX,nbygn.athleticbees.com,reject
 HOST-SUFFIX,nc.newcyclereablp.com.br,reject
 HOST-SUFFIX,ncbabz.hometogo.co.uk,reject
 HOST-SUFFIX,ncbvr.workmanusa.com,reject
+HOST-SUFFIX,ncc.avast.com,reject
 HOST-SUFFIX,ncc.nip-col.jp,reject
 HOST-SUFFIX,nccaf.ncc-mens.com,reject
 HOST-SUFFIX,nccbp.apothekerblatt.com,reject
@@ -64220,6 +64226,7 @@ HOST-SUFFIX,piranha.keenanpayne.com,reject
 HOST-SUFFIX,piranha.mediumsuite.co.uk,reject
 HOST-SUFFIX,piranha.minnmyatsoe.com,reject
 HOST-SUFFIX,pirnn.hibobbie.com,reject
+HOST-SUFFIX,pisano.com.tr,reject
 HOST-SUFFIX,pisqpr.puuilo.fi,reject
 HOST-SUFFIX,pista.pecasmagicas.com.br,reject
 HOST-SUFFIX,pitaya.devinue.com.br,reject
@@ -66851,6 +66858,7 @@ HOST-SUFFIX,redtrack.weeshop.dk,reject
 HOST-SUFFIX,reduxcms-sgtm-staging.1800gotjunk.com,reject
 HOST-SUFFIX,reduxcms-sgtm.1800gotjunk.com,reject
 HOST-SUFFIX,redwingforbusiness.redwingsafety.com,reject
+HOST-SUFFIX,reelcombat.com,reject
 HOST-SUFFIX,reeokx.reima.com,reject
 HOST-SUFFIX,reerac.resume.io,reject
 HOST-SUFFIX,reeyzk.momq.co.kr,reject
@@ -70012,6 +70020,7 @@ HOST-SUFFIX,scripts.dadata.com.br,reject
 HOST-SUFFIX,scripts.flowniq.com,reject
 HOST-SUFFIX,scripttags.jst.ai,reject
 HOST-SUFFIX,scrollservice.com,reject
+HOST-SUFFIX,scrubchi.com,reject
 HOST-SUFFIX,scrubswim.com,reject
 HOST-SUFFIX,scs.allsecur.nl,reject
 HOST-SUFFIX,scs.arcteryx.com,reject
@@ -77625,6 +77634,7 @@ HOST-SUFFIX,sheep.tomfyfe.com,reject
 HOST-SUFFIX,sheep.vaxstandby.com,reject
 HOST-SUFFIX,sheeta.nrj-play.fr,reject
 HOST-SUFFIX,sheoil.newyorkandcompany.com,reject
+HOST-SUFFIX,shepherd.ff.avast.com,reject
 HOST-SUFFIX,sherlock-events-sampler.ebay.com,reject
 HOST-SUFFIX,sherlock.gessikanogueira.com.br,reject
 HOST-SUFFIX,sherlock.markplusinstitute.com,reject

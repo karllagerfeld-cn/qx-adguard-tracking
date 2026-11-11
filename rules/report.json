@@ -1,25 +1,25 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-10T02:45:45+00:00",
+  "generated_at": "2026-11-11T00:42:04+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15222678,
-      "sha256": "16847ce8da5d57bb",
-      "lines": 443781,
+      "bytes": 15223014,
+      "sha256": "5fef2513e1db6efe",
+      "lines": 443794,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 116529,
+        "host_suffix": 116539,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4857,
+        "rewrite": 4860,
         "skipped_cosmetic_or_scriptlet": 795,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
@@ -56,12 +56,12 @@
         "skipped_modifier_third_party": 6,
         "skipped_modifier_xmlhttprequest": 48,
         "skipped_no_separator": 69,
-        "skipped_plain_pattern": 309552,
+        "skipped_plain_pattern": 309553,
         "skipped_platform_hint": 321,
         "skipped_regex_rule": 2,
         "skipped_rewrite_bad_host": 7,
         "skipped_rewrite_wildcard_host": 227,
-        "skipped_third_party": 2901,
+        "skipped_third_party": 2900,
         "skipped_unknown_anchor": 7,
         "skipped_wildcard_too_broad": 1,
         "unknown_condition_constants": 3
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 116462,
-      "bytes": 4855069
+      "rules": 116472,
+      "bytes": 4855434
     },
     "Tracking.rewrite.conf": {
-      "rules": 4827,
-      "bytes": 555161,
-      "mitm_hosts": 3806
+      "rules": 4830,
+      "bytes": 555481,
+      "mitm_hosts": 3808
     }
   },
   "warnings": [],
@@ -187,12 +187,12 @@
     "skipped_modifier_third_party": 6,
     "skipped_modifier_xmlhttprequest": 64,
     "skipped_no_separator": 69,
-    "skipped_plain_pattern": 309606,
+    "skipped_plain_pattern": 309607,
     "skipped_platform_hint": 334,
     "skipped_regex_rule": 2,
     "skipped_rewrite_bad_host": 7,
     "skipped_rewrite_wildcard_host": 227,
-    "skipped_third_party": 2901,
+    "skipped_third_party": 2900,
     "skipped_unknown_anchor": 7,
     "skipped_wildcard_too_broad": 1
   },
@@ -900,13 +900,13 @@
       "||clik.by^$third-party",
       "||eu-data.kameleoon.io^$third-party",
       "||elmasistatistik.com.tr^$third-party",
-      "||gjirafa.net^$third-party",
       "||location.dynabic.com^$third-party",
       "||byoviral.com^$third-party",
       "||cdnlibjs.com^$third-party",
       "||analytic.is^$third-party",
       "||cdn.moengage.com^$third-party",
-      "||rapid-cdn.yottaa.com^$third-party"
+      "||rapid-cdn.yottaa.com^$third-party",
+      "||adfenix.com^$third-party"
     ],
     "skipped_unknown_anchor": [
       "|load.gtm.",

@@ -590,7 +590,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||edgetrksvc.ebay.
 ||ubt.tracking.shopee.
 
-# ---- skipped_plain_pattern: 309606
+# ---- skipped_plain_pattern: 309607
 [$path=/edmredir.php]mobile01.com#%#//scriptlet('trusted-replace-node-text', 'script', '/sendOfflineEvent[\s\S]*?window\.location\.href/', '/(window\.dataLayer[\s\S]*?sendOfflineEvent[\s\S]*?(window.location.href = [\s\S]*?;))/', '$2$1')
 [$path=/search]ya.ru,yandex.*#%#//scriptlet('remove-attr', 'data-counter', '.serp-list a[href]')
 /.*/$permissions=join-ad-interest-group=(),document
@@ -684,7 +684,7 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||aizhantj.com*/tjpv/?cc=
 ||users.videasy.*/api/track
 
-# ---- skipped_third_party: 2901
+# ---- skipped_third_party: 2900
 ||trueanthem.com^$third-party
 ||myweb3id.io^$third-party
 ||adtasukaru.com^$third-party
@@ -703,13 +703,13 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||clik.by^$third-party
 ||eu-data.kameleoon.io^$third-party
 ||elmasistatistik.com.tr^$third-party
-||gjirafa.net^$third-party
 ||location.dynabic.com^$third-party
 ||byoviral.com^$third-party
 ||cdnlibjs.com^$third-party
 ||analytic.is^$third-party
 ||cdn.moengage.com^$third-party
 ||rapid-cdn.yottaa.com^$third-party
+||adfenix.com^$third-party
 
 # ---- skipped_unknown_anchor: 7
 |load.gtm.
