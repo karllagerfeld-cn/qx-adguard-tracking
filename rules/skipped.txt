@@ -458,7 +458,9 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 # ---- skipped_modifier_removeheader: 1
 ||tiktok.com/view/product/$removeheader=request:referer
 
-# ---- skipped_modifier_removeparam: 2137
+# ---- skipped_modifier_removeparam: 2139
+||zhihu.com^$removeparam=share_code
+||zhihu.com^$removeparam=utm_psn
 ||check24.de/suche/?q$removeparam=source
 ||euronews.com^$removeparam=webPushId
 ||trck.norisbank.de/click.php$removeparam=s_id
@@ -482,8 +484,6 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||wayground.com^$removeparam=source
 ||bfmtv.com^$removeparam=at_brand
 ||bfmtv.com^$removeparam=at_compte
-||bfmtv.com^$removeparam=at_plateforme
-||elcomercio.es^$removeparam=mrfcid
 
 # ---- skipped_modifier_replace: 3
 ||omtrdc.net/rest/v*/delivery?client=$replace=/^\{[\s\S]*\}\$/{}/,domain=~kia.com|~pccomponentes.com|~acrobat.adobe.com|~elcomercio.es|~eldiariomontanes.es|~elcorreo.com|~lasprovincias.es|~hoy.es|~ideal.es|~ups.com
