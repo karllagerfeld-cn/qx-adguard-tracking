@@ -1,22 +1,22 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-12T01:55:39+00:00",
+  "generated_at": "2026-11-13T01:09:49+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15260118,
-      "sha256": "605555015f56f4fa",
-      "lines": 445209,
+      "bytes": 15260269,
+      "sha256": "4594105cc1370291",
+      "lines": 445217,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 117951,
+        "host_suffix": 117959,
         "host_wildcard": 217,
         "platform_hint": 321,
         "rewrite": 4863,
@@ -71,9 +71,9 @@
     "trackparam": {
       "name": "TrackParam",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt",
-      "bytes": 190628,
-      "sha256": "051a7cee3b95c12b",
-      "lines": 4149,
+      "bytes": 190725,
+      "sha256": "bc4a5f10ccda6e26",
+      "lines": 4151,
       "stats": {
         "directive_endif": 5,
         "directive_if": 5,
@@ -87,7 +87,7 @@
         "skipped_modifier_image": 3,
         "skipped_modifier_media": 1,
         "skipped_modifier_removeheader": 1,
-        "skipped_modifier_removeparam": 2139,
+        "skipped_modifier_removeparam": 2140,
         "skipped_modifier_script": 10,
         "skipped_modifier_stylesheet": 1,
         "skipped_modifier_subdocument": 1,
@@ -101,8 +101,8 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117879,
-      "bytes": 4913414
+      "rules": 117887,
+      "bytes": 4913690
     },
     "Tracking.rewrite.conf": {
       "rules": 4832,
@@ -179,7 +179,7 @@
     "skipped_modifier_redirect": 26,
     "skipped_modifier_referrerpolicy": 3,
     "skipped_modifier_removeheader": 1,
-    "skipped_modifier_removeparam": 2139,
+    "skipped_modifier_removeparam": 2140,
     "skipped_modifier_replace": 3,
     "skipped_modifier_script": 164,
     "skipped_modifier_stylesheet": 1,
@@ -656,6 +656,7 @@
       "||tiktok.com/view/product/$removeheader=request:referer"
     ],
     "skipped_modifier_removeparam": [
+      "||speedtest.ru^$removeparam=from",
       "||zhihu.com^$removeparam=share_code",
       "||zhihu.com^$removeparam=utm_psn",
       "||check24.de/suche/?q$removeparam=source",
@@ -679,8 +680,7 @@
       "||x.com^$removeparam=a",
       "||x.com^$removeparam=s",
       "||wayground.com^$removeparam=source",
-      "||bfmtv.com^$removeparam=at_brand",
-      "||bfmtv.com^$removeparam=at_compte"
+      "||bfmtv.com^$removeparam=at_brand"
     ],
     "skipped_modifier_replace": [
       "||omtrdc.net/rest/v*/delivery?client=$replace=/^\\{[\\s\\S]*\\}\\$/{}/,domain=~kia.com|~pccomponentes.com|~acrobat.adobe.com|~elcomercio.es|~eldiariomontanes.es|~elcorreo.com|~lasprovincias.es|~hoy.es|~ideal.es|~ups.com",

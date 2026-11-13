@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-12 01:55:41 UTC
-# HOST-SUFFIX: 117789
+# UPDATED: 2026-11-13 01:09:50 UTC
+# HOST-SUFFIX: 117797
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117879
+# TOTAL: 117887
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -29094,6 +29094,7 @@ HOST-SUFFIX,fxktp.myticktalk.com,reject
 HOST-SUFFIX,fxkycwgo.lehrerbund.de,reject
 HOST-SUFFIX,fxlnal.bonajour.com,reject
 HOST-SUFFIX,fxlpux.nakedcashmere.com,reject
+HOST-SUFFIX,fxltsbl.com,reject
 HOST-SUFFIX,fxmdjr.mamastar.jp,reject
 HOST-SUFFIX,fxmdjr.saita-puls.com,reject
 HOST-SUFFIX,fxmdjr.yogajournal.jp,reject
@@ -63983,6 +63984,7 @@ HOST-SUFFIX,pagfl.karismahotels.com,reject
 HOST-SUFFIX,paginaseloqua.unisabana.edu.co,reject
 HOST-SUFFIX,pahkjm.subtypestore.com,reject
 HOST-SUFFIX,paiaoeleao.anunciojuridico.com.br,reject
+HOST-SUFFIX,paidjourneys.com,reject
 HOST-SUFFIX,pailcrime.com,reject
 HOST-SUFFIX,pailpatch.com,reject
 HOST-SUFFIX,painel.lojalacodemenina.com.br,reject
@@ -67664,6 +67666,7 @@ HOST-SUFFIX,receive.wmcdp.io,reject
 HOST-SUFFIX,receiver-metis.infeng.site,reject
 HOST-SUFFIX,receiver.eigene.io,reject
 HOST-SUFFIX,receiver.habby.mobi,reject
+HOST-SUFFIX,recenc.com,reject
 HOST-SUFFIX,recepcao.ranchodasdunas.com.br,reject
 HOST-SUFFIX,receptivereaction.com,reject
 HOST-SUFFIX,recessrain.com,reject
@@ -70842,6 +70845,7 @@ HOST-SUFFIX,scenicapparel.com,reject
 HOST-SUFFIX,scenicchicago.com,reject
 HOST-SUFFIX,scenicdrops.com,reject
 HOST-SUFFIX,scentedkindly.com,reject
+HOST-SUFFIX,scentsquare.com,reject
 HOST-SUFFIX,scevoo.alinda.hu,reject
 HOST-SUFFIX,scfhwp.ski-express.com,reject
 HOST-SUFFIX,scfql.marleylilly.com,reject
@@ -71440,6 +71444,7 @@ HOST-SUFFIX,sekimas.langu-sistemos.lt,reject
 HOST-SUFFIX,select-and-protect.aon.com,reject
 HOST-SUFFIX,selectivesummer.com,reject
 HOST-SUFFIX,selectronics.sony-latin.com,reject
+HOST-SUFFIX,selectscholars.com,reject
 HOST-SUFFIX,selfishsea.com,reject
 HOST-SUFFIX,selfishsnake.com,reject
 HOST-SUFFIX,sellup.badana.cl,reject
@@ -84711,6 +84716,7 @@ HOST-SUFFIX,specialevent.informaengage.com,reject
 HOST-SUFFIX,specialreview.net,reject
 HOST-SUFFIX,specialscissors.com,reject
 HOST-SUFFIX,specialtypin.com,reject
+HOST-SUFFIX,speciesjewelry.com,reject
 HOST-SUFFIX,specola.coertini.com,reject
 HOST-SUFFIX,spectacularstamp.com,reject
 HOST-SUFFIX,spectrum.spectrumcars.pl,reject
@@ -95792,6 +95798,7 @@ HOST-SUFFIX,sta.tirexo.ink,reject
 HOST-SUFFIX,sta.tracedock.com,reject
 HOST-SUFFIX,sta1.mediakortit.fi,reject
 HOST-SUFFIX,stableapp.net,reject
+HOST-SUFFIX,stableparty.com,reject
 HOST-SUFFIX,stadiumzoo.net,reject
 HOST-SUFFIX,stag-neuro.kinshealth.in,reject
 HOST-SUFFIX,stag.4us.hr,reject
@@ -105281,6 +105288,7 @@ HOST-SUFFIX,tfwloy.perene.fr,reject
 HOST-SUFFIX,tfydgf.parfumcenter.hu,reject
 HOST-SUFFIX,tfzjaf.loveparis.net,reject
 HOST-SUFFIX,tg.coffeeandbibletime.com,reject
+HOST-SUFFIX,tg.finance.ua,reject
 HOST-SUFFIX,tg.meitu.com,reject
 HOST-SUFFIX,tg.minfin.com.ua,reject
 HOST-SUFFIX,tg.vartesan.com.br,reject
