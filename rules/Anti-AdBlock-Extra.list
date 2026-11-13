@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-13 06:32:35 UTC
+# UPDATED: 2026-11-13 16:14:55 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 934
+# HOST-SUFFIX: 927
 # HOST-WILDCARD: 73
-# TOTAL: 1007
+# TOTAL: 1000
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -62,6 +62,7 @@ HOST-SUFFIX,analytics-sprint.qoqa.com,reject
 HOST-SUFFIX,analytics.74.ru,reject
 HOST-SUFFIX,analytics.7reels.cc,reject
 HOST-SUFFIX,analytics.atlassian.com,reject
+HOST-SUFFIX,analytics.cdnweb.info,reject
 HOST-SUFFIX,analytics.chita.ru,reject
 HOST-SUFFIX,analytics.cinematoday.jp,reject
 HOST-SUFFIX,analytics.code.illusion.jp,reject
@@ -72,6 +73,7 @@ HOST-SUFFIX,analytics.e1.ru,reject
 HOST-SUFFIX,analytics.e2estudios.com,reject
 HOST-SUFFIX,analytics.emforce.co.kr,reject
 HOST-SUFFIX,analytics.fap.bar,reject
+HOST-SUFFIX,analytics.fgr.design,reject
 HOST-SUFFIX,analytics.fontanka.ru,reject
 HOST-SUFFIX,analytics.fs-bdash.com,reject
 HOST-SUFFIX,analytics.heistotron.uk,reject
@@ -399,6 +401,7 @@ HOST-SUFFIX,matomo.elbbaby.de,reject
 HOST-SUFFIX,matomo.elbe-spree.com,reject
 HOST-SUFFIX,matomo.elbrauschequipment.de,reject
 HOST-SUFFIX,matomo.elektro-boldt.de,reject
+HOST-SUFFIX,matomo.elena-engel.de,reject
 HOST-SUFFIX,matomo.elitt.eu,reject
 HOST-SUFFIX,matomo.ellenkoehrer.de,reject
 HOST-SUFFIX,matomo.energetycznyaudyt.eu,reject
@@ -555,7 +558,6 @@ HOST-SUFFIX,metrics.sdkbox.com,reject
 HOST-SUFFIX,metrics.sostituto.eu,reject
 HOST-SUFFIX,metrics.spbtv.com,reject
 HOST-SUFFIX,minerva.devices.a2z.com,reject
-HOST-SUFFIX,minerva.hypnova.ai,reject
 HOST-SUFFIX,mkt.supercell.com,reject
 HOST-SUFFIX,mms.deadspin.com,reject
 HOST-SUFFIX,mms.splinternews.com,reject
@@ -571,15 +573,7 @@ HOST-SUFFIX,mr-in.com,reject
 HOST-SUFFIX,mr.pinkbike.com,reject
 HOST-SUFFIX,mssdk-boot.cpacutapi.com,reject
 HOST-SUFFIX,mst.rnd.de,reject
-HOST-SUFFIX,mt.42srdf.com,reject
-HOST-SUFFIX,mtm.cesys.eu,reject
-HOST-SUFFIX,mtm.gamepc.cz,reject
-HOST-SUFFIX,mto.podcast.de,reject
 HOST-SUFFIX,mtp.spaces.im,reject
-HOST-SUFFIX,myvisites.com,reject
-HOST-SUFFIX,n.altitude.xyz,reject
-HOST-SUFFIX,n.backacresrentals.com,reject
-HOST-SUFFIX,n.ring-ring.ai,reject
 HOST-SUFFIX,nao.kagane.to,reject
 HOST-SUFFIX,nelo2-col.linecorp.com,reject
 HOST-SUFFIX,nil.naver.com,reject
@@ -601,6 +595,7 @@ HOST-SUFFIX,p.victoria.dev,reject
 HOST-SUFFIX,p2trc.emv2.com,reject
 HOST-SUFFIX,pa-stats.encore.dev,reject
 HOST-SUFFIX,pa.tns-ua.com,reject
+HOST-SUFFIX,paidjourneys.com,reject
 HOST-SUFFIX,pangle-b.io,reject
 HOST-SUFFIX,participants.evolv.ai,reject
 HOST-SUFFIX,pathfinder.analytics.komoot.net,reject
@@ -650,8 +645,6 @@ HOST-SUFFIX,r066.dailytribune.com,reject
 HOST-SUFFIX,rec.detik.com,reject
 HOST-SUFFIX,referer.pixplug.in,reject
 HOST-SUFFIX,register.boostymark.com,reject
-HOST-SUFFIX,relay.wearplinth.com,reject
-HOST-SUFFIX,relay.yrtx.gop,reject
 HOST-SUFFIX,reporttk.com,reject
 HOST-SUFFIX,rferl.c.goolara.net,reject
 HOST-SUFFIX,rtag.farmers.com,reject
@@ -676,6 +669,7 @@ HOST-SUFFIX,s.verylongname.uno,reject
 HOST-SUFFIX,s.viralmemes.app,reject
 HOST-SUFFIX,sa.adidas.ru,reject
 HOST-SUFFIX,sb1.mangataro.org,reject
+HOST-SUFFIX,scentsquare.com,reject
 HOST-SUFFIX,script-sh.d2cdm.jp,reject
 HOST-SUFFIX,script.fixel.ai,reject
 HOST-SUFFIX,sdk.stats-locations.com,reject
@@ -683,6 +677,7 @@ HOST-SUFFIX,sdks.stats-locations.com,reject
 HOST-SUFFIX,secure-analytics.com,reject
 HOST-SUFFIX,sedge.aeropostale.com,reject
 HOST-SUFFIX,sedge.jcpenney.com,reject
+HOST-SUFFIX,selectscholars.com,reject
 HOST-SUFFIX,seniorliving.fvbradenton.com,reject
 HOST-SUFFIX,seo-trace.top,reject
 HOST-SUFFIX,server-side-tagging-ycy2jyrtma-uc.a.run.app,reject
@@ -698,7 +693,6 @@ HOST-SUFFIX,sgtm.rhenus-office.pl,reject
 HOST-SUFFIX,sgtm.starbucks.com.gr,reject
 HOST-SUFFIX,sgtmus.casece.com,reject
 HOST-SUFFIX,sgtmus.newhollandce.com.br,reject
-HOST-SUFFIX,sitelog.xinsiderpulse.com,reject
 HOST-SUFFIX,slc.commerce.naver.com,reject
 HOST-SUFFIX,sls2.loisirsencheres.com,reject
 HOST-SUFFIX,smetric.volkswagen-commercial.ru,reject
@@ -710,7 +704,6 @@ HOST-SUFFIX,spg.specialtyprogramgroup.com,reject
 HOST-SUFFIX,spt.performgroup.com,reject
 HOST-SUFFIX,sq.requestads.com,reject
 HOST-SUFFIX,ss.samolet.ru,reject
-HOST-SUFFIX,ss.weddingmba.com,reject
 HOST-SUFFIX,sstgtm.makeleebd.com,reject
 HOST-SUFFIX,ssttm.htbazar.com,reject
 HOST-SUFFIX,st-5cva8vttppvjafpc7jvj.kodik.biz,reject
