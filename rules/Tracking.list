@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-14 00:54:50 UTC
-# HOST-SUFFIX: 117804
+# UPDATED: 2026-11-14 23:58:08 UTC
+# HOST-SUFFIX: 117807
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117894
+# TOTAL: 117897
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -78836,6 +78836,7 @@ HOST-SUFFIX,silkworm.margrietprinssen.nl,reject
 HOST-SUFFIX,silkworm.preventingsuicideinsussex.org,reject
 HOST-SUFFIX,silkworm.waspexpert.com,reject
 HOST-SUFFIX,silkworm.westwoodmbc.org,reject
+HOST-SUFFIX,silkyslumber.com,reject
 HOST-SUFFIX,sillyscrew.com,reject
 HOST-SUFFIX,silverfish.djordjevanjek.com,reject
 HOST-SUFFIX,simg.bwin.be,reject
@@ -103826,6 +103827,7 @@ HOST-SUFFIX,tagging.wellen-trading.de,reject
 HOST-SUFFIX,tagging.woodtex.be,reject
 HOST-SUFFIX,tagging.work21.nl,reject
 HOST-SUFFIX,tagging.worldvision.nl,reject
+HOST-SUFFIX,tagloyalty.com,reject
 HOST-SUFFIX,tagm.uneedcomms.com,reject
 HOST-SUFFIX,tagman.billiga-dammsugarpasar.se,reject
 HOST-SUFFIX,tagman.billige-stovsugerposer.no,reject
@@ -109943,6 +109945,7 @@ HOST-SUFFIX,training.hager.co.uk,reject
 HOST-SUFFIX,training.indigobusiness.co.uk,reject
 HOST-SUFFIX,training.thunderhead.com,reject
 HOST-SUFFIX,trainingreality.com,reject
+HOST-SUFFIX,trainyourlab.com,reject
 HOST-SUFFIX,traka8.crypto-mall.org,reject
 HOST-SUFFIX,traker.fundacoessemcomplicacoes.com.br,reject
 HOST-SUFFIX,traker.karenrosebusiness.com.br,reject

@@ -1,22 +1,22 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-14T00:54:48+00:00",
+  "generated_at": "2026-11-14T23:58:06+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15260588,
-      "sha256": "1dfeeac55f96df54",
-      "lines": 445227,
+      "bytes": 15260649,
+      "sha256": "e47320b8cf6e8e28",
+      "lines": 445230,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 117966,
+        "host_suffix": 117969,
         "host_wildcard": 217,
         "platform_hint": 321,
         "rewrite": 4866,
@@ -101,8 +101,8 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117894,
-      "bytes": 4913932
+      "rules": 117897,
+      "bytes": 4914038
     },
     "Tracking.rewrite.conf": {
       "rules": 4836,
