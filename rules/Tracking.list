@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-13 01:09:50 UTC
-# HOST-SUFFIX: 117797
+# UPDATED: 2026-11-14 00:54:50 UTC
+# HOST-SUFFIX: 117804
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117887
+# TOTAL: 117894
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -26855,6 +26855,7 @@ HOST-SUFFIX,events.pella.com,reject
 HOST-SUFFIX,events.petcamp.com.br,reject
 HOST-SUFFIX,events.petcshop.com.br,reject
 HOST-SUFFIX,events.plumbv.com,reject
+HOST-SUFFIX,events.plus.yandex.net,reject
 HOST-SUFFIX,events.plutus.ninja,reject
 HOST-SUFFIX,events.popinfo.jp,reject
 HOST-SUFFIX,events.prd.api.discomax.com,reject
@@ -68500,6 +68501,7 @@ HOST-SUFFIX,rockcarving.com,reject
 HOST-SUFFIX,rocket.bubble.dk,reject
 HOST-SUFFIX,rocket.fadenkreuz-bobbel.de,reject
 HOST-SUFFIX,rocketmonitor.com,reject
+HOST-SUFFIX,rocketserver.net,reject
 HOST-SUFFIX,rockspreading.com,reject
 HOST-SUFFIX,rockstarwriter.com,reject
 HOST-SUFFIX,rodent.covisitor.app,reject
@@ -75638,7 +75640,6 @@ HOST-SUFFIX,sgft.finishedbasement.ca,reject
 HOST-SUFFIX,sggqj.drakes.com,reject
 HOST-SUFFIX,sgh.schweighofer.com,reject
 HOST-SUFFIX,sghug.jonesroadbeauty.com,reject
-HOST-SUFFIX,sgimage.netmarble.com,reject
 HOST-SUFFIX,sgimo.gimofirst.com,reject
 HOST-SUFFIX,sgkazt.xlmoto.de,reject
 HOST-SUFFIX,sgm.kingz.co.uk,reject
@@ -79142,6 +79143,7 @@ HOST-SUFFIX,sle.life-evolution.com,reject
 HOST-SUFFIX,slea.life-evolution-academy.com,reject
 HOST-SUFFIX,sled.arvex-rental-cars.com,reject
 HOST-SUFFIX,sleep.ubm-events.com,reject
+HOST-SUFFIX,sleepfrankly.com,reject
 HOST-SUFFIX,sleepypiglet.deltashore.uk,reject
 HOST-SUFFIX,sleepzeepro-ss.checkoutera.com,reject
 HOST-SUFFIX,sleepzeeshop-ss.checkoutera.com,reject
@@ -84704,6 +84706,7 @@ HOST-SUFFIX,sparklingshelf.com,reject
 HOST-SUFFIX,sparrow.carol.gg,reject
 HOST-SUFFIX,sparrow.uitvaartzorg-vanraemdonck.be,reject
 HOST-SUFFIX,sparrow.workingincontent.com,reject
+HOST-SUFFIX,spasmgame.com,reject
 HOST-SUFFIX,spc.personalcreations.com,reject
 HOST-SUFFIX,spc.sparrods.com,reject
 HOST-SUFFIX,spcfl.belongdesigns.com,reject
@@ -104704,6 +104707,7 @@ HOST-SUFFIX,tavhfq.naspa.co.kr,reject
 HOST-SUFFIX,tawdryson.com,reject
 HOST-SUFFIX,taxfvo.mamaloesbabysjop.nl,reject
 HOST-SUFFIX,taxisubsea.com,reject
+HOST-SUFFIX,taxiwear.com,reject
 HOST-SUFFIX,taxkob.equestrianstockholm.com,reject
 HOST-SUFFIX,taylor.gladspring.com,reject
 HOST-SUFFIX,taz.met.vgwort.de,reject
@@ -105117,6 +105121,7 @@ HOST-SUFFIX,tempertrick.com,reject
 HOST-SUFFIX,templates.velpa.pl,reject
 HOST-SUFFIX,tempo-client-metric-prod.s3.amazonaws.com,reject
 HOST-SUFFIX,tempo.checkmate.live,reject
+HOST-SUFFIX,tempowraps.com,reject
 HOST-SUFFIX,temptation.ad.nl,reject
 HOST-SUFFIX,temptteam.com,reject
 HOST-SUFFIX,temsys.temsys.fr,reject
@@ -113392,6 +113397,7 @@ HOST-SUFFIX,view.stylebob.com,reject
 HOST-SUFFIX,view.trendwiseai.com,reject
 HOST-SUFFIX,view.truecorepanels.com,reject
 HOST-SUFFIX,view.zijieapi.com,reject
+HOST-SUFFIX,viewanalitycs.org,reject
 HOST-SUFFIX,viewresource.com,reject
 HOST-SUFFIX,views-dual.hulu.com,reject
 HOST-SUFFIX,views.2222.ro,reject
@@ -116676,6 +116682,7 @@ HOST-SUFFIX,yerbalist.sevenpoint.org,reject
 HOST-SUFFIX,yerbalist.velvetcannabis.com,reject
 HOST-SUFFIX,yes.kazistorebd.com,reject
 HOST-SUFFIX,yesss-a1at.mno.link,reject
+HOST-SUFFIX,yetiminis.com,reject
 HOST-SUFFIX,yeumii.neoness.fr,reject
 HOST-SUFFIX,yewrcd.govoyages.com,reject
 HOST-SUFFIX,yezztf.pinkelephant.co.kr,reject

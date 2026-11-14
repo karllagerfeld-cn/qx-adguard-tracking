@@ -458,7 +458,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 # ---- skipped_modifier_removeheader: 1
 ||tiktok.com/view/product/$removeheader=request:referer
 
-# ---- skipped_modifier_removeparam: 2140
+# ---- skipped_modifier_removeparam: 2153
 ||speedtest.ru^$removeparam=from
 ||zhihu.com^$removeparam=share_code
 ||zhihu.com^$removeparam=utm_psn

@@ -1,25 +1,25 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-13T01:09:49+00:00",
+  "generated_at": "2026-11-14T00:54:48+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15260269,
-      "sha256": "4594105cc1370291",
-      "lines": 445217,
+      "bytes": 15260588,
+      "sha256": "1dfeeac55f96df54",
+      "lines": 445227,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 117959,
+        "host_suffix": 117966,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4863,
+        "rewrite": 4866,
         "skipped_cosmetic_or_scriptlet": 795,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
@@ -71,9 +71,9 @@
     "trackparam": {
       "name": "TrackParam",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt",
-      "bytes": 190725,
-      "sha256": "bc4a5f10ccda6e26",
-      "lines": 4151,
+      "bytes": 191258,
+      "sha256": "7cd49dd6bb5563c4",
+      "lines": 4168,
       "stats": {
         "directive_endif": 5,
         "directive_if": 5,
@@ -87,7 +87,7 @@
         "skipped_modifier_image": 3,
         "skipped_modifier_media": 1,
         "skipped_modifier_removeheader": 1,
-        "skipped_modifier_removeparam": 2140,
+        "skipped_modifier_removeparam": 2153,
         "skipped_modifier_script": 10,
         "skipped_modifier_stylesheet": 1,
         "skipped_modifier_subdocument": 1,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117887,
-      "bytes": 4913690
+      "rules": 117894,
+      "bytes": 4913932
     },
     "Tracking.rewrite.conf": {
-      "rules": 4832,
-      "bytes": 555702,
-      "mitm_hosts": 3810
+      "rules": 4836,
+      "bytes": 556247,
+      "mitm_hosts": 3813
     }
   },
   "warnings": [],
@@ -141,7 +141,7 @@
     "reason": "Quantumult X 对 host-wildcard 数量有性能告警（建议 <100），匹配是线性扫描"
   },
   "rewrite_redundant": {
-    "count": 30,
+    "count": 29,
     "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖"
   },
   "skipped_reasons": {
@@ -179,7 +179,7 @@
     "skipped_modifier_redirect": 26,
     "skipped_modifier_referrerpolicy": 3,
     "skipped_modifier_removeheader": 1,
-    "skipped_modifier_removeparam": 2140,
+    "skipped_modifier_removeparam": 2153,
     "skipped_modifier_replace": 3,
     "skipped_modifier_script": 164,
     "skipped_modifier_stylesheet": 1,
