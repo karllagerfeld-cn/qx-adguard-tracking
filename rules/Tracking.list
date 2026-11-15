@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-14 23:58:08 UTC
-# HOST-SUFFIX: 117807
+# UPDATED: 2026-11-15 23:59:33 UTC
+# HOST-SUFFIX: 117812
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117897
+# TOTAL: 117902
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -9679,6 +9679,7 @@ HOST-SUFFIX,beacon.tingyun.com,reject
 HOST-SUFFIX,beacon.toyota.co.jp,reject
 HOST-SUFFIX,beacon.tws.toyota.jp,reject
 HOST-SUFFIX,beacon.vertebrae-axis.com,reject
+HOST-SUFFIX,beacon.viafoura.io,reject
 HOST-SUFFIX,beacon.walmart.ca,reject
 HOST-SUFFIX,beacon.walmart.com,reject
 HOST-SUFFIX,beacon.watch.impress.co.jp,reject
@@ -42117,6 +42118,7 @@ HOST-SUFFIX,jzfwxo.perfumy.pl,reject
 HOST-SUFFIX,jzgfhr.nordicnest.com,reject
 HOST-SUFFIX,jzhkc.federalpremium.com,reject
 HOST-SUFFIX,jzprtb.1stdibs.com,reject
+HOST-SUFFIX,jzq915.playmobil.com,reject
 HOST-SUFFIX,jzqfac.bestsecret.ch,reject
 HOST-SUFFIX,jzrcod.ygl.co.il,reject
 HOST-SUFFIX,jzvln.famousfootwear.com,reject
@@ -79158,7 +79160,6 @@ HOST-SUFFIX,slgnt.us,reject
 HOST-SUFFIX,sli.familyhandyman.com,reject
 HOST-SUFFIX,sli.huffpost.com,reject
 HOST-SUFFIX,slickcontent.com,reject
-HOST-SUFFIX,slike.indiatimes.com,reject
 HOST-SUFFIX,slim.slimkiezen.eu,reject
 HOST-SUFFIX,slimesupplies.net,reject
 HOST-SUFFIX,slimsense.net,reject
@@ -84514,6 +84515,7 @@ HOST-SUFFIX,soto.kacanggoreng.site,reject
 HOST-SUFFIX,soubej.larebajavirtual.com,reject
 HOST-SUFFIX,soul.sujusoul.com,reject
 HOST-SUFFIX,soulclicking.com,reject
+HOST-SUFFIX,soulfreedom.net,reject
 HOST-SUFFIX,sounder.skywaybehavioralhealth.com,reject
 HOST-SUFFIX,soundmachine.net,reject
 HOST-SUFFIX,soundmuseums.com,reject
@@ -106195,6 +106197,7 @@ HOST-SUFFIX,topshows.theotherpalace.co.uk,reject
 HOST-SUFFIX,topspin.npo.nl,reject
 HOST-SUFFIX,topthrowbacks.com,reject
 HOST-SUFFIX,topu.rangdhonubd.com,reject
+HOST-SUFFIX,torhosting.net,reject
 HOST-SUFFIX,toroa.merchnow.com,reject
 HOST-SUFFIX,torogoz.optimumketo.nl,reject
 HOST-SUFFIX,toronto-content.cresa.com,reject
@@ -106211,6 +106214,7 @@ HOST-SUFFIX,touch.multitaction.com,reject
 HOST-SUFFIX,touch.thenavisway.com,reject
 HOST-SUFFIX,tour.lostmountains.sa,reject
 HOST-SUFFIX,tourism.visitorlando.com,reject
+HOST-SUFFIX,tourspicker.com,reject
 HOST-SUFFIX,tovkak.execupgrades.com,reject
 HOST-SUFFIX,toweringanswer.com,reject
 HOST-SUFFIX,toxic-writer.xyz,reject
@@ -113423,6 +113427,7 @@ HOST-SUFFIX,vimhpj.nejlevnejsinabytek.cz,reject
 HOST-SUFFIX,vimxpd.calcadoslaroche.com.br,reject
 HOST-SUFFIX,vinff.buffalojeans.ca,reject
 HOST-SUFFIX,vino.vinoarquitetura.com,reject
+HOST-SUFFIX,vinylanswer.net,reject
 HOST-SUFFIX,violetdemise.com,reject
 HOST-SUFFIX,viowrel.com,reject
 HOST-SUFFIX,vip.gophersport.com,reject

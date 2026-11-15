@@ -1,25 +1,25 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-14T23:58:06+00:00",
+  "generated_at": "2026-11-15T23:59:31+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15260649,
-      "sha256": "e47320b8cf6e8e28",
-      "lines": 445230,
+      "bytes": 15261177,
+      "sha256": "e6d7ffb72b7355e6",
+      "lines": 445247,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 117969,
+        "host_suffix": 117974,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4866,
+        "rewrite": 4868,
         "skipped_cosmetic_or_scriptlet": 795,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
@@ -55,12 +55,12 @@
         "skipped_modifier_subdocument": 5,
         "skipped_modifier_third_party": 6,
         "skipped_modifier_xmlhttprequest": 48,
-        "skipped_no_separator": 69,
+        "skipped_no_separator": 68,
         "skipped_plain_pattern": 309553,
         "skipped_platform_hint": 321,
         "skipped_regex_rule": 2,
         "skipped_rewrite_bad_host": 7,
-        "skipped_rewrite_wildcard_host": 227,
+        "skipped_rewrite_wildcard_host": 238,
         "skipped_third_party": 2900,
         "skipped_unknown_anchor": 7,
         "skipped_wildcard_too_broad": 1,
@@ -71,9 +71,9 @@
     "trackparam": {
       "name": "TrackParam",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt",
-      "bytes": 191258,
-      "sha256": "7cd49dd6bb5563c4",
-      "lines": 4168,
+      "bytes": 191658,
+      "sha256": "0ee3573444d516a3",
+      "lines": 4176,
       "stats": {
         "directive_endif": 5,
         "directive_if": 5,
@@ -87,7 +87,7 @@
         "skipped_modifier_image": 3,
         "skipped_modifier_media": 1,
         "skipped_modifier_removeheader": 1,
-        "skipped_modifier_removeparam": 2153,
+        "skipped_modifier_removeparam": 2160,
         "skipped_modifier_script": 10,
         "skipped_modifier_stylesheet": 1,
         "skipped_modifier_subdocument": 1,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117897,
-      "bytes": 4914038
+      "rules": 117902,
+      "bytes": 4914215
     },
     "Tracking.rewrite.conf": {
-      "rules": 4836,
-      "bytes": 556247,
-      "mitm_hosts": 3813
+      "rules": 4838,
+      "bytes": 556492,
+      "mitm_hosts": 3815
     }
   },
   "warnings": [],
@@ -179,19 +179,19 @@
     "skipped_modifier_redirect": 26,
     "skipped_modifier_referrerpolicy": 3,
     "skipped_modifier_removeheader": 1,
-    "skipped_modifier_removeparam": 2153,
+    "skipped_modifier_removeparam": 2160,
     "skipped_modifier_replace": 3,
     "skipped_modifier_script": 164,
     "skipped_modifier_stylesheet": 1,
     "skipped_modifier_subdocument": 6,
     "skipped_modifier_third_party": 6,
     "skipped_modifier_xmlhttprequest": 64,
-    "skipped_no_separator": 69,
+    "skipped_no_separator": 68,
     "skipped_plain_pattern": 309607,
     "skipped_platform_hint": 334,
     "skipped_regex_rule": 2,
     "skipped_rewrite_bad_host": 7,
-    "skipped_rewrite_wildcard_host": 227,
+    "skipped_rewrite_wildcard_host": 238,
     "skipped_third_party": 2900,
     "skipped_unknown_anchor": 7,
     "skipped_wildcard_too_broad": 1
@@ -656,6 +656,13 @@
       "||tiktok.com/view/product/$removeheader=request:referer"
     ],
     "skipped_modifier_removeparam": [
+      "||flugladen.de/checkout/metalanding$removeparam=subch",
+      "||flugladen.de/checkout/metalanding$removeparam=flow",
+      "||flugladen.de/checkout/metalanding$removeparam=upsell",
+      "||flugladen.de/checkout/metalanding$removeparam=ecmp",
+      "||flugladen.de/checkout/metalanding$removeparam=cmp",
+      "||flugladen.de/checkout/metalanding$removeparam=af",
+      "||flugladen.de/checkout/metalanding$removeparam=ci",
       "||speedtest.ru^$removeparam=from",
       "||zhihu.com^$removeparam=share_code",
       "||zhihu.com^$removeparam=utm_psn",
@@ -673,14 +680,7 @@
       "||1xlite-12669.pro^$removeparam=pb",
       "||1xlite-12669.pro^$removeparam=click_id",
       "||1xlite-12669.pro^$removeparam=r",
-      "||auto.de^$removeparam=source",
-      "||auto.de^$removeparam=medium",
-      "||auto.de^$removeparam=campaign",
-      "||auto.de^$removeparam=adgroupid",
-      "||x.com^$removeparam=a",
-      "||x.com^$removeparam=s",
-      "||wayground.com^$removeparam=source",
-      "||bfmtv.com^$removeparam=at_brand"
+      "||auto.de^$removeparam=source"
     ],
     "skipped_modifier_replace": [
       "||omtrdc.net/rest/v*/delivery?client=$replace=/^\\{[\\s\\S]*\\}\\$/{}/,domain=~kia.com|~pccomponentes.com|~acrobat.adobe.com|~elcomercio.es|~eldiariomontanes.es|~elcorreo.com|~lasprovincias.es|~hoy.es|~ideal.es|~ups.com",
@@ -778,14 +778,14 @@
       "||datadog-log.clovergames.io",
       "||me9ddf.moebelix.",
       "||touch.yesim.",
-      "||jzq915.playmobil.com^ы",
       "||analytics.vgtimes.",
       "||sgtm.wimdu.",
       "||analytics.ahrefs.",
       "||sgtm.fairmont.",
       "||backstory.ebay.",
       "||edgetrksvc.ebay.",
-      "||ubt.tracking.shopee."
+      "||ubt.tracking.shopee.",
+      "||taplytics-umami.grubhub.com"
     ],
     "skipped_plain_pattern": [
       "[$path=/edmredir.php]mobile01.com#%#//scriptlet('trusted-replace-node-text', 'script', '/sendOfflineEvent[\\s\\S]*?window\\.location\\.href/', '/(window\\.dataLayer[\\s\\S]*?sendOfflineEvent[\\s\\S]*?(window.location.href = [\\s\\S]*?;))/', '$2$1')",

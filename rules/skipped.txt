@@ -458,7 +458,14 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 # ---- skipped_modifier_removeheader: 1
 ||tiktok.com/view/product/$removeheader=request:referer
 
-# ---- skipped_modifier_removeparam: 2153
+# ---- skipped_modifier_removeparam: 2160
+||flugladen.de/checkout/metalanding$removeparam=subch
+||flugladen.de/checkout/metalanding$removeparam=flow
+||flugladen.de/checkout/metalanding$removeparam=upsell
+||flugladen.de/checkout/metalanding$removeparam=ecmp
+||flugladen.de/checkout/metalanding$removeparam=cmp
+||flugladen.de/checkout/metalanding$removeparam=af
+||flugladen.de/checkout/metalanding$removeparam=ci
 ||speedtest.ru^$removeparam=from
 ||zhihu.com^$removeparam=share_code
 ||zhihu.com^$removeparam=utm_psn
@@ -477,13 +484,6 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||1xlite-12669.pro^$removeparam=click_id
 ||1xlite-12669.pro^$removeparam=r
 ||auto.de^$removeparam=source
-||auto.de^$removeparam=medium
-||auto.de^$removeparam=campaign
-||auto.de^$removeparam=adgroupid
-||x.com^$removeparam=a
-||x.com^$removeparam=s
-||wayground.com^$removeparam=source
-||bfmtv.com^$removeparam=at_brand
 
 # ---- skipped_modifier_replace: 3
 ||omtrdc.net/rest/v*/delivery?client=$replace=/^\{[\s\S]*\}\$/{}/,domain=~kia.com|~pccomponentes.com|~acrobat.adobe.com|~elcomercio.es|~eldiariomontanes.es|~elcorreo.com|~lasprovincias.es|~hoy.es|~ideal.es|~ups.com
@@ -563,7 +563,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||link.technologyadvice.com/_me|$xmlhttprequest
 ||erli.pl/*/xhr/b/s|$xmlhttprequest
 
-# ---- skipped_no_separator: 69
+# ---- skipped_no_separator: 68
 ||stat.tiara.
 ||track.tiara.
 ||logs.juspay.in
@@ -581,7 +581,6 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||datadog-log.clovergames.io
 ||me9ddf.moebelix.
 ||touch.yesim.
-||jzq915.playmobil.com^ы
 ||analytics.vgtimes.
 ||sgtm.wimdu.
 ||analytics.ahrefs.
@@ -589,6 +588,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||backstory.ebay.
 ||edgetrksvc.ebay.
 ||ubt.tracking.shopee.
+||taplytics-umami.grubhub.com
 
 # ---- skipped_plain_pattern: 309607
 [$path=/edmredir.php]mobile01.com#%#//scriptlet('trusted-replace-node-text', 'script', '/sendOfflineEvent[\s\S]*?window\.location\.href/', '/(window\.dataLayer[\s\S]*?sendOfflineEvent[\s\S]*?(window.location.href = [\s\S]*?;))/', '$2$1')
@@ -657,7 +657,7 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||repo.adbc.io:8081/repository/QTracker/
 ||overseauspider.yuanshen.com:8888/log^
 
-# ---- skipped_rewrite_wildcard_host: 227
+# ---- skipped_rewrite_wildcard_host: 238
 ||hit.*.ru/*?sid=*&t_tid=
 ||sinoptik.*/stats/
 ||7movies.*/api/analytics/event|
