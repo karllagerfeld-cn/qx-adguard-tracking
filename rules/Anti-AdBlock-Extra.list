@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-17 07:48:35 UTC
+# UPDATED: 2026-11-17 17:35:42 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 763
+# HOST-SUFFIX: 766
 # HOST-WILDCARD: 73
-# TOTAL: 836
+# TOTAL: 839
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -295,6 +295,7 @@ HOST-SUFFIX,intent.cbsi.com,reject
 HOST-SUFFIX,ipm.adblockplus.dev,reject
 HOST-SUFFIX,j0v36abmdj.execute-api.us-east-1.amazonaws.com,reject
 HOST-SUFFIX,jaeger.netmonet.co,reject
+HOST-SUFFIX,jns1.junoo.com.br,reject
 HOST-SUFFIX,krum.vsct.fr,reject
 HOST-SUFFIX,ktrackdata.com,reject
 HOST-SUFFIX,l.www.naver.com,reject
@@ -618,6 +619,7 @@ HOST-SUFFIX,stats.phili.pe,reject
 HOST-SUFFIX,stats.playoutgame.app,reject
 HOST-SUFFIX,stats.poweringpastcoal.org,reject
 HOST-SUFFIX,stats.practicepl.us,reject
+HOST-SUFFIX,stats.proxypurity.com,reject
 HOST-SUFFIX,stats.qbitstore.nl,reject
 HOST-SUFFIX,stats.radicitoscane.it,reject
 HOST-SUFFIX,stats.repacheco.com,reject
@@ -766,6 +768,7 @@ HOST-SUFFIX,welcome.hubinternational.com,reject
 HOST-SUFFIX,wrc.shinhancard.com,reject
 HOST-SUFFIX,wstat.ozon.ru,reject
 HOST-SUFFIX,wtsdc.uhc.com,reject
+HOST-SUFFIX,www.communicationhealthcare.com,reject
 HOST-SUFFIX,x.sexhd.pics,reject
 HOST-SUFFIX,xy.fbcdn.net,reject
 HOST-SUFFIX,xz.fbcdn.net,reject
