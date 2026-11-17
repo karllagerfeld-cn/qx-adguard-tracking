@@ -1,6 +1,6 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-16 18:25:49 UTC
+# UPDATED: 2026-11-17 07:48:35 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
@@ -711,6 +711,7 @@ HOST-SUFFIX,track.parentmood.com,reject
 HOST-SUFFIX,track.pingstart.com,reject
 HOST-SUFFIX,track.realtimeboard.com,reject
 HOST-SUFFIX,track.streak.ninja,reject
+HOST-SUFFIX,track.tcppu.com,reject
 HOST-SUFFIX,track.wildblue.com,reject
 HOST-SUFFIX,track2.tprg.ru,reject
 HOST-SUFFIX,tracker.ai.xiaomi.com,reject
@@ -753,7 +754,6 @@ HOST-SUFFIX,verifysession.uxcam.com,reject
 HOST-SUFFIX,verint-cdn.com,reject
 HOST-SUFFIX,vgo.vegaoo.de,reject
 HOST-SUFFIX,video.pixels.ai,reject
-HOST-SUFFIX,vinylanswer.net,reject
 HOST-SUFFIX,visitor.pixplug.in,reject
 HOST-SUFFIX,visitors.asadis.net,reject
 HOST-SUFFIX,vsn-analytics.aparentmedia.com,reject
