@@ -1,26 +1,26 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-15T23:59:31+00:00",
+  "generated_at": "2026-11-17T02:58:09+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15261177,
-      "sha256": "e6d7ffb72b7355e6",
-      "lines": 445247,
+      "bytes": 15261557,
+      "sha256": "c95fecc41eb6566f",
+      "lines": 445260,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 117974,
+        "host_suffix": 117983,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4868,
-        "skipped_cosmetic_or_scriptlet": 795,
+        "rewrite": 4871,
+        "skipped_cosmetic_or_scriptlet": 796,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
         "skipped_exception_unsupported": 334,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117902,
-      "bytes": 4914215
+      "rules": 117911,
+      "bytes": 4914529
     },
     "Tracking.rewrite.conf": {
-      "rules": 4838,
-      "bytes": 556492,
-      "mitm_hosts": 3815
+      "rules": 4841,
+      "bytes": 556793,
+      "mitm_hosts": 3817
     }
   },
   "warnings": [],
@@ -145,7 +145,7 @@
     "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖"
   },
   "skipped_reasons": {
-    "skipped_cosmetic_or_scriptlet": 795,
+    "skipped_cosmetic_or_scriptlet": 796,
     "skipped_exception_bad_domain": 2,
     "skipped_exception_modifier": 2104,
     "skipped_exception_unsupported": 334,

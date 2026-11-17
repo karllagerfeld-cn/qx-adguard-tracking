@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-15 23:59:33 UTC
-# HOST-SUFFIX: 117812
+# UPDATED: 2026-11-17 02:58:11 UTC
+# HOST-SUFFIX: 117821
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117902
+# TOTAL: 117911
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -12161,6 +12161,7 @@ HOST-SUFFIX,case.somoscase.com,reject
 HOST-SUFFIX,cassatp.pacificregister.com,reject
 HOST-SUFFIX,cassatp.roadcases.com,reject
 HOST-SUFFIX,cassette.planetecycle.com,reject
+HOST-SUFFIX,cast-imp.jtbc.co.kr,reject
 HOST-SUFFIX,cast.net.anwalt.de,reject
 HOST-SUFFIX,castlereach.com,reject
 HOST-SUFFIX,casualphysics.com,reject
@@ -84833,6 +84834,7 @@ HOST-SUFFIX,sport.stimium.com,reject
 HOST-SUFFIX,sport.wingsfit1.com,reject
 HOST-SUFFIX,sportsclubstat.com,reject
 HOST-SUFFIX,sportsnearby.com,reject
+HOST-SUFFIX,sportswidows.com,reject
 HOST-SUFFIX,sportybrains.com,reject
 HOST-SUFFIX,sportyforum.com,reject
 HOST-SUFFIX,spositive.positivelife.pl,reject
@@ -100526,6 +100528,7 @@ HOST-SUFFIX,stats.projectcongress.com,reject
 HOST-SUFFIX,stats.pronouns.page,reject
 HOST-SUFFIX,stats.propublica.org,reject
 HOST-SUFFIX,stats.protoelectro.com,reject
+HOST-SUFFIX,stats.proxypurity.com,reject
 HOST-SUFFIX,stats.psychotherapieravensburg.de,reject
 HOST-SUFFIX,stats.psykedeliskportal.dk,reject
 HOST-SUFFIX,stats.pttrn.io,reject
@@ -106189,6 +106192,7 @@ HOST-SUFFIX,topcvf.partners-finances.be,reject
 HOST-SUFFIX,topguidance.cortelec-pt.com,reject
 HOST-SUFFIX,topicalcartel.com,reject
 HOST-SUFFIX,topicjungle.com,reject
+HOST-SUFFIX,topicspin.com,reject
 HOST-SUFFIX,toplaunch.net,reject
 HOST-SUFFIX,topofthehill.brynje.no,reject
 HOST-SUFFIX,topratedwaterfilter.com,reject
@@ -110243,6 +110247,7 @@ HOST-SUFFIX,trelleborg.tecs1.com,reject
 HOST-SUFFIX,tremendousplastic.com,reject
 HOST-SUFFIX,tremendoustime.com,reject
 HOST-SUFFIX,trench.s3sensitivity.com,reject
+HOST-SUFFIX,trendcone.com,reject
 HOST-SUFFIX,trentham.ohwow.directory,reject
 HOST-SUFFIX,tresit.siblu.fr,reject
 HOST-SUFFIX,trf.tjustagolf.se,reject
@@ -111369,6 +111374,7 @@ HOST-SUFFIX,tutu.lendoncapital.com,reject
 HOST-SUFFIX,tuty.tutyiandsisu.com.au,reject
 HOST-SUFFIX,tuulelipp.jyrgenson.xyz,reject
 HOST-SUFFIX,tuur.dxpr.com,reject
+HOST-SUFFIX,tuxedocard.com,reject
 HOST-SUFFIX,tuxmat.surebaby.com,reject
 HOST-SUFFIX,tuykfa.ivrose.com,reject
 HOST-SUFFIX,tv.sunpowerled.com,reject
@@ -113608,6 +113614,7 @@ HOST-SUFFIX,visitors.gigianddavid.com,reject
 HOST-SUFFIX,visits.iloveuobgold.com,reject
 HOST-SUFFIX,visor.sberbank.ru,reject
 HOST-SUFFIX,visor.sbrf.ru,reject
+HOST-SUFFIX,vistacool.net,reject
 HOST-SUFFIX,vistalid-statistiques.fr,reject
 HOST-SUFFIX,visual.danielgomezglobal.com,reject
 HOST-SUFFIX,visualcommservices.com,reject
@@ -114322,6 +114329,7 @@ HOST-SUFFIX,watchtower.graindata.com,reject
 HOST-SUFFIX,waterboa.midu.dev,reject
 HOST-SUFFIX,waterboa.nighttrain.co,reject
 HOST-SUFFIX,watering.drinkflowater.com,reject
+HOST-SUFFIX,waterloco.com,reject
 HOST-SUFFIX,waterywave.com,reject
 HOST-SUFFIX,watg.xxxlutz.com,reject
 HOST-SUFFIX,wats.gogoinflight.com,reject
@@ -114333,6 +114341,7 @@ HOST-SUFFIX,wavesimple.com,reject
 HOST-SUFFIX,wavesmachine.com,reject
 HOST-SUFFIX,wavrlh.cedok.cz,reject
 HOST-SUFFIX,wavzlt.michaelstars.com,reject
+HOST-SUFFIX,waxguide.com,reject
 HOST-SUFFIX,waxsirens.com,reject
 HOST-SUFFIX,wayfinderanalytics.servicebus.windows.net,reject
 HOST-SUFFIX,wayjoyfarm.com,reject
