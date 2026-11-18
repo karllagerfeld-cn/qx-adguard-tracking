@@ -1,26 +1,26 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-17T02:58:09+00:00",
+  "generated_at": "2026-11-18T02:28:13+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15261557,
-      "sha256": "c95fecc41eb6566f",
-      "lines": 445260,
+      "bytes": 15262805,
+      "sha256": "599ed38b4f41d90b",
+      "lines": 445290,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 117983,
+        "host_suffix": 117991,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4871,
-        "skipped_cosmetic_or_scriptlet": 796,
+        "rewrite": 4885,
+        "skipped_cosmetic_or_scriptlet": 798,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
         "skipped_exception_unsupported": 334,
@@ -28,7 +28,7 @@
         "skipped_generic_app": 3,
         "skipped_generic_cookie": 497,
         "skipped_generic_domain": 1,
-        "skipped_inactive_condition": 186,
+        "skipped_inactive_condition": 189,
         "skipped_invalid_domain": 22,
         "skipped_malformed": 1,
         "skipped_modifier__image": 2,
@@ -39,7 +39,7 @@
         "skipped_modifier__xmlhttprequest": 1,
         "skipped_modifier_all": 37,
         "skipped_modifier_app": 28,
-        "skipped_modifier_cookie": 566,
+        "skipped_modifier_cookie": 568,
         "skipped_modifier_document": 1,
         "skipped_modifier_domain": 108,
         "skipped_modifier_image": 70,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117911,
-      "bytes": 4914529
+      "rules": 117919,
+      "bytes": 4914820
     },
     "Tracking.rewrite.conf": {
-      "rules": 4841,
-      "bytes": 556793,
-      "mitm_hosts": 3817
+      "rules": 4855,
+      "bytes": 558428,
+      "mitm_hosts": 3826
     }
   },
   "warnings": [],
@@ -145,7 +145,7 @@
     "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖"
   },
   "skipped_reasons": {
-    "skipped_cosmetic_or_scriptlet": 796,
+    "skipped_cosmetic_or_scriptlet": 798,
     "skipped_exception_bad_domain": 2,
     "skipped_exception_modifier": 2104,
     "skipped_exception_unsupported": 334,
@@ -154,7 +154,7 @@
     "skipped_generic_cookie": 497,
     "skipped_generic_domain": 2,
     "skipped_generic_removeparam": 416,
-    "skipped_inactive_condition": 216,
+    "skipped_inactive_condition": 219,
     "skipped_invalid_domain": 22,
     "skipped_malformed": 1,
     "skipped_modifier__image": 2,
@@ -165,7 +165,7 @@
     "skipped_modifier__xmlhttprequest": 1,
     "skipped_modifier_all": 37,
     "skipped_modifier_app": 28,
-    "skipped_modifier_cookie": 566,
+    "skipped_modifier_cookie": 568,
     "skipped_modifier_document": 15,
     "skipped_modifier_domain": 108,
     "skipped_modifier_font": 1,
@@ -490,6 +490,8 @@
       "||google.$cookie=DSID",
       "||google.$cookie=UULE",
       "||mc.yandex.ru^$cookie=yabs-sid",
+      "||theedgesingapore.com^$cookie=frontend_id",
+      "||theedgesingapore.com^$cookie=fb_event_id",
       "||dennikn.sk^$cookie=browser_id",
       "||ggmax.com.br^$cookie=gg-ads-session",
       "||ggmax.com.br^$cookie=device",
@@ -499,9 +501,7 @@
       "||yanolja.com^$cookie=nol_device_id",
       "||oita-press.co.jp^$cookie=guid",
       "||nikkei.com^$cookie=atlasId",
-      "||food.ru^$cookie=spid",
-      "||food.ru^$cookie=foodrusid",
-      "||gipfel.ru^$cookie=UniqAnalyticsId"
+      "||food.ru^$cookie=spid"
     ],
     "skipped_modifier_document": [
       "||bongacams*.com/track?$document,image",

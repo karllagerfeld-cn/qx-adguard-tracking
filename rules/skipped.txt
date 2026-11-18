@@ -1,6 +1,6 @@
 # skipped rules from spyware + trackparam (see report.json)
 #
-# ---- skipped_cosmetic_or_scriptlet: 796
+# ---- skipped_cosmetic_or_scriptlet: 798
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.pushState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.replaceState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 www.youtube.com#%#//scriptlet('prevent-xhr', '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
@@ -151,7 +151,7 @@ $removeparam=adsterra_clid
 $removeparam=adsterra_placement_id
 $removeparam=loclid
 
-# ---- skipped_inactive_condition: 216
+# ---- skipped_inactive_condition: 219
 nine.com.au#%#(()=>{window.tracking={setConfig(){},trackPage(){},trackVideoAutoFail(){}}})();
 nine.com.au#%#//scriptlet('prevent-element-src-loading', 'script', 'share.9cdn.net/share/long_cache/js/tracking/tracking')
 ||api.utorria.ru/api/v1/installer/integrator/cancel
@@ -279,7 +279,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||gateway.bingviz.microsoftapp.net^$app=com.microsoft.bing
 ||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy|com.avito.android
 
-# ---- skipped_modifier_cookie: 566
+# ---- skipped_modifier_cookie: 568
 ||maccabi4u.co.il^$cookie=DSID
 ||outdoorsy.com^$cookie=odc-s
 ||outdoorsy.com^$cookie=odc-e
@@ -293,6 +293,8 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||google.$cookie=DSID
 ||google.$cookie=UULE
 ||mc.yandex.ru^$cookie=yabs-sid
+||theedgesingapore.com^$cookie=frontend_id
+||theedgesingapore.com^$cookie=fb_event_id
 ||dennikn.sk^$cookie=browser_id
 ||ggmax.com.br^$cookie=gg-ads-session
 ||ggmax.com.br^$cookie=device
@@ -303,8 +305,6 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||oita-press.co.jp^$cookie=guid
 ||nikkei.com^$cookie=atlasId
 ||food.ru^$cookie=spid
-||food.ru^$cookie=foodrusid
-||gipfel.ru^$cookie=UniqAnalyticsId
 
 # ---- skipped_modifier_document: 15
 ||bongacams*.com/track?$document,image
