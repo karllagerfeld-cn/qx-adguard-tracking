@@ -1,15 +1,15 @@
 {
   "generator": "qx-adguard-tracking/anti-adblock",
-  "generated_at": "2026-11-19T07:15:44+00:00",
+  "generated_at": "2026-11-19T17:20:05+00:00",
   "psl_loaded": true,
   "sources": {
     "adblockqx": {
       "name": "217heidai/adblockfilters (adblockqx.conf)",
       "url": "https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf",
       "homepage": "https://github.com/217heidai/adblockfilters",
-      "bytes": 10257461,
-      "rules": 255255,
-      "new": 255255,
+      "bytes": 10294773,
+      "rules": 256180,
+      "new": 256180,
       "stats": {
         "skipped_invalid_domain": 56
       }
@@ -20,24 +20,24 @@
       "homepage": "https://github.com/privacy-protection-tools/anti-AD",
       "bytes": 3877408,
       "rules": 101832,
-      "new": 25016,
+      "new": 24968,
       "stats": {}
     }
   },
   "anti_adblock": {
-    "suffix": 277752,
+    "suffix": 278633,
     "wildcard": 0,
-    "total": 277752,
-    "shadowed_by_parent": 2461,
+    "total": 278633,
+    "shadowed_by_parent": 2459,
     "wildcard_shadowed": 0,
-    "refused_public_suffix": 58,
+    "refused_public_suffix": 56,
     "refused_shared_host": 0
   },
   "extra": {
     "tracking_source": "local:Tracking.list",
     "tracking_rules": 117926,
-    "suffix": 1046,
+    "suffix": 799,
     "wildcard": 73,
-    "total": 1119
+    "total": 872
   }
 }
