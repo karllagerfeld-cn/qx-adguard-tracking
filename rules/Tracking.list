@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-18 02:28:15 UTC
-# HOST-SUFFIX: 117829
+# UPDATED: 2026-11-19 01:54:18 UTC
+# HOST-SUFFIX: 117836
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117919
+# TOTAL: 117926
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -9085,6 +9085,7 @@ HOST-SUFFIX,ax.amnezia.org,reject
 HOST-SUFFIX,ax.dailyhelplocal.com,reject
 HOST-SUFFIX,axacqy.henderson.ru,reject
 HOST-SUFFIX,axb4.vivabox.it,reject
+HOST-SUFFIX,axcii.com,reject
 HOST-SUFFIX,axddzs.camping-and-co.com,reject
 HOST-SUFFIX,axdtpea.drmarino.ch,reject
 HOST-SUFFIX,axdxpa.finn.auto,reject
@@ -9757,6 +9758,7 @@ HOST-SUFFIX,benchlamp.com,reject
 HOST-SUFFIX,bendavenportpic.net.mydays.de,reject
 HOST-SUFFIX,beneficios.davivienda.hn,reject
 HOST-SUFFIX,beneficios.davivienda.sv,reject
+HOST-SUFFIX,benefitboys.com,reject
 HOST-SUFFIX,benefits.aon.com,reject
 HOST-SUFFIX,benefitssense.com,reject
 HOST-SUFFIX,bentengine.com,reject
@@ -11246,6 +11248,7 @@ HOST-SUFFIX,ca.ssl.holdmybeerconsulting.com,reject
 HOST-SUFFIX,ca.video-cdn.net,reject
 HOST-SUFFIX,ca4r3auto.veseywear.com,reject
 HOST-SUFFIX,caamcs.julipet.it,reject
+HOST-SUFFIX,cabstrategy.com,reject
 HOST-SUFFIX,cac.runna.com,reject
 HOST-SUFFIX,cache-ldschurch1.net.mydays.de,reject
 HOST-SUFFIX,cache.prebid-server.com,reject
@@ -13458,6 +13461,7 @@ HOST-SUFFIX,co.vaicore.xyz,reject
 HOST-SUFFIX,co8386c3.eulerian.io,reject
 HOST-SUFFIX,co932.coloradopolitics.com,reject
 HOST-SUFFIX,coalkitchen.com,reject
+HOST-SUFFIX,coalmerchants.com,reject
 HOST-SUFFIX,coastersim.com,reject
 HOST-SUFFIX,coatfood.com,reject
 HOST-SUFFIX,coavpecq.sklep.hellodogs.pl,reject
@@ -13509,6 +13513,7 @@ HOST-SUFFIX,col.yaencontre.com,reject
 HOST-SUFFIX,colad.au.willpowders.com,reject
 HOST-SUFFIX,coldbalance.com,reject
 HOST-SUFFIX,coldcallpro.com,reject
+HOST-SUFFIX,coldcrucible.com,reject
 HOST-SUFFIX,coleta-autoridade.cursosdoportal.com.br,reject
 HOST-SUFFIX,coleta.curcura.com.br,reject
 HOST-SUFFIX,coleta.suplementosgolfeto.com.br,reject
@@ -13914,6 +13919,7 @@ HOST-SUFFIX,comms.cision.com,reject
 HOST-SUFFIX,comms.hello.global.ntt,reject
 HOST-SUFFIX,comms.services.global.ntt,reject
 HOST-SUFFIX,comms.supplychain.nhs.uk,reject
+HOST-SUFFIX,commswap.com,reject
 HOST-SUFFIX,communicate.apcerls.com,reject
 HOST-SUFFIX,communicate.cision.ca,reject
 HOST-SUFFIX,communicate.cision.co.uk,reject
@@ -115099,6 +115105,7 @@ HOST-SUFFIX,webtraffic.mastercontrol.com,reject
 HOST-SUFFIX,webtrafficsource.com,reject
 HOST-SUFFIX,webts.adac.de,reject
 HOST-SUFFIX,webvitals.luxnet.ua,reject
+HOST-SUFFIX,webworksworld.com,reject
 HOST-SUFFIX,weco.gasteo.de,reject
 HOST-SUFFIX,weco.ilon.de,reject
 HOST-SUFFIX,weeb.weebystitches.com,reject

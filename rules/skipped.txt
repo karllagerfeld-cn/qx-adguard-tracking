@@ -31,7 +31,7 @@ hoy.tv#%#(()=>{const i=function(){};window.__uid2=window.__uid2||{},window.__uid
 @@||79423.analytics.edgekey.net^|
 @@||trackcmp.net^|
 
-# ---- skipped_exception_modifier: 2104
+# ---- skipped_exception_modifier: 2103
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
 @@$cookie=_pcus,domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 @@||hilton.com^$cookie=/^AMCVS?_.*AdobeOrg/
@@ -151,7 +151,7 @@ $removeparam=adsterra_clid
 $removeparam=adsterra_placement_id
 $removeparam=loclid
 
-# ---- skipped_inactive_condition: 219
+# ---- skipped_inactive_condition: 220
 nine.com.au#%#(()=>{window.tracking={setConfig(){},trackPage(){},trackVideoAutoFail(){}}})();
 nine.com.au#%#//scriptlet('prevent-element-src-loading', 'script', 'share.9cdn.net/share/long_cache/js/tracking/tracking')
 ||api.utorria.ru/api/v1/installer/integrator/cancel
@@ -331,7 +331,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||umami.$domain=~umami.is|~umami.recipes
 ||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com|lavazza.com|greenmangamingbundles.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au|lavazza.com
-||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|realtor.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com|mini.com.tr|theargus.co.uk|fakenhamtimes.co.uk|webmd.com
+||assets.adobedtm.com^$domain=rottentomatoes.com|mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it|intermiles.com|oxfordmail.co.uk|spiegel.de|hp.com|deutschepost.de|thebay.com|s.shufoo.net|tsn.ca|tabelog.com|newshub.co.nz|fredmeyer.com|viabcp.com|carsales.com.au|falabella.com|aarp.org|thehill.com|nzherald.co.nz|aia.com.ph|baynews9.com|thesaurus.com|dhc.co.jp|0101.co.jp|staples.com|rikunabi.com|directscout.recruit.co.jp|r-agent.com|sephora.com|chronicle.com|channelnewsasia.com|cnbc.com|bmw.hu|atu.de|songkick.com|worldshop.eu|t-mobile.com|philanthropy.com|otempo.com.br|webmotors.com.br|myglo.com.ua|meijer.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|edp24.co.uk|cloudflare.com|transfermarkt.com.tr|abbott.com|ubs.com|assets.adobedtm.com|eadt.co.uk|cineplex.com|samsung.com|mastercard.com|mini.com.tr|theargus.co.uk|fakenhamtimes.co.uk|webmd.com|sbs.com.au
 ||edge.fedy.io^$domain=ensonhaber.com
 ||dditsadn.com^$domain=livesex.com
 ||ader.naver.com^$domain=~search.naver.com,xmlhttprequest
@@ -423,7 +423,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||facebook.com/ajax/bz?*__req=$ping
 ||clck.dzen.ru/click/$ping
 
-# ---- skipped_modifier_redirect: 26
+# ---- skipped_modifier_redirect: 27
 ||apptentive.com^$redirect=nooptext
 ||apptimize.com^$redirect=nooptext,domain=~synchrony.com
 ||datametrical.com^$redirect=nooptext
@@ -446,9 +446,9 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||hsbcglobalcmb.sc.omtrdc.net/id?$redirect=nooptext,important,domain=business.hsbc.uk
 ||dpm.demdex.net/id$redirect=nooptext,important,domain=stuff.co.nz|bt.com|nhl.com|business.hsbc.uk
 ||google.com/log?$redirect=nooptext
+||googletagmanager.com/gtag/js$redirect=noopjs,domain=propertyguru.com.my
 ||api.taboola.com/2.0/json/*/recommendations.$redirect=nooptext,domain=azby.fmworld.net
 ||btloader.com/tag?$redirect=noopjs,domain=voici.fr
-||metrics.streaks.jp^$redirect=nooptext,xmlhttprequest
 
 # ---- skipped_modifier_referrerpolicy: 3
 ||id.x5.ru^$referrerpolicy=origin
@@ -458,7 +458,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 # ---- skipped_modifier_removeheader: 1
 ||tiktok.com/view/product/$removeheader=request:referer
 
-# ---- skipped_modifier_removeparam: 2160
+# ---- skipped_modifier_removeparam: 2158
 ||flugladen.de/checkout/metalanding$removeparam=subch
 ||flugladen.de/checkout/metalanding$removeparam=flow
 ||flugladen.de/checkout/metalanding$removeparam=upsell
