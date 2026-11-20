@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-19 17:20:09 UTC
+# UPDATED: 2026-11-20 07:04:11 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 799
+# HOST-SUFFIX: 795
 # HOST-WILDCARD: 73
-# TOTAL: 872
+# TOTAL: 868
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -150,7 +150,6 @@ HOST-SUFFIX,c.lypo-c.jp,reject
 HOST-SUFFIX,c1-stats.shopifysvc.com,reject
 HOST-SUFFIX,c783.fastcompany.com,reject
 HOST-SUFFIX,ca.video-cdn.net,reject
-HOST-SUFFIX,cabstrategy.com,reject
 HOST-SUFFIX,cafe-log.myshoplus.com,reject
 HOST-SUFFIX,candac.iridion.de,reject
 HOST-SUFFIX,capig.monologo.pl,reject
@@ -173,9 +172,7 @@ HOST-SUFFIX,cmap.alibaba.com,reject
 HOST-SUFFIX,cmstp.aluguemovement.com.br,reject
 HOST-SUFFIX,cnnx.link,reject
 HOST-SUFFIX,codes.royalad.pl,reject
-HOST-SUFFIX,coldcrucible.com,reject
 HOST-SUFFIX,collector.rn.de,reject
-HOST-SUFFIX,commswap.com,reject
 HOST-SUFFIX,conf.international.baidu.com,reject
 HOST-SUFFIX,confe.dc.oppomobile.com,reject
 HOST-SUFFIX,conff.dc.oppomobile.com,reject
@@ -741,7 +738,6 @@ HOST-SUFFIX,track.parentmood.com,reject
 HOST-SUFFIX,track.pingstart.com,reject
 HOST-SUFFIX,track.realtimeboard.com,reject
 HOST-SUFFIX,track.streak.ninja,reject
-HOST-SUFFIX,track.tcppu.com,reject
 HOST-SUFFIX,track.wildblue.com,reject
 HOST-SUFFIX,track2.tprg.ru,reject
 HOST-SUFFIX,tracker.ai.xiaomi.com,reject
