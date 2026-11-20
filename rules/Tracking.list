@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-19 01:54:18 UTC
-# HOST-SUFFIX: 117836
+# UPDATED: 2026-11-20 01:47:59 UTC
+# HOST-SUFFIX: 117844
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117926
+# TOTAL: 117934
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -13495,6 +13495,7 @@ HOST-SUFFIX,coffee.seducaoinvisivel.store,reject
 HOST-SUFFIX,coffeefire.net,reject
 HOST-SUFFIX,coffeesidehustle.com,reject
 HOST-SUFFIX,cofs.partscentre.co.uk,reject
+HOST-SUFFIX,cognitivlabs.com,reject
 HOST-SUFFIX,cogxmr.travelplanet.pl,reject
 HOST-SUFFIX,cohbjtqd.parfium.bg,reject
 HOST-SUFFIX,cohfp.chairish.com,reject
@@ -28470,6 +28471,7 @@ HOST-SUFFIX,formulaire.lecnfpt.fr,reject
 HOST-SUFFIX,forpci3.siege-corp.com,reject
 HOST-SUFFIX,fortbeach.com,reject
 HOST-SUFFIX,fortunatemark.com,reject
+HOST-SUFFIX,fortyninemaps.com,reject
 HOST-SUFFIX,forum.euvou.events,reject
 HOST-SUFFIX,forum.rottne.com,reject
 HOST-SUFFIX,forward.footballcamps.com,reject
@@ -38614,6 +38616,7 @@ HOST-SUFFIX,idbkfy.kango-roo.com,reject
 HOST-SUFFIX,idbnbt.strasburgo.co.jp,reject
 HOST-SUFFIX,idbus.trupeer.ai,reject
 HOST-SUFFIX,iddkr.portmeirion.com,reject
+HOST-SUFFIX,ideamornings.com,reject
 HOST-SUFFIX,ideas.nanawall.com,reject
 HOST-SUFFIX,idehe.tlfapparel.com,reject
 HOST-SUFFIX,identity.algomoneo.com,reject
@@ -43730,6 +43733,7 @@ HOST-SUFFIX,libs.pietroalencar.reconecte-se.ai,reject
 HOST-SUFFIX,licensinginsights.ascap.com,reject
 HOST-SUFFIX,lida.entyrecare.com,reject
 HOST-SUFFIX,lida.pflegewegweiser.ch,reject
+HOST-SUFFIX,lidsmarket.com,reject
 HOST-SUFFIX,liecso.e-himart.co.kr,reject
 HOST-SUFFIX,lieudetravail.ricoh.fr,reject
 HOST-SUFFIX,lif.madimelive.com,reject
@@ -54420,6 +54424,7 @@ HOST-SUFFIX,marten.supernero.app,reject
 HOST-SUFFIX,marts.auctmarts.com,reject
 HOST-SUFFIX,mas.hronboard.me,reject
 HOST-SUFFIX,masau.audivorce.com.au,reject
+HOST-SUFFIX,mascguys.com,reject
 HOST-SUFFIX,maschine.bengs-modellbau.de,reject
 HOST-SUFFIX,maskedadmin.com,reject
 HOST-SUFFIX,masseurexpress.com,reject
@@ -63604,6 +63609,7 @@ HOST-SUFFIX,outdoorsoil.com,reject
 HOST-SUFFIX,outdoorthingy.com,reject
 HOST-SUFFIX,outerwords.com,reject
 HOST-SUFFIX,outletpeople.com,reject
+HOST-SUFFIX,outpro.net,reject
 HOST-SUFFIX,outreach.bilh.org,reject
 HOST-SUFFIX,outreach.connectednation.org,reject
 HOST-SUFFIX,outreach.crossref.org,reject
@@ -67490,6 +67496,7 @@ HOST-SUFFIX,railwayreason.com,reject
 HOST-SUFFIX,rain.franzy.com,reject
 HOST-SUFFIX,rain.journey.com,reject
 HOST-SUFFIX,rainbow-prod-jdlog.ldoverseas.com,reject
+HOST-SUFFIX,rainbow.sheepesports.com,reject
 HOST-SUFFIX,raintwig.com,reject
 HOST-SUFFIX,rainyhand.com,reject
 HOST-SUFFIX,rainyrule.com,reject
@@ -116884,6 +116891,7 @@ HOST-SUFFIX,yoiku-sub.yoiku.support,reject
 HOST-SUFFIX,yojcpv.vivobarefoot.com,reject
 HOST-SUFFIX,yolo.philipbjorge.com,reject
 HOST-SUFFIX,yottlyscript.com,reject
+HOST-SUFFIX,youanonymous.com,reject
 HOST-SUFFIX,youcandrawanything.com,reject
 HOST-SUFFIX,youguess.stdseek.com,reject
 HOST-SUFFIX,your.choq.com,reject
