@@ -1,26 +1,26 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-20T01:47:57+00:00",
+  "generated_at": "2026-11-21T01:34:20+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 15263358,
-      "sha256": "457c3114b4006e44",
-      "lines": 445307,
+      "bytes": 15263832,
+      "sha256": "2297333fc33ac99a",
+      "lines": 445322,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 118006,
+        "host_suffix": 118011,
         "host_wildcard": 217,
         "platform_hint": 321,
-        "rewrite": 4887,
-        "skipped_cosmetic_or_scriptlet": 798,
+        "rewrite": 4892,
+        "skipped_cosmetic_or_scriptlet": 800,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2003,
         "skipped_exception_unsupported": 334,
@@ -39,7 +39,7 @@
         "skipped_modifier__xmlhttprequest": 1,
         "skipped_modifier_all": 37,
         "skipped_modifier_app": 28,
-        "skipped_modifier_cookie": 568,
+        "skipped_modifier_cookie": 569,
         "skipped_modifier_document": 1,
         "skipped_modifier_domain": 108,
         "skipped_modifier_image": 70,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 117934,
-      "bytes": 4915346
+      "rules": 117939,
+      "bytes": 4915540
     },
     "Tracking.rewrite.conf": {
-      "rules": 4857,
-      "bytes": 558695,
-      "mitm_hosts": 3827
+      "rules": 4862,
+      "bytes": 559151,
+      "mitm_hosts": 3829
     }
   },
   "warnings": [],
@@ -145,7 +145,7 @@
     "note": "路径规则的主机已被分流整域拦截，重写不增加任何覆盖"
   },
   "skipped_reasons": {
-    "skipped_cosmetic_or_scriptlet": 798,
+    "skipped_cosmetic_or_scriptlet": 800,
     "skipped_exception_bad_domain": 2,
     "skipped_exception_modifier": 2103,
     "skipped_exception_unsupported": 334,
@@ -165,7 +165,7 @@
     "skipped_modifier__xmlhttprequest": 1,
     "skipped_modifier_all": 37,
     "skipped_modifier_app": 28,
-    "skipped_modifier_cookie": 568,
+    "skipped_modifier_cookie": 569,
     "skipped_modifier_document": 15,
     "skipped_modifier_domain": 108,
     "skipped_modifier_font": 1,

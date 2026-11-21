@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-20 01:47:59 UTC
-# HOST-SUFFIX: 117844
+# UPDATED: 2026-11-21 01:34:22 UTC
+# HOST-SUFFIX: 117849
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117934
+# TOTAL: 117939
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -674,6 +674,7 @@ HOST-SUFFIX,a.maxxhotel.com,reject
 HOST-SUFFIX,a.medtronic.com,reject
 HOST-SUFFIX,a.meinmpp.de,reject
 HOST-SUFFIX,a.meloja.com.br,reject
+HOST-SUFFIX,a.menards.com,reject
 HOST-SUFFIX,a.mercuriurval.com,reject
 HOST-SUFFIX,a.mi-clos.com,reject
 HOST-SUFFIX,a.mi-imc.com,reject
@@ -13883,6 +13884,7 @@ HOST-SUFFIX,college.business.oregonstate.edu,reject
 HOST-SUFFIX,college.marketingcube.com.au,reject
 HOST-SUFFIX,coloradoserves.com,reject
 HOST-SUFFIX,colorandnoise.com,reject
+HOST-SUFFIX,colorfilter.net,reject
 HOST-SUFFIX,colorfulneon.com,reject
 HOST-SUFFIX,colorfulpet.com,reject
 HOST-SUFFIX,coloroptimizer.com,reject
@@ -26537,6 +26539,7 @@ HOST-SUFFIX,event-collector.prd.data.s.joyn.de,reject
 HOST-SUFFIX,event-dot-learning-piano.appspot.com,reject
 HOST-SUFFIX,event-dot-procolor-backend.appspot.com,reject
 HOST-SUFFIX,event-gateway.data.karrotmarket.com,reject
+HOST-SUFFIX,event-ingestion.yazio-analytics.com,reject
 HOST-SUFFIX,event-log-api-data-platform-data-lake-prod.gryphline.com,reject
 HOST-SUFFIX,event-log-api-ipv6.gryphline.com,reject
 HOST-SUFFIX,event-portal.dailyinnovation.biz,reject
@@ -54427,6 +54430,7 @@ HOST-SUFFIX,masau.audivorce.com.au,reject
 HOST-SUFFIX,mascguys.com,reject
 HOST-SUFFIX,maschine.bengs-modellbau.de,reject
 HOST-SUFFIX,maskedadmin.com,reject
+HOST-SUFFIX,masondown.com,reject
 HOST-SUFFIX,masseurexpress.com,reject
 HOST-SUFFIX,massivemark.com,reject
 HOST-SUFFIX,mastatic.yayoi-kk.co.jp,reject
@@ -61683,6 +61687,7 @@ HOST-SUFFIX,nishanvai.yourchoice.com.bd,reject
 HOST-SUFFIX,nisii.resiliencelabo.com,reject
 HOST-SUFFIX,nitcnn.deai-sp.com,reject
 HOST-SUFFIX,nitoleecrai.anunciojuridico.com.br,reject
+HOST-SUFFIX,nitrojiveband.com,reject
 HOST-SUFFIX,njbhp.promixnutrition.com,reject
 HOST-SUFFIX,njbrwf.pilatesshop.it,reject
 HOST-SUFFIX,njcchu.flowercampings.com,reject
@@ -63432,6 +63437,7 @@ HOST-SUFFIX,order.weider.de,reject
 HOST-SUFFIX,order.workweargiant.co.uk,reject
 HOST-SUFFIX,orderdata.tryorder.com,reject
 HOST-SUFFIX,orderjumper.com,reject
+HOST-SUFFIX,ordinalzero.com,reject
 HOST-SUFFIX,ordpmx.victorianplumbing.co.uk,reject
 HOST-SUFFIX,oreab.mycubesafe.com,reject
 HOST-SUFFIX,ores-fixed.mno.link,reject
@@ -67525,6 +67531,7 @@ HOST-SUFFIX,rank.xn--q9js3lht3ch8cv8a227v79jxl6ewya3lo91swn7c.com,reject
 HOST-SUFFIX,rankaddict.com,reject
 HOST-SUFFIX,ranlq.homedics.com,reject
 HOST-SUFFIX,rannat.varusteleka.com,reject
+HOST-SUFFIX,rapidscraper.com,reject
 HOST-SUFFIX,rarelyfans.com,reject
 HOST-SUFFIX,raresummer.com,reject
 HOST-SUFFIX,rarnational.raisingareader.org,reject
@@ -102534,7 +102541,6 @@ HOST-SUFFIX,sxs.7dmc.ae,reject
 HOST-SUFFIX,sxvkhq.downlights.co.uk,reject
 HOST-SUFFIX,sxwxswg8z1xe.www.arnowebtv.com,reject
 HOST-SUFFIX,sxyemx.micollarconnombre.com,reject
-HOST-SUFFIX,sy.ameba.jp,reject
 HOST-SUFFIX,sy.nicdecor.com,reject
 HOST-SUFFIX,sy1.nicdecor.com,reject
 HOST-SUFFIX,sydcxk.epipla1.gr,reject
@@ -116633,7 +116639,6 @@ HOST-SUFFIX,yatr.ru,reject
 HOST-SUFFIX,yawsyi.freedomliftsystems.com,reject
 HOST-SUFFIX,yawxae.footpatrol.com,reject
 HOST-SUFFIX,yaxlek.dandy-house.co.jp,reject
-HOST-SUFFIX,yazio-analytics.com,reject
 HOST-SUFFIX,yazzuf.joyn.de,reject
 HOST-SUFFIX,ybczal.bitterliebe.com,reject
 HOST-SUFFIX,ybenbo.larachristie.jp,reject
