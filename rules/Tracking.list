@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-21 01:34:22 UTC
-# HOST-SUFFIX: 117849
+# UPDATED: 2026-11-22 00:23:14 UTC
+# HOST-SUFFIX: 117858
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117939
+# TOTAL: 117948
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -38044,6 +38044,7 @@ HOST-SUFFIX,host82ss.net.mydays.de,reject
 HOST-SUFFIX,hostchutney.com,reject
 HOST-SUFFIX,hotel-marketing.hrs.com,reject
 HOST-SUFFIX,hotpotato.karmawellnesskitchen.com,reject
+HOST-SUFFIX,housewheels.com,reject
 HOST-SUFFIX,houston-content.cresa.com,reject
 HOST-SUFFIX,houston.advgo.net,reject
 HOST-SUFFIX,hoverfly.cdengine.co.uk,reject
@@ -41278,6 +41279,7 @@ HOST-SUFFIX,ja-jp.siemensplmevents.com,reject
 HOST-SUFFIX,jachd.bioliteenergy.com,reject
 HOST-SUFFIX,jackal.jakerunzer.com,reject
 HOST-SUFFIX,jackal.thetie.io,reject
+HOST-SUFFIX,jackalsmovie.com,reject
 HOST-SUFFIX,jackpot.cashoomo.com,reject
 HOST-SUFFIX,jacky.net.mydays.de,reject
 HOST-SUFFIX,jacsg.belaro.ro,reject
@@ -51546,6 +51548,7 @@ HOST-SUFFIX,logistics.dbschenker.com,reject
 HOST-SUFFIX,logistics.osmworldwide.com,reject
 HOST-SUFFIX,loglady.publicbroadcasting.net,reject
 HOST-SUFFIX,lognxc.needen.fr,reject
+HOST-SUFFIX,logomet.com,reject
 HOST-SUFFIX,logperf.vnexpress.net,reject
 HOST-SUFFIX,logql.yahoo.co.jp,reject
 HOST-SUFFIX,logr-ingest.com,reject
@@ -65125,6 +65128,7 @@ HOST-SUFFIX,pista.pecasmagicas.com.br,reject
 HOST-SUFFIX,pitaya.devinue.com.br,reject
 HOST-SUFFIX,pitdog.frsperformance.com.br,reject
 HOST-SUFFIX,pitkinvstatefarmgeneralinsurancecompany.e.epiqnotification.com,reject
+HOST-SUFFIX,pitmanmusic.com,reject
 HOST-SUFFIX,piu.alldent-zahnzentrum-bremen.de,reject
 HOST-SUFFIX,pivimc.unitrailer.pl,reject
 HOST-SUFFIX,piwik.agglo-larochelle.fr,reject
@@ -67681,6 +67685,7 @@ HOST-SUFFIX,realtimeanalytics.yext.com,reject
 HOST-SUFFIX,realtimely.io,reject
 HOST-SUFFIX,realtors.eq.delwebb.com,reject
 HOST-SUFFIX,reaonq.xn--hdks770u8f0a8dvzft.net,reject
+HOST-SUFFIX,rebatecircle.com,reject
 HOST-SUFFIX,rebelclover.com,reject
 HOST-SUFFIX,rebelhen.com,reject
 HOST-SUFFIX,rebelswing.com,reject
@@ -67697,6 +67702,7 @@ HOST-SUFFIX,recenc.com,reject
 HOST-SUFFIX,recepcao.ranchodasdunas.com.br,reject
 HOST-SUFFIX,receptivereaction.com,reject
 HOST-SUFFIX,recessrain.com,reject
+HOST-SUFFIX,recessremote.com,reject
 HOST-SUFFIX,rechenschieber.soccerdonna.de,reject
 HOST-SUFFIX,rechenschieber.transfermarkt.at,reject
 HOST-SUFFIX,rechenschieber.transfermarkt.be,reject
@@ -67759,6 +67765,7 @@ HOST-SUFFIX,redbricksoap.com,reject
 HOST-SUFFIX,reddwarf.till-sanders.de,reject
 HOST-SUFFIX,redexecs.com,reject
 HOST-SUFFIX,redirect.rottne.com,reject
+HOST-SUFFIX,redmaceta.com,reject
 HOST-SUFFIX,redmillgroup.com,reject
 HOST-SUFFIX,redt.bagatt.com,reject
 HOST-SUFFIX,redt.bugatti-shoes.com,reject
@@ -67790,6 +67797,7 @@ HOST-SUFFIX,redtrack.weeshop.dk,reject
 HOST-SUFFIX,reduxcms-sgtm-staging.1800gotjunk.com,reject
 HOST-SUFFIX,reduxcms-sgtm.1800gotjunk.com,reject
 HOST-SUFFIX,redwingforbusiness.redwingsafety.com,reject
+HOST-SUFFIX,reelboat.com,reject
 HOST-SUFFIX,reelcombat.com,reject
 HOST-SUFFIX,reeokx.reima.com,reject
 HOST-SUFFIX,reerac.resume.io,reject
@@ -70582,6 +70590,7 @@ HOST-SUFFIX,sandboxbid.com,reject
 HOST-SUFFIX,sandboxsectrk.veracity.com,reject
 HOST-SUFFIX,sanders.sanderswellnesslayton.com,reject
 HOST-SUFFIX,sandpad.bushheritage.org.au,reject
+HOST-SUFFIX,sandshredder.com,reject
 HOST-SUFFIX,sandstrophies.com,reject
 HOST-SUFFIX,sandypocket.com,reject
 HOST-SUFFIX,sandytaco.com,reject
