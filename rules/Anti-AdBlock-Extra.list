@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-22 06:37:18 UTC
+# UPDATED: 2026-11-22 16:13:34 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 779
+# HOST-SUFFIX: 774
 # HOST-WILDCARD: 73
-# TOTAL: 852
+# TOTAL: 847
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -441,17 +441,12 @@ HOST-SUFFIX,oldevent.togothermany.com,reject
 HOST-SUFFIX,omapi.fangraphs.com,reject
 HOST-SUFFIX,onegg.site,reject
 HOST-SUFFIX,onetag.co.kr,reject
-HOST-SUFFIX,ordinalzero.com,reject
 HOST-SUFFIX,otr.preferences.pilotcompany.com,reject
 HOST-SUFFIX,overseauspider.yuanshen.com,reject
 HOST-SUFFIX,owa.any.run,reject
 HOST-SUFFIX,p.ejs.dev,reject
 HOST-SUFFIX,p.victoria.dev,reject
-HOST-SUFFIX,p123.fansided.com,reject
-HOST-SUFFIX,p123.mentalfloss.com,reject
-HOST-SUFFIX,p123.theplayerstribune.com,reject
 HOST-SUFFIX,p2trc.emv2.com,reject
-HOST-SUFFIX,p329.si.com,reject
 HOST-SUFFIX,pa-stats.encore.dev,reject
 HOST-SUFFIX,pa.tns-ua.com,reject
 HOST-SUFFIX,pangle-b.io,reject
