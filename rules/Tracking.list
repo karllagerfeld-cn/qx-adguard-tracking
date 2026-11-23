@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-22 00:23:14 UTC
-# HOST-SUFFIX: 117858
+# UPDATED: 2026-11-23 00:56:28 UTC
+# HOST-SUFFIX: 117867
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 117948
+# TOTAL: 117957
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -70266,6 +70266,7 @@ HOST-SUFFIX,safemoneycard-ss.olladeals.com,reject
 HOST-SUFFIX,safercarsearch.com,reject
 HOST-SUFFIX,saffronrefuge.com,reject
 HOST-SUFFIX,sage.redavid.com,reject
+HOST-SUFFIX,sagemosaicart.com,reject
 HOST-SUFFIX,sagetrack.net,reject
 HOST-SUFFIX,sagor.healthyeatsbd.com,reject
 HOST-SUFFIX,sagor.ovation-designs.com,reject
@@ -84113,6 +84114,7 @@ HOST-SUFFIX,social.eulerian.io,reject
 HOST-SUFFIX,social.forddirectdealers.com,reject
 HOST-SUFFIX,social.hellogov.com,reject
 HOST-SUFFIX,social.oomi.co.uk,reject
+HOST-SUFFIX,socialbackyard.com,reject
 HOST-SUFFIX,sociallyscared.com,reject
 HOST-SUFFIX,socialsend.net,reject
 HOST-SUFFIX,society.discoverylandco.com,reject
@@ -101138,6 +101140,7 @@ HOST-SUFFIX,stehly.justfashionnow.com,reject
 HOST-SUFFIX,stehz.bullybunches.ca,reject
 HOST-SUFFIX,stel.telegraaf.nl,reject
 HOST-SUFFIX,stellarbalms.com,reject
+HOST-SUFFIX,stellarcoded.com,reject
 HOST-SUFFIX,stellarduel.com,reject
 HOST-SUFFIX,stem.cellmedicine.com,reject
 HOST-SUFFIX,stem.chiveceramics.com,reject
@@ -102342,6 +102345,7 @@ HOST-SUFFIX,swebstats.us.aimia.com,reject
 HOST-SUFFIX,swebtraffic.executiveboard.com,reject
 HOST-SUFFIX,sweden.foreo.com,reject
 HOST-SUFFIX,sweeps.la-z-boy.com,reject
+HOST-SUFFIX,sweetbeat.net,reject
 HOST-SUFFIX,sweetslope.com,reject
 HOST-SUFFIX,sweetsoul.net,reject
 HOST-SUFFIX,swellstocking.com,reject
@@ -102601,6 +102605,7 @@ HOST-SUFFIX,system.affiliate-marketing-hamburg.de,reject
 HOST-SUFFIX,system.j5media.de,reject
 HOST-SUFFIX,system.nefiber.com,reject
 HOST-SUFFIX,system.netsalesmedia.pl,reject
+HOST-SUFFIX,systemone.net,reject
 HOST-SUFFIX,systemssummit.com,reject
 HOST-SUFFIX,sytm.ritualdeterra.com,reject
 HOST-SUFFIX,sytuzk.nissanvimontlaval.com,reject
@@ -103599,6 +103604,7 @@ HOST-SUFFIX,ta.terre-ambre.fr,reject
 HOST-SUFFIX,ta.trs.cn,reject
 HOST-SUFFIX,tabcarts.com,reject
 HOST-SUFFIX,tabcp.tryshavest.com,reject
+HOST-SUFFIX,tableheads.com,reject
 HOST-SUFFIX,tableleaders.com,reject
 HOST-SUFFIX,tacking.mehmanfoodbd.com,reject
 HOST-SUFFIX,tackytrains.com,reject
@@ -105173,6 +105179,7 @@ HOST-SUFFIX,tenis.antolie.com.br,reject
 HOST-SUFFIX,tennis.goatt.fr,reject
 HOST-SUFFIX,tennistie.com,reject
 HOST-SUFFIX,tentflooring.biljax.com,reject
+HOST-SUFFIX,tentpick.com,reject
 HOST-SUFFIX,teotam.mijnnaamketting.nl,reject
 HOST-SUFFIX,tepshared.tep.test.ajo.adobe.com,reject
 HOST-SUFFIX,tepwxt.bonescoffee.com,reject
@@ -105550,6 +105557,7 @@ HOST-SUFFIX,timsinsider.loyalty.timhortons.ca,reject
 HOST-SUFFIX,timult.net.mydays.de,reject
 HOST-SUFFIX,tingting.zcraftops.com,reject
 HOST-SUFFIX,tinybluewhale.com,reject
+HOST-SUFFIX,tinybodega.com,reject
 HOST-SUFFIX,tinyswans.com,reject
 HOST-SUFFIX,tinytendency.com,reject
 HOST-SUFFIX,tioztp.unisportstore.nl,reject
@@ -115550,6 +115558,7 @@ HOST-SUFFIX,wqkygg.maschinensucher.de,reject
 HOST-SUFFIX,wqs4.destinia.pt,reject
 HOST-SUFFIX,wqudcv.finnishdesignshop.com,reject
 HOST-SUFFIX,wqwkta.casadopapel.com.br,reject
+HOST-SUFFIX,wrathsecrets.com,reject
 HOST-SUFFIX,wrc.shinhancard.com,reject
 HOST-SUFFIX,wrdprs.stape.marketing,reject
 HOST-SUFFIX,wren.camdenmecc.org.uk,reject
