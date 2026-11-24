@@ -1,6 +1,6 @@
 # skipped rules from spyware + trackparam (see report.json)
 #
-# ---- skipped_cosmetic_or_scriptlet: 800
+# ---- skipped_cosmetic_or_scriptlet: 802
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.pushState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.replaceState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 www.youtube.com#%#//scriptlet('prevent-xhr', '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
@@ -31,7 +31,7 @@ hoy.tv#%#(()=>{const i=function(){};window.__uid2=window.__uid2||{},window.__uid
 @@||79423.analytics.edgekey.net^|
 @@||trackcmp.net^|
 
-# ---- skipped_exception_modifier: 2103
+# ---- skipped_exception_modifier: 2104
 @@||nlog.naver.com/n|$domain=search.naver.com|www.naver.com
 @@$cookie=_pcus,domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 @@||hilton.com^$cookie=/^AMCVS?_.*AdobeOrg/
@@ -590,7 +590,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||ubt.tracking.shopee.
 ||taplytics-umami.grubhub.com
 
-# ---- skipped_plain_pattern: 309607
+# ---- skipped_plain_pattern: 333125
 [$path=/edmredir.php]mobile01.com#%#//scriptlet('trusted-replace-node-text', 'script', '/sendOfflineEvent[\s\S]*?window\.location\.href/', '/(window\.dataLayer[\s\S]*?sendOfflineEvent[\s\S]*?(window.location.href = [\s\S]*?;))/', '$2$1')
 [$path=/search]ya.ru,yandex.*#%#//scriptlet('remove-attr', 'data-counter', '.serp-list a[href]')
 /.*/$permissions=join-ad-interest-group=(),document
