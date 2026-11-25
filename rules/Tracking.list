@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-24 04:50:18 UTC
-# HOST-SUFFIX: 120776
+# UPDATED: 2026-11-25 03:34:18 UTC
+# HOST-SUFFIX: 120779
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 120866
+# TOTAL: 120869
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -41044,6 +41044,7 @@ HOST-SUFFIX,ingest.m2catalyst.com,reject
 HOST-SUFFIX,ingest.make.rvohealth.com,reject
 HOST-SUFFIX,ingest.metzler-electronics.com,reject
 HOST-SUFFIX,ingest.skarb.work,reject
+HOST-SUFFIX,ingest.t3.codes,reject
 HOST-SUFFIX,ingest.webcol.sdp.peacocktv.com,reject
 HOST-SUFFIX,ingestion.webanalytics.italia.it,reject
 HOST-SUFFIX,ingress.linktr.ee,reject
@@ -41735,6 +41736,7 @@ HOST-SUFFIX,iviea.hotelcollectionofficial.com.br,reject
 HOST-SUFFIX,ivkrxsnn.thebugmanfraservalley.com,reject
 HOST-SUFFIX,ivmevd.vespa.com,reject
 HOST-SUFFIX,ivmwbl.hear.com,reject
+HOST-SUFFIX,ivoryandcrow.com,reject
 HOST-SUFFIX,ivpvb.sunriverhoney.com,reject
 HOST-SUFFIX,ivqoc.eatzeats.com,reject
 HOST-SUFFIX,ivrnfvlcgubm.www.cefirates.com,reject
@@ -44369,6 +44371,7 @@ HOST-SUFFIX,lighterthinnerstronger.fiber-line.com,reject
 HOST-SUFFIX,lighthouse.edoinc.com,reject
 HOST-SUFFIX,lightstep.medium.systems,reject
 HOST-SUFFIX,lighttalon.com,reject
+HOST-SUFFIX,lightwars.com,reject
 HOST-SUFFIX,ligxyv.hackers.co.kr,reject
 HOST-SUFFIX,lijhi.unclereco.com,reject
 HOST-SUFFIX,likethedog.com,reject
