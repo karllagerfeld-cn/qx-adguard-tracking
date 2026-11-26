@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-25 03:34:18 UTC
-# HOST-SUFFIX: 120779
+# UPDATED: 2026-11-26 02:53:07 UTC
+# HOST-SUFFIX: 120793
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 120869
+# TOTAL: 120883
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -5075,6 +5075,7 @@ HOST-SUFFIX,analytics.developer.riotgames.com,reject
 HOST-SUFFIX,analytics.devshivan.com,reject
 HOST-SUFFIX,analytics.dga.org,reject
 HOST-SUFFIX,analytics.diatelos.com,reject
+HOST-SUFFIX,analytics.did.kr,reject
 HOST-SUFFIX,analytics.digiplace.site,reject
 HOST-SUFFIX,analytics.digitaleyes.ai,reject
 HOST-SUFFIX,analytics.digitalpfizer.com,reject
@@ -9182,6 +9183,7 @@ HOST-SUFFIX,axcii.com,reject
 HOST-SUFFIX,axddzs.camping-and-co.com,reject
 HOST-SUFFIX,axdtpea.drmarino.ch,reject
 HOST-SUFFIX,axdxpa.finn.auto,reject
+HOST-SUFFIX,axedint.com,reject
 HOST-SUFFIX,axentis.arclogics.com,reject
 HOST-SUFFIX,axhlxshmej.knowledgecottonapparel.com,reject
 HOST-SUFFIX,axhlxshmej.knowledgecottonapparel.de,reject
@@ -12972,6 +12974,7 @@ HOST-SUFFIX,choicebump.com,reject
 HOST-SUFFIX,chomp-staging-pay.net.jumia.com.gh,reject
 HOST-SUFFIX,choose.405dentalaesthetics.com,reject
 HOST-SUFFIX,choose.adelaide.edu.au,reject
+HOST-SUFFIX,choosehobby.com,reject
 HOST-SUFFIX,choymp.pooldawg.com,reject
 HOST-SUFFIX,chpspb.bubbleroom.fi,reject
 HOST-SUFFIX,chqte.suncloudoptics.com,reject
@@ -13204,6 +13207,7 @@ HOST-SUFFIX,cleargit.com,reject
 HOST-SUFFIX,clearviewcrm.softrek.com,reject
 HOST-SUFFIX,clebez.paprika-shopping.be,reject
 HOST-SUFFIX,cleedm.pittmandavis.com,reject
+HOST-SUFFIX,clerk-telemetry.com,reject
 HOST-SUFFIX,clesor.uoecollection.com,reject
 HOST-SUFFIX,clhvo.yolotek.com,reject
 HOST-SUFFIX,clhzet.ubierzswojesciany.pl,reject
@@ -23759,6 +23763,7 @@ HOST-SUFFIX,dollarthrill.com,reject
 HOST-SUFFIX,dolmxo.workport.co.jp,reject
 HOST-SUFFIX,dolphin.brandname.tech,reject
 HOST-SUFFIX,dolphin.sfelc.com,reject
+HOST-SUFFIX,dolphinplate.com,reject
 HOST-SUFFIX,dolphinsrule.com,reject
 HOST-SUFFIX,dom.123zap.com.br,reject
 HOST-SUFFIX,dom.domorebetter.ie,reject
@@ -23822,6 +23827,7 @@ HOST-SUFFIX,download-4-8.net.mydays.de,reject
 HOST-SUFFIX,download-stats.mozilla.org,reject
 HOST-SUFFIX,download.createyournextcustomer.com,reject
 HOST-SUFFIX,download.dnv.com,reject
+HOST-SUFFIX,download.gameanalytics.com,reject
 HOST-SUFFIX,download.mail.net.zooroyal.at,reject
 HOST-SUFFIX,downloads.advancedtech.com,reject
 HOST-SUFFIX,downloads.coface.com,reject
@@ -23981,6 +23987,7 @@ HOST-SUFFIX,dsgdsgdsg.nordicoil.nl,reject
 HOST-SUFFIX,dsgigk.pocketsalad.co.kr,reject
 HOST-SUFFIX,dsgsvc.eneto.com,reject
 HOST-SUFFIX,dsgsvc.wattano.de,reject
+HOST-SUFFIX,dsh-otel-collector.deepseeksvc.com,reject
 HOST-SUFFIX,dshcej.aosom.co.uk,reject
 HOST-SUFFIX,dsifi.toms.com,reject
 HOST-SUFFIX,dslji.haleolabs.com,reject
@@ -28252,6 +28259,7 @@ HOST-SUFFIX,film.ichiban-ninki.com,reject
 HOST-SUFFIX,film.karada-tukuru.com,reject
 HOST-SUFFIX,film.netabare.wiki,reject
 HOST-SUFFIX,film.usuge-stop.com,reject
+HOST-SUFFIX,filmcomm.net,reject
 HOST-SUFFIX,filmmkt.inmueblesanzuz.com,reject
 HOST-SUFFIX,filtercutter.com,reject
 HOST-SUFFIX,fimil.meatnbone.com,reject
@@ -30510,6 +30518,7 @@ HOST-SUFFIX,ghosv.goodgames.com.au,reject
 HOST-SUFFIX,ghp.adp.ca,reject
 HOST-SUFFIX,ghrnbw.avocadostore.de,reject
 HOST-SUFFIX,ghrzlu.skechers.com.tr,reject
+HOST-SUFFIX,ghtinc.com,reject
 HOST-SUFFIX,ghupv.lascana.com,reject
 HOST-SUFFIX,ghvha.thunderlaserusa.com,reject
 HOST-SUFFIX,ghwkuv.lagirl.co.kr,reject
@@ -103591,6 +103600,7 @@ HOST-SUFFIX,stmfwnd.finestrewnd.it,reject
 HOST-SUFFIX,stms.53.com,reject
 HOST-SUFFIX,stms.newline53.com,reject
 HOST-SUFFIX,stms.transforminglives.co.uk,reject
+HOST-SUFFIX,stmtag.ru,reject
 HOST-SUFFIX,stmuyqht.smiletrain.org,reject
 HOST-SUFFIX,stmzj.pelicanhydration.com,reject
 HOST-SUFFIX,stnt.express-scripts.com,reject
@@ -106014,6 +106024,7 @@ HOST-SUFFIX,tag.applytoweld.com,reject
 HOST-SUFFIX,tag.aromatico.de,reject
 HOST-SUFFIX,tag.atasunoptik.com.tr,reject
 HOST-SUFFIX,tag.aticdn.net,reject
+HOST-SUFFIX,tag.atom.gamedistribution.com,reject
 HOST-SUFFIX,tag.aumago.com,reject
 HOST-SUFFIX,tag.b-sync.ch,reject
 HOST-SUFFIX,tag.beyondcarat.com,reject
@@ -107974,6 +107985,7 @@ HOST-SUFFIX,time.metimespain.com,reject
 HOST-SUFFIX,time.net.anwalt.de,reject
 HOST-SUFFIX,timecrossed.com,reject
 HOST-SUFFIX,timelessyes.com,reject
+HOST-SUFFIX,timeprince.com,reject
 HOST-SUFFIX,timexmetric.talhatonmoy.com,reject
 HOST-SUFFIX,timing.whenandhowagency.com,reject
 HOST-SUFFIX,timit.mno.link,reject
@@ -110242,6 +110254,7 @@ HOST-SUFFIX,track.dictionary.com,reject
 HOST-SUFFIX,track.dictum-gartenwerkzeug.de,reject
 HOST-SUFFIX,track.dictum-handwerksgalerie.de,reject
 HOST-SUFFIX,track.dictum-shop.de,reject
+HOST-SUFFIX,track.did.kr,reject
 HOST-SUFFIX,track.die-gams.info,reject
 HOST-SUFFIX,track.diethackz.com,reject
 HOST-SUFFIX,track.difaty.com.br,reject
@@ -111063,6 +111076,7 @@ HOST-SUFFIX,tracker.anandtech.com,reject
 HOST-SUFFIX,tracker.antartidaarcondicionado.com.br,reject
 HOST-SUFFIX,tracker.arc.io,reject
 HOST-SUFFIX,tracker.azet.sk,reject
+HOST-SUFFIX,tracker.beam.remp.startitup.sk,reject
 HOST-SUFFIX,tracker.bigl.ua,reject
 HOST-SUFFIX,tracker.bkk24.de,reject
 HOST-SUFFIX,tracker.bt.uol.com.br,reject

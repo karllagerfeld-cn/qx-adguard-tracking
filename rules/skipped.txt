@@ -563,7 +563,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||link.technologyadvice.com/_me|$xmlhttprequest
 ||erli.pl/*/xhr/b/s|$xmlhttprequest
 
-# ---- skipped_no_separator: 68
+# ---- skipped_no_separator: 69
 ||stat.tiara.
 ||track.tiara.
 ||logs.juspay.in
@@ -590,7 +590,7 @@ design.penpot.app#@%#//scriptlet('no-protected-audience')
 ||ubt.tracking.shopee.
 ||taplytics-umami.grubhub.com
 
-# ---- skipped_plain_pattern: 333125
+# ---- skipped_plain_pattern: 333126
 [$path=/edmredir.php]mobile01.com#%#//scriptlet('trusted-replace-node-text', 'script', '/sendOfflineEvent[\s\S]*?window\.location\.href/', '/(window\.dataLayer[\s\S]*?sendOfflineEvent[\s\S]*?(window.location.href = [\s\S]*?;))/', '$2$1')
 [$path=/search]ya.ru,yandex.*#%#//scriptlet('remove-attr', 'data-counter', '.serp-list a[href]')
 /.*/$permissions=join-ad-interest-group=(),document
@@ -684,11 +684,10 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||aizhantj.com*/tjpv/?cc=
 ||users.videasy.*/api/track
 
-# ---- skipped_third_party: 2900
+# ---- skipped_third_party: 2899
 ||trueanthem.com^$third-party
 ||myweb3id.io^$third-party
 ||adtasukaru.com^$third-party
-||did.kr^$third-party
 ||trackhaven.com^$third-party
 ||gaconnector.com^$third-party
 ||xstats.st^$third-party
@@ -710,6 +709,7 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||cdn.moengage.com^$third-party
 ||rapid-cdn.yottaa.com^$third-party
 ||adfenix.com^$third-party
+||cdn.particularaudience.com^$third-party
 
 # ---- skipped_unknown_anchor: 7
 |load.gtm.
