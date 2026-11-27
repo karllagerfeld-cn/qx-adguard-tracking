@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-26 02:53:07 UTC
-# HOST-SUFFIX: 120793
+# UPDATED: 2026-11-27 02:54:58 UTC
+# HOST-SUFFIX: 120800
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 120883
+# TOTAL: 120890
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -8420,6 +8420,7 @@ HOST-SUFFIX,applytics.nordvpn.com,reject
 HOST-SUFFIX,applytics.os4work.com,reject
 HOST-SUFFIX,applytics.zwyr157wwiu6eior.com,reject
 HOST-SUFFIX,appmetr.com,reject
+HOST-SUFFIX,appmetrica.sovcombank.ru,reject
 HOST-SUFFIX,appmetrica.yandex.com,reject
 HOST-SUFFIX,appmetrica.yandex.net,reject
 HOST-SUFFIX,approach.wise1-golf.com,reject
@@ -9874,6 +9875,7 @@ HOST-SUFFIX,berliner-kurier.met.vgwort.de,reject
 HOST-SUFFIX,berliner-zeitung.met.vgwort.de,reject
 HOST-SUFFIX,berninischulz.anunciojuridico.com.br,reject
 HOST-SUFFIX,berry.strathberry.com,reject
+HOST-SUFFIX,berrytots.com,reject
 HOST-SUFFIX,berserkhydrant.com,reject
 HOST-SUFFIX,bersq.theadventurechallenge.com,reject
 HOST-SUFFIX,best-casino-malaysia-reviews.net.mydays.de,reject
@@ -38032,6 +38034,7 @@ HOST-SUFFIX,heartbeat.crackle.com,reject
 HOST-SUFFIX,heartbeats.prd.data.s.joyn.de,reject
 HOST-SUFFIX,heartbreakingmind.com,reject
 HOST-SUFFIX,hearthow.com,reject
+HOST-SUFFIX,heathstyle.com,reject
 HOST-SUFFIX,heatmap-events-collector.instapage.com,reject
 HOST-SUFFIX,heatmap-tracking-do-to-s3-worker-prod.flipdesk.workers.dev,reject
 HOST-SUFFIX,heatmap.emma.tools,reject
@@ -38572,6 +38575,7 @@ HOST-SUFFIX,hoverfly.winchdesign.cn,reject
 HOST-SUFFIX,hovnec.biovancia.com,reject
 HOST-SUFFIX,hovxns.dehen1920.com,reject
 HOST-SUFFIX,howdoesthislook.com,reject
+HOST-SUFFIX,howglam.com,reject
 HOST-SUFFIX,hoxha.nieuwspaal.network,reject
 HOST-SUFFIX,hoxsin-ad.hoxsin.co.jp,reject
 HOST-SUFFIX,hp.taboola.com,reject
@@ -44524,6 +44528,7 @@ HOST-SUFFIX,livelylaugh.com,reject
 HOST-SUFFIX,livetech.shopee.com.br,reject
 HOST-SUFFIX,livetrafficfeed.com,reject
 HOST-SUFFIX,living.chartwell.com,reject
+HOST-SUFFIX,livingoff.com,reject
 HOST-SUFFIX,livingsleet.com,reject
 HOST-SUFFIX,livkjl.recea.pl,reject
 HOST-SUFFIX,livlnpnd.goteam.dk,reject
@@ -54844,6 +54849,7 @@ HOST-SUFFIX,masau.audivorce.com.au,reject
 HOST-SUFFIX,mascguys.com,reject
 HOST-SUFFIX,maschine.bengs-modellbau.de,reject
 HOST-SUFFIX,maserati-info.p06.elqsandbox.com,reject
+HOST-SUFFIX,maskdomains.com,reject
 HOST-SUFFIX,maskedadmin.com,reject
 HOST-SUFFIX,masondown.com,reject
 HOST-SUFFIX,masseurexpress.com,reject
@@ -64670,6 +64676,7 @@ HOST-SUFFIX,pam.hottur.com.br,reject
 HOST-SUFFIX,pamelarandom.com,reject
 HOST-SUFFIX,pamvc.sexymodest.com,reject
 HOST-SUFFIX,pamzqm.yitechnology.com,reject
+HOST-SUFFIX,pan.pazarama.com,reject
 HOST-SUFFIX,panda.khadi.de,reject
 HOST-SUFFIX,panda.khadi.es,reject
 HOST-SUFFIX,panda.khadi.fr,reject

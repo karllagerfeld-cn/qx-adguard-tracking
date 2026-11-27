@@ -685,6 +685,7 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||users.videasy.*/api/track
 
 # ---- skipped_third_party: 2899
+||adcanvas.com^$third-party
 ||trueanthem.com^$third-party
 ||myweb3id.io^$third-party
 ||adtasukaru.com^$third-party
@@ -707,7 +708,6 @@ www.google.*#%#//scriptlet('remove-attr', 'onmousedown|data-mousedown|ping|data-
 ||cdnlibjs.com^$third-party
 ||analytic.is^$third-party
 ||cdn.moengage.com^$third-party
-||rapid-cdn.yottaa.com^$third-party
 ||adfenix.com^$third-party
 ||cdn.particularaudience.com^$third-party
 

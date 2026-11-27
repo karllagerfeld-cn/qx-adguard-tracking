@@ -1,25 +1,25 @@
 {
   "generator": "qx-adguard-tracking",
-  "generated_at": "2026-11-26T02:53:05+00:00",
+  "generated_at": "2026-11-27T02:54:54+00:00",
   "lean": false,
   "psl_loaded": true,
   "sources": {
     "spyware": {
       "name": "Spyware",
       "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt",
-      "bytes": 16233930,
-      "sha256": "6015684430e963fb",
-      "lines": 471800,
+      "bytes": 16234139,
+      "sha256": "86dddc709d760db3",
+      "lines": 471811,
       "stats": {
         "badfilter_removed": 7,
         "directive_else": 2,
         "directive_endif": 77,
         "directive_if": 77,
         "exception_allowlisted": 13,
-        "host_suffix": 120954,
-        "host_wildcard": 217,
+        "host_suffix": 120961,
+        "host_wildcard": 218,
         "platform_hint": 321,
-        "rewrite": 4903,
+        "rewrite": 4906,
         "skipped_cosmetic_or_scriptlet": 802,
         "skipped_exception_bad_domain": 2,
         "skipped_exception_modifier": 2004,
@@ -101,13 +101,13 @@
   },
   "outputs": {
     "Tracking.list": {
-      "rules": 120883,
-      "bytes": 5037428
+      "rules": 120890,
+      "bytes": 5037674
     },
     "Tracking.rewrite.conf": {
-      "rules": 4873,
-      "bytes": 560519,
-      "mitm_hosts": 3839
+      "rules": 4876,
+      "bytes": 560803,
+      "mitm_hosts": 3843
     }
   },
   "warnings": [],
@@ -115,7 +115,7 @@
     "limit": 90,
     "kept": 90,
     "redundant_removed": 2,
-    "dropped_over_quota": 123,
+    "dropped_over_quota": 124,
     "dropped_samples": [
       "*launches.appsflyersdk.com",
       "*register.appsflyersdk.com",
@@ -882,6 +882,7 @@
       "||users.videasy.*/api/track"
     ],
     "skipped_third_party": [
+      "||adcanvas.com^$third-party",
       "||trueanthem.com^$third-party",
       "||myweb3id.io^$third-party",
       "||adtasukaru.com^$third-party",
@@ -904,7 +905,6 @@
       "||cdnlibjs.com^$third-party",
       "||analytic.is^$third-party",
       "||cdn.moengage.com^$third-party",
-      "||rapid-cdn.yottaa.com^$third-party",
       "||adfenix.com^$third-party",
       "||cdn.particularaudience.com^$third-party"
     ],
