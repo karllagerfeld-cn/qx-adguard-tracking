@@ -1,12 +1,12 @@
 # NAME: AdGuard Spyware -> Quantumult X
-# GENERATOR: qx-adguard-tracking
+# GENERATOR: adblock-tracking-filters
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-28 02:45:05 UTC
-# HOST-SUFFIX: 120811
+# UPDATED: 2026-11-28 10:19:35 UTC
+# HOST-SUFFIX: 120812
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 120901
+# TOTAL: 120902
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -61423,6 +61423,7 @@ HOST-SUFFIX,mysticalagoon.com,reject
 HOST-SUFFIX,mysunwest.fmservice.com,reject
 HOST-SUFFIX,mythad.com,reject
 HOST-SUFFIX,mythtracker.com,reject
+HOST-SUFFIX,mythweaver.net,reject
 HOST-SUFFIX,mytop.live.vkvideo.ru,reject
 HOST-SUFFIX,mytracking.sanaor.com,reject
 HOST-SUFFIX,mytracking.targetfocustraining.com,reject
