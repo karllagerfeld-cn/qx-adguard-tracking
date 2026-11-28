@@ -1,0 +1,51 @@
+{
+  "generator": "qx-adguard-tracking/convert-mihomo",
+  "generated_at": "2026-11-28T08:48:34+00:00",
+  "outputs": {
+    "Anti-AdBlock": {
+      "domain": 279881,
+      "classical": 0,
+      "total": 279881,
+      "stats": {
+        "counts": {
+          "comment_or_blank": 10,
+          "domain_suffix": 279881,
+          "source_lines": 1,
+          "source_rules": 279881
+        },
+        "samples": {}
+      }
+    },
+    "Anti-AdBlock-Extra": {
+      "domain": 1301,
+      "classical": 73,
+      "total": 1374,
+      "stats": {
+        "counts": {
+          "classical_wildcard": 73,
+          "comment_or_blank": 11,
+          "domain_suffix": 1301,
+          "source_lines": 1,
+          "source_rules": 1374
+        },
+        "samples": {}
+      }
+    },
+    "Anti-AdBlock-All": {
+      "domain": 281182,
+      "classical": 73,
+      "total": 281255,
+      "stats": {
+        "counts": {
+          "classical_wildcard": 73,
+          "comment_or_blank": 21,
+          "domain_suffix": 281182,
+          "source_files": 1,
+          "source_lines": 2,
+          "source_rules": 281255
+        },
+        "samples": {}
+      }
+    }
+  }
+}
