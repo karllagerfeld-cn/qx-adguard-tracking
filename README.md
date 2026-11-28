@@ -1,6 +1,6 @@
 # qx-adguard-tracking
 
-把 AdGuard 官方过滤器与两个社区广告列表转成 Quantumult X 能直接订阅的规则，自动重建。仓库提供**三个订阅文件**，按需选一个或两个。
+把 AdGuard 官方过滤器与两个社区广告列表转成 **Quantumult X** 和 **Clash Verge / Mihomo** 能直接订阅的规则，自动重建。QX 提供**三个订阅文件**，Mihomo 提供**两套规则集**，按需选用。
 
 ## 三个订阅文件
 
@@ -74,14 +74,58 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 
 关于"策略偏好"：三个分流文件的第三字段都是 `reject`（内置动作），**不需要开启策略偏好，也不要选策略组**。开了并选了代理，只会让广告走代理而不是被拦。只有文件里写的是策略组名（如 `Advertising`）时才需要那一步。
 
+## Clash Verge / Mihomo 规则集
+
+同一批 Anti-AdBlock 数据也编译成 Mihomo（Clash Verge 内核）可直接订阅的规则集，放在 `rules/mihomo/`。**任一规则集都是 Anti-AdBlock + Extra 两个 QX 列表的完整并集**，逐条核对过，零遗漏。
+
+| 文件 | behavior / format | 内容 | 用途 |
+|---|---|---|---|
+| `Anti-AdBlock-All-domain.mrs` | domain / **mrs** | 281,182 条后缀域名，二进制编译 | 主力，一行顶全部 |
+| `Anti-AdBlock-All-classical.list` | classical / **text** | 73 条 `DOMAIN-WILDCARD` | 补上通配规则 |
+| `Anti-AdBlock-domain.mrs` | domain / mrs | 279,881 条（只含主列表） | 想分开控制时用 |
+| `Anti-AdBlock-Extra-domain.mrs` | domain / mrs | 1,301 条（只含 Extra） | 想分开控制时用 |
+| `Anti-AdBlock-Extra-classical.list` | classical / text | 73 条通配 | 想分开控制时用 |
+| `report.json` | — | 各类条数与跳过统计 | 诊断 |
+
+`.mrs` 只支持 domain / ipcidr 行为，所以带 `*` 的通配规则必须走 classical + `format: text`。两种格式要**一起订阅**才等于完整的 QX 列表。
+
+**Clash Verge 全局扩展覆写配置（Merge）** —— 顶格追加到现有 Merge 文件末尾：
+
+```yaml
+rule-providers:
+  QXADB-Domain:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/mihomo/Anti-AdBlock-All-domain.mrs"
+    path: ./rulesets/QXADB-All-domain.mrs
+    interval: 86400
+  QXADB-Classical:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/mihomo/Anti-AdBlock-All-classical.list"
+    path: ./rulesets/QXADB-All-classical.list
+    interval: 86400
+
+prepend-rules:
+  - RULE-SET,QXADB-Domain,REJECT
+  - RULE-SET,QXADB-Classical,REJECT
+```
+
+顶格 `rule-providers:` 会被深度合并，不会冲掉订阅自带的规则集；`prepend-rules:` 前置插入，不动现有规则。若原 Merge 里已有同名键，把条目合并进去，不要重复声明。保存后重载配置，日志里应看到两个 provider 下载成功（首次约 2.6 MB）。
+
+`rules/mihomo/` 每 8 小时跟随 Anti-AdBlock 更新，由 `scripts/convert_mihomo.py` + `.github/workflows/update-mihomo.yml` 用官方 mihomo 二进制编译 `.mrs`，支持在 Actions 里手动触发。
+
 ## 生成的文件
 
 | 文件 | 内容 | 规模 |
 |---|---|---|
-| `rules/Anti-AdBlock.list` | adblockqx + anti-AD 合并去重 | 约 27.5 万条 / 10.5 MB |
-| `rules/Anti-AdBlock-Extra.list` | Tracking.list − Anti-AdBlock 的差集 | 约 850 条 / 25 KB |
+| `rules/Anti-AdBlock.list` | adblockqx + anti-AD 合并去重 | 约 28 万条 / 10.6 MB |
+| `rules/Anti-AdBlock-Extra.list` | Tracking.list − Anti-AdBlock 的差集 | 1,374 条 / 55 KB |
 | `rules/Tracking.list` | `HOST-SUFFIX` + `HOST-WILDCARD`，全部 reject | 11.6 万条 / 4.85 MB |
 | `rules/Tracking.rewrite.conf` | `url reject` + 内嵌 `hostname =`（3,795 主机） | 4,814 条 / 554 KB |
+| `rules/mihomo/*` | 上述 Anti-AdBlock 数据的 Mihomo 规则集 | 见上表 |
 | `rules/report.json` | Tracking 转换的分类条数与跳过原因 | — |
 | `rules/anti-adblock-report.json` | 两个源的贡献条数、去重量 | — |
 | `rules/skipped.txt` | 未转换的原始规则（每类抽样 25 条） | — |
@@ -154,6 +198,8 @@ https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rule
 python scripts/selftest.py            # 无网络，规则分类与守卫断言
 python scripts/convert.py             # Tracking.list + Tracking.rewrite.conf
 python scripts/anti_adblock.py        # Anti-AdBlock + Anti-AdBlock-Extra
+python scripts/convert_mihomo.py      # QX -> Mihomo 文本规则集
+python scripts/convert_mihomo.py --mihomo /path/to/mihomo   # 顺便本地编译 .mrs
 python scripts/convert.py --dry-run   # 只统计不落盘
 python scripts/convert.py --lean      # 丢掉 !#if 块内的规则
 python scripts/anti_adblock.py --tracking rules/Tracking.list --dry-run
