@@ -72,6 +72,11 @@ jobs:
             test -s "$dst" || { echo "empty output: $dst"; exit 1; }
             echo "  $(stat -c%s "$dst") bytes -> $dst"
           done
+          # The .txt files are only build inputs for .mrs.  Keep them out of
+          # the published rule directory so subscriptions stay lean.
+          rm -f rules/mihomo/*-domain.txt
+          # Drop empty classical lists (e.g. Anti-AdBlock has no wildcard rules).
+          find rules/mihomo -name '*-classical.list' -size -2c -delete
 
       - name: Commit generated rule sets
         run: |
