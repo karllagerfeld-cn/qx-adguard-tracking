@@ -1,0 +1,86 @@
+name: update-mihomo
+
+# Runs after every Anti-AdBlock build (which rewrites the two QX inputs),
+# when the two QX inputs are pushed by hand, and on demand.  It converts the
+# QX lists into Mihomo domain/classical rule sets and compiles the domain ones
+# into .mrs with the official mihomo binary.
+# workflow_run is the primary trigger: GitHub does not fire a push event for
+# commits made by GITHUB_TOKEN, so a push trigger alone would never see the
+# automated updates.  The push path trigger only covers manual edits.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - rules/Anti-AdBlock.list
+      - rules/Anti-AdBlock-Extra.list
+      - scripts/convert_mihomo.py
+  workflow_run:
+    workflows: ["update-anti-adblock"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mihomo
+  cancel-in-progress: false
+
+jobs:
+  convert:
+    # A failed upstream build must not publish stale or partial rule sets.
+    # On push / manual runs there is no workflow_run event, so let them through.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Convert QX rules to Mihomo text rule sets
+        run: python scripts/convert_mihomo.py
+
+      - name: Download latest mihomo (Linux amd64)
+        run: |
+          set -euo pipefail
+          TAG=$(curl -fsSL --retry 3 https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+                | python3 -c 'import json,sys; print(json.load(sys.stdin)["tag_name"])')
+          echo "mihomo version: $TAG"
+          URL="https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"
+          curl -fsSL --retry 3 "$URL" -o /tmp/mihomo.gz
+          gzip -dc /tmp/mihomo.gz > /tmp/mihomo
+          chmod +x /tmp/mihomo
+          /tmp/mihomo -v
+
+      - name: Compile domain rule sets to .mrs
+        run: |
+          set -euo pipefail
+          for name in Anti-AdBlock Anti-AdBlock-Extra Anti-AdBlock-All; do
+            src="rules/mihomo/${name}-domain.txt"
+            dst="rules/mihomo/${name}-domain.mrs"
+            echo "compiling $name ..."
+            /tmp/mihomo convert-ruleset domain text "$src" "$dst"
+            test -s "$dst" || { echo "empty output: $dst"; exit 1; }
+            echo "  $(stat -c%s "$dst") bytes -> $dst"
+          done
+
+      - name: Commit generated rule sets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules/mihomo
+          if git diff --cached --quiet; then
+            echo "upstream unchanged, nothing to commit"
+            exit 0
+          fi
+          git commit -m "Update Mihomo rule sets $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push || (git pull --rebase && git push)
