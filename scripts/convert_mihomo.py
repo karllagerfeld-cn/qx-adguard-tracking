@@ -48,7 +48,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-GENERATOR = "qx-adguard-tracking/convert-mihomo"
+GENERATOR = "adblock-tracking-filters/convert-mihomo"
 
 DEFAULT_SOURCES = {
     "Anti-AdBlock": "rules/Anti-AdBlock.list",
