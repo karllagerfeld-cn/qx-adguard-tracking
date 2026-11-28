@@ -1,14 +1,14 @@
 # NAME: Anti-AdBlock-Extra -> Quantumult X
 # GENERATOR: qx-adguard-tracking/anti-adblock
-# UPDATED: 2026-11-28 00:00:14 UTC
+# UPDATED: 2026-11-28 07:38:16 UTC
 # SOURCE: https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list
 # SOURCE-2: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
 # SOURCE-3: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/anti-ad-quanx.txt
 #
 # 只包含 Anti-AdBlock 没有、而 Tracking.list 有的条目；与 Anti-AdBlock 同时订阅。
-# HOST-SUFFIX: 1300
+# HOST-SUFFIX: 1301
 # HOST-WILDCARD: 73
-# TOTAL: 1373
+# TOTAL: 1374
 HOST-SUFFIX,4dex.tech,reject
 HOST-SUFFIX,4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com,reject
 HOST-SUFFIX,a-api.skz.dev,reject
@@ -154,6 +154,7 @@ HOST-SUFFIX,analytics.zenleven.nl,reject
 HOST-SUFFIX,analytics.zoomit.ir,reject
 HOST-SUFFIX,analytics2.tvreport.co.kr,reject
 HOST-SUFFIX,ao.redtri.com,reject
+HOST-SUFFIX,ap-prd-edge-clientlog.nexon.com,reject
 HOST-SUFFIX,ap.emergent.sh,reject
 HOST-SUFFIX,api.abcdn.icu,reject
 HOST-SUFFIX,api.alessandrobelomo.com.br,reject
@@ -1327,7 +1328,6 @@ HOST-WILDCARD,appanalysis*.banggood.com,reject
 HOST-WILDCARD,batchlogging*-eu.truecaller.com,reject
 HOST-WILDCARD,batchlogging*-noneu.truecaller.com,reject
 HOST-WILDCARD,browser-intake-*-datadoghq.com,reject
-HOST-WILDCARD,cdn-*.gravityfield.ai,reject
 HOST-WILDCARD,collector*.ex.co,reject
 HOST-WILDCARD,counter*-yadro*-ru.unblocked.lol,reject
 HOST-WILDCARD,cza*.crazygames.com,reject
@@ -1335,6 +1335,7 @@ HOST-WILDCARD,datacollector-*.dt.dbankcloud.cn,reject
 HOST-WILDCARD,device-metrics-*.amazon.com,reject
 HOST-WILDCARD,discovery-ios-*.ertelecom.ru,reject
 HOST-WILDCARD,eflbundles.*.com.tr,reject
+HOST-WILDCARD,events.*.oci.oraclecloud.com,reject
 HOST-WILDCARD,f-log-*.grammarly.io,reject
 HOST-WILDCARD,faro-collector-prod-*.grafana.net,reject
 HOST-WILDCARD,flurry.agentportal-*.yahoodns.net,reject
