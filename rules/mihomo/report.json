@@ -1,6 +1,6 @@
 {
-  "generator": "qx-adguard-tracking/convert-mihomo",
-  "generated_at": "2026-11-28T09:36:25+00:00",
+  "generator": "adblock-tracking-filters/convert-mihomo",
+  "generated_at": "2026-11-28T09:56:40+00:00",
   "outputs": {
     "Anti-AdBlock": {
       "domain": 279881,
