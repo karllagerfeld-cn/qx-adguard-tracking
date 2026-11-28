@@ -2,11 +2,11 @@
 # GENERATOR: qx-adguard-tracking
 # SOURCE: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 # SOURCE-2: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
-# UPDATED: 2026-11-27 02:54:58 UTC
-# HOST-SUFFIX: 120800
+# UPDATED: 2026-11-28 02:45:05 UTC
+# HOST-SUFFIX: 120811
 # HOST: 0
 # HOST-WILDCARD: 90
-# TOTAL: 120890
+# TOTAL: 120901
 #
 # 保守转换：无法忠实表达语义的规则一律跳过，明细见 report.json
 HOST-SUFFIX,0.avmarket.rs,reject
@@ -2567,6 +2567,7 @@ HOST-SUFFIX,ac-ebis.usen-service.com,reject
 HOST-SUFFIX,ac-ebis.usen-ssi.jp,reject
 HOST-SUFFIX,ac-ebis.usen-store.com,reject
 HOST-SUFFIX,ac-ebis.usen.biz,reject
+HOST-SUFFIX,ac.avito.ru,reject
 HOST-SUFFIX,ac.conel.jp,reject
 HOST-SUFFIX,ac.ecai-report.com,reject
 HOST-SUFFIX,ac.geechs-job.com,reject
@@ -6556,6 +6557,7 @@ HOST-SUFFIX,aoulpo.puccini.pl,reject
 HOST-SUFFIX,aowaat.elfadistrelec.fi,reject
 HOST-SUFFIX,aozmpm.jwell.com,reject
 HOST-SUFFIX,aozwsa.scotthotel.com,reject
+HOST-SUFFIX,ap-prd-edge-clientlog.nexon.com,reject
 HOST-SUFFIX,ap.absoluteprotein.in,reject
 HOST-SUFFIX,ap.alphaplatform.net,reject
 HOST-SUFFIX,ap.app.mixvariado.com,reject
@@ -9793,6 +9795,7 @@ HOST-SUFFIX,beacons.digital.disneyadvertising.com,reject
 HOST-SUFFIX,beafdf.restaupro.com,reject
 HOST-SUFFIX,beagle.prod.tda.link,reject
 HOST-SUFFIX,beam.bereach.ai,reject
+HOST-SUFFIX,beam.denikn.cz,reject
 HOST-SUFFIX,beam.ecomms.beamconnect.com.au,reject
 HOST-SUFFIX,beam.remp.impresa.pt,reject
 HOST-SUFFIX,beam.remp.nv.ua,reject
@@ -12541,6 +12544,7 @@ HOST-SUFFIX,cdn.debugbear.com,reject
 HOST-SUFFIX,cdn.defractal.com,reject
 HOST-SUFFIX,cdn.deviceinf.com,reject
 HOST-SUFFIX,cdn.dfsdk.com,reject
+HOST-SUFFIX,cdn.diginetica.net,reject
 HOST-SUFFIX,cdn.dminorschool.com,reject
 HOST-SUFFIX,cdn.dsspn.com,reject
 HOST-SUFFIX,cdn.dulceauroraa.com,reject
@@ -54874,6 +54878,7 @@ HOST-SUFFIX,match.thefootballvibe.com,reject
 HOST-SUFFIX,materialisticmoon.com,reject
 HOST-SUFFIX,materialmilk.com,reject
 HOST-SUFFIX,materialparcel.com,reject
+HOST-SUFFIX,mathrevolt.com,reject
 HOST-SUFFIX,mathtag.com,reject
 HOST-SUFFIX,mato.clanto.cloud,reject
 HOST-SUFFIX,mato.pruebasfondeo.com,reject
@@ -56445,6 +56450,7 @@ HOST-SUFFIX,melodiouscomposition.com,reject
 HOST-SUFFIX,melodiousharmony.com,reject
 HOST-SUFFIX,melodioussymphony.com,reject
 HOST-SUFFIX,melodyglobe.com,reject
+HOST-SUFFIX,melodyivory.com,reject
 HOST-SUFFIX,meltmilk.com,reject
 HOST-SUFFIX,member.oewa.at,reject
 HOST-SUFFIX,member.usenix.org,reject
@@ -56528,6 +56534,7 @@ HOST-SUFFIX,messagelists.com,reject
 HOST-SUFFIX,messages.blackhat.com,reject
 HOST-SUFFIX,messaging.ajo17apac.adls.adobevlab.com,reject
 HOST-SUFFIX,messmonster.com,reject
+HOST-SUFFIX,messrod.com,reject
 HOST-SUFFIX,messyoranges.com,reject
 HOST-SUFFIX,mesure.ad-works.fr,reject
 HOST-SUFFIX,mesure.chaussuresduchateau.com,reject
@@ -65515,6 +65522,7 @@ HOST-SUFFIX,pelu.yiguspeluqueria.com,reject
 HOST-SUFFIX,pelvt.clearchoice.com,reject
 HOST-SUFFIX,pemskb.unitedcinemas.jp,reject
 HOST-SUFFIX,pen.pendoring.co.za,reject
+HOST-SUFFIX,penbuzz.com,reject
 HOST-SUFFIX,pendo-data-prod.box.com,reject
 HOST-SUFFIX,pengeskabe.jcp.dk,reject
 HOST-SUFFIX,penguin.craftpeak.io,reject
@@ -65823,6 +65831,7 @@ HOST-SUFFIX,pitkinvstatefarmgeneralinsurancecompany.e.epiqnotification.com,rejec
 HOST-SUFFIX,pitmanmusic.com,reject
 HOST-SUFFIX,piu.alldent-zahnzentrum-bremen.de,reject
 HOST-SUFFIX,pivimc.unitrailer.pl,reject
+HOST-SUFFIX,pivotfresh.com,reject
 HOST-SUFFIX,piwik.agglo-larochelle.fr,reject
 HOST-SUFFIX,piwik.astiga.com,reject
 HOST-SUFFIX,piwik.bistum-essen.de,reject
@@ -108727,6 +108736,7 @@ HOST-SUFFIX,tovkak.execupgrades.com,reject
 HOST-SUFFIX,toweringanswer.com,reject
 HOST-SUFFIX,toxic-writer.xyz,reject
 HOST-SUFFIX,toy.libaasfashionmart.com,reject
+HOST-SUFFIX,toy.log.nexon.io,reject
 HOST-SUFFIX,toyotacf.net.mydays.de,reject
 HOST-SUFFIX,toys.kongessloejd.be,reject
 HOST-SUFFIX,toys.kongessloejd.ch,reject
@@ -115053,6 +115063,7 @@ HOST-SUFFIX,userballot.com,reject
 HOST-SUFFIX,userexperience.thehut.net,reject
 HOST-SUFFIX,userreporting.cloud.unity3d.com,reject
 HOST-SUFFIX,users.vesrox.com,reject
+HOST-SUFFIX,usersays.com,reject
 HOST-SUFFIX,usertrack.appcpi.net,reject
 HOST-SUFFIX,usgzei.vidaxl.ch,reject
 HOST-SUFFIX,usivbt.qoo10.com,reject
@@ -120834,7 +120845,6 @@ HOST-WILDCARD,appanalysis*.banggood.com,reject
 HOST-WILDCARD,batchlogging*-eu.truecaller.com,reject
 HOST-WILDCARD,batchlogging*-noneu.truecaller.com,reject
 HOST-WILDCARD,browser-intake-*-datadoghq.com,reject
-HOST-WILDCARD,cdn-*.gravityfield.ai,reject
 HOST-WILDCARD,collect-v*.51.la,reject
 HOST-WILDCARD,collector*.ex.co,reject
 HOST-WILDCARD,counter*-yadro*-ru.unblocked.lol,reject
@@ -120847,6 +120857,7 @@ HOST-WILDCARD,discovery-ios-*.ertelecom.ru,reject
 HOST-WILDCARD,ecommerce-events*.adscale.com,reject
 HOST-WILDCARD,eflbundles.*.com.tr,reject
 HOST-WILDCARD,events*.cre.ma,reject
+HOST-WILDCARD,events.*.oci.oraclecloud.com,reject
 HOST-WILDCARD,f-log-*.grammarly.io,reject
 HOST-WILDCARD,faro-collector-prod-*.grafana.net,reject
 HOST-WILDCARD,flurry.agentportal-*.yahoodns.net,reject
