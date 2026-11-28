@@ -39,7 +39,7 @@ from convert import (  # noqa: E402
     wildcard_parent,
 )
 
-GENERATOR = "qx-adguard-tracking/anti-adblock"
+GENERATOR = "adblock-tracking-filters/anti-adblock"
 
 SOURCES = {
     "adblockqx": {
@@ -58,7 +58,7 @@ SOURCES = {
 
 TRACKING_LIST = "rules/Tracking.list"
 TRACKING_URL = (
-    "https://raw.githubusercontent.com/karllagerfeld-cn/qx-adguard-tracking/main/rules/Tracking.list"
+    "https://raw.githubusercontent.com/karllagerfeld-cn/adblock-tracking-filters/main/rules/Tracking.list"
 )
 
 ALLOWED_TYPES = {"host", "host-suffix", "host-wildcard"}
