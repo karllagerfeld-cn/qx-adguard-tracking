@@ -38,8 +38,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-GENERATOR = "qx-adguard-tracking"
-USER_AGENT = "qx-adguard-tracking/1.0 (+https://github.com/)"
+GENERATOR = "adblock-tracking-filters"
+USER_AGENT = "adblock-tracking-filters/1.0 (+https://github.com/)"
 
 RAW = "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/"
 
